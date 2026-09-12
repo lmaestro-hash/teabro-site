@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tea Bro — бесплатные тесты на самонаблюдение</title>
+<meta name="description" content="5 бесплатных тестов Tea Bro: выгорание, гормональный тип, самообман, подбор чая, медитативная практика. Без регистрации, 2 минуты каждый.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://teabro-site.vercel.app/">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Tea Bro — бесплатные тесты на самонаблюдение">
+<meta property="og:description" content="5 бесплатных тестов: выгорание, гормональный тип, самообман, подбор чая, медитативная практика.">
+<meta property="og:url" content="https://teabro-site.vercel.app/">
+<meta property="og:locale" content="ru_RU">
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@600;700&family=Golos+Text:wght@400;500;600&display=swap');
+
+  :root {
+    --paper: #161D22;
+    --paper-deep: #232D33;
+    --ink: #F2E9D8;
+    --ink-soft: #A9B0AC;
+    --amber: #B8823B;
+    --amber-deep: #D29A4C;
+    --border-tint: rgba(242,233,216,0.12);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Golos Text', sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+  }
+
+  .wrap {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 24px 56px;
+  }
+
+  header.hero {
+    padding: 64px 0 24px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .moon {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 35%, var(--amber) 0%, var(--amber-deep) 55%, transparent 78%);
+    opacity: 0.5;
+    box-shadow: 0 0 70px 24px rgba(184,130,59,0.22);
+  }
+
+  h1 {
+    font-family: 'Alegreya', serif;
+    font-weight: 700;
+    font-size: clamp(28px, 5vw, 40px);
+    line-height: 1.2;
+    margin: 0 0 14px;
+    position: relative;
+  }
+
+  .lede {
+    font-size: 18px;
+    color: var(--ink-soft);
+    max-width: 52ch;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    margin-top: 48px;
+  }
+
+  .card {
+    flex: 1 1 260px;
+    display: block;
+    padding: 26px 22px;
+    background: var(--paper-deep);
+    border-radius: 6px;
+    border: 1px solid var(--border-tint);
+    text-decoration: none;
+    color: inherit;
+    transition: background 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
+  }
+  .card:hover, .card:focus-visible {
+    background: var(--amber);
+    border-color: var(--amber);
+    transform: translateY(-2px);
+  }
+  .card:hover .card-title, .card:hover .card-desc,
+  .card:focus-visible .card-title, .card:focus-visible .card-desc {
+    color: var(--paper);
+  }
+
+  .card-title {
+    display: block;
+    font-family: 'Alegreya', serif;
+    font-weight: 700;
+    font-size: 19px;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    color: var(--ink);
+    margin-bottom: 8px;
+  }
+
+  .card-desc {
+    margin: 0;
+    color: var(--ink-soft);
+    font-size: 15px;
+  }
+
+  .footer-links {
+    margin-top: 56px;
+    padding-top: 28px;
+    border-top: 1px solid var(--border-tint);
+    text-align: center;
+  }
+  .footer-links p { color: var(--ink-soft); margin: 0 0 14px; }
+  .footer-links a {
+    color: var(--amber);
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    margin: 0 10px;
+  }
+
+  @media (max-width: 480px) {
+    .moon { width: 130px; height: 130px; top: -30px; }
+    body { font-size: 16px; }
+    .row { margin-top: 36px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <header class="hero">
+    <div class="moon" aria-hidden="true"></div>
+    <h1>Tea Bro — пространство самонаблюдения</h1>
+    <p class="lede">5 бесплатных тестов, каждый на 2 минуты, без регистрации. Выбери, с чего начать.</p>
+  </header>
+
+  <div class="row">
+    <a class="card" href="vygoranie-test.html">
+      <span class="card-title">Тест на выгорание</span>
+      <p class="card-desc">Усталость проходит после выходных. Выгорание — нет. Узнай свою точку сборки.</p>
+    </a>
+    <a class="card" href="gormonalny-kod-test.html">
+      <span class="card-title">Тест на гормональный тип</span>
+      <p class="card-desc">Дофамин, серотонин, окситоцин или кортизол — какой из них сейчас рулит твоим поведением.</p>
+    </a>
+    <a class="card" href="samoobman-test.html">
+      <span class="card-title">Тест на самообман</span>
+      <p class="card-desc">Иногда честнее соврать себе, чем признать неприятное. Узнай своё слепое пятно.</p>
+    </a>
+    <a class="card" href="kakoy-chay-test.html">
+      <span class="card-title">Чайный тест</span>
+      <p class="card-desc">Подбор чая не по вкусу, а по тому, что тебе сейчас на самом деле нужно.</p>
+    </a>
+    <a class="card" href="meditaciya-test.html">
+      <span class="card-title">Тест на медитативную практику</span>
+      <p class="card-desc">Медитация не работает не потому, что ты не умеешь. Просто практика не та.</p>
+    </a>
+  </div>
+
+  <div class="footer-links">
+    <p>Больше о Tea Bro:</p>
+    <a href="http://t.me/TeaBroLifeBot/TeaBro" target="_blank" rel="noopener">Открыть бота</a>
+    <a href="https://t.me/TeaBroLife" target="_blank" rel="noopener">Канал в Telegram</a>
+  </div>
+
+</div>
+</body>
+</html>

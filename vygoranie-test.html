@@ -101,16 +101,16 @@
     width: 220px;
     height: 220px;
     border-radius: 50%;
-    background: radial-gradient(circle at 35% 35%, var(--paper-deep), var(--amber) 140%);
-    opacity: 0.35;
+    background: radial-gradient(circle at 35% 35%, var(--amber) 0%, var(--amber-deep) 55%, transparent 78%);
+    opacity: 0.9;
+    box-shadow: 0 0 70px 24px rgba(184,130,59,0.28);
   }
 
   h1 {
     font-family: 'Alegreya', serif;
-    font-weight: 900;
+    font-weight: 700;
     font-size: clamp(32px, 6vw, 48px);
     line-height: 1.15;
-    max-width: 11ch;
     margin: 0 0 20px;
     color: var(--ink);
   }
@@ -195,6 +195,23 @@
     background: var(--paper-deep);
     border-radius: 6px;
     text-align: left;
+    position: relative;
+    overflow: hidden;
+  }
+  .final-cta::before {
+    content: "";
+    position: absolute;
+    top: -50px;
+    right: -30px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: radial-gradient(circle, var(--amber) 0%, transparent 72%);
+    opacity: 0.3;
+    pointer-events: none;
+  }
+  .final-cta h2, .final-cta p, .final-cta .btn-row {
+    position: relative;
   }
   .final-cta h2 {
     font-family: 'Alegreya', serif;
@@ -244,25 +261,40 @@
     .related-grid { grid-template-columns: 1fr 1fr; }
   }
   .related-item {
+    display: block;
     padding: 18px 20px;
     background: var(--paper-deep);
     border-radius: 4px;
+    border: 1px solid var(--border-tint);
+    text-decoration: none;
+    color: inherit;
+    transition: background 0.15s ease, border-color 0.15s ease;
   }
-  .related-item a {
+  .related-item:hover, .related-item:focus-visible {
+    background: var(--amber);
+    border-color: var(--amber);
+  }
+  .related-item:hover .related-title,
+  .related-item:hover p,
+  .related-item:focus-visible .related-title,
+  .related-item:focus-visible p { color: var(--paper); }
+  .related-title {
+    display: block;
     color: var(--ink);
     font-weight: 600;
-    text-decoration: none;
+    text-decoration: underline;
+    text-underline-offset: 3px;
     font-family: 'Alegreya', serif;
     font-size: 17px;
   }
-  .related-item a:hover { color: var(--amber); }
   .related-item p { margin: 6px 0 0; color: var(--ink-soft); font-size: 14px; }
 
   .wrap { padding-bottom: 48px; }
 
   @media (max-width: 480px) {
-    .moon { display: none; }
+    .moon { width: 130px; height: 130px; top: -20px; right: -36px; opacity: 0.75; }
     body { font-size: 16px; }
+    h1 { max-width: none; font-size: 30px; }
   }
 </style>
 </head>
@@ -331,22 +363,22 @@
   <section class="related">
     <h2>Смежные тесты</h2>
     <div class="related-grid">
-      <div class="related-item">
-        <a href="gormonalny-kod-test.html">Тест на гормональный тип</a>
+      <a class="related-item" href="gormonalny-kod-test.html">
+        <span class="related-title">Тест на гормональный тип</span>
         <p>Иногда то, что похоже на выгорание, на самом деле гормональные качели — проверь, что сейчас управляет твоим состоянием.</p>
-      </div>
-      <div class="related-item">
-        <a href="samoobman-test.html">Тест на самообман</a>
+      </a>
+      <a class="related-item" href="samoobman-test.html">
+        <span class="related-title">Тест на самообман</span>
         <p>«Да ладно, всё нормально» — частая фраза перед настоящим выгоранием. Тест показывает, где ты не замечаешь очевидного.</p>
-      </div>
-      <div class="related-item">
-        <a href="kakoy-chay-test.html">Чайный тест</a>
+      </a>
+      <a class="related-item" href="kakoy-chay-test.html">
+        <span class="related-title">Чайный тест</span>
         <p>Ритуал, который помогает выйти из режима на автомате — узнай, какой чай сейчас нужен именно тебе.</p>
-      </div>
-      <div class="related-item">
-        <a href="meditaciya-test.html">Тест на медитативную практику</a>
+      </a>
+      <a class="related-item" href="meditaciya-test.html">
+        <span class="related-title">Тест на медитативную практику</span>
         <p>Когда ресурса на нуле, важна не сила воли, а правильная практика восстановления.</p>
-      </div>
+      </a>
     </div>
   </section>
 
