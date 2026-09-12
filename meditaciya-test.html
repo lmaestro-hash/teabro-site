@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Какая медитативная практика мне подходит — тест бесплатно | Tea Bro</title>
+<meta name="description" content="Бесплатный тест на подбор медитативной практики за 2 минуты. Дыхание, тело или работа с мыслями — что подойдёт именно тебе. Без регистрации, в Tea Bro.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://teabro-site.vercel.app/meditaciya-test.html">
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="Какая медитативная практика мне подходит — тест">
+<meta property="og:description" content="Бесплатный тест за 2 минуты. Не техника виновата, что медитация «не работает» — просто она не та.">
+<meta property="og:url" content="https://teabro-site.vercel.app/meditaciya-test.html">
+<meta property="og:locale" content="ru_RU">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Медитация не работает не потому, что ты не умеешь. Просто практика не та",
+  "description": "Бесплатный тест на подбор медитативной практики от Tea Bro",
+  "inLanguage": "ru"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Какие практики предлагает тест?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Тест смотрит, что тебе сейчас сложнее всего — успокоить тело, остановить поток мыслей или просто найти время на тишину, и на основе этого предлагает направление: дыхательные техники, телесные практики или работу с мыслями."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Тест на подбор медитативной практики бесплатный?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Да, полностью бесплатный, проходится в Telegram-боте Tea Bro без регистрации и занимает около двух минут."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Нужен ли опыт медитации, чтобы пройти тест?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Нет. Тест подходит и тем, кто никогда не медитировал, и тем, кто уже пробовал, но «не пошло» — вопросы касаются только твоих текущих ощущений."
+      }
+    }
+  ]
+}
+</script>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@600;700;900&family=Golos+Text:wght@400;500;600&display=swap');
+
+  :root {
+    --paper: #161D22;
+    --paper-deep: #232D33;
+    --ink: #F2E9D8;
+    --ink-soft: #A9B0AC;
+    --amber: #B8823B;
+    --amber-deep: #D29A4C;
+    --jade: #5C7A72;
+    --border-tint: rgba(242,233,216,0.12);
+    --border-tint-soft: rgba(242,233,216,0.16);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Golos Text', sans-serif;
+    font-size: 17px;
+    line-height: 1.65;
+  }
+
+  .wrap {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 24px;
+    padding-bottom: 48px;
+  }
+
+  header.hero {
+    padding: 64px 0 40px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .moon {
+    position: absolute;
+    top: -40px;
+    right: -60px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 35%, var(--paper-deep), var(--amber) 140%);
+    opacity: 0.35;
+  }
+
+  h1 {
+    font-family: 'Alegreya', serif;
+    font-weight: 900;
+    font-size: clamp(32px, 6vw, 48px);
+    line-height: 1.15;
+    max-width: 11ch;
+    margin: 0 0 20px;
+    color: var(--ink);
+  }
+
+  .lede {
+    font-size: 19px;
+    color: var(--ink-soft);
+    max-width: 52ch;
+  }
+
+  .cta-card {
+    background: var(--paper-deep);
+    color: var(--ink);
+    border-radius: 4px;
+    padding: 28px 30px;
+    margin: 36px 0;
+    border: 1px solid var(--border-tint);
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .cta-card p {
+    margin: 0;
+    font-size: 16px;
+    color: var(--ink-soft);
+  }
+
+  .cta-btn {
+    display: inline-block;
+    background: var(--amber);
+    color: var(--paper);
+    font-weight: 600;
+    text-decoration: none;
+    padding: 13px 22px;
+    border-radius: 3px;
+    width: fit-content;
+    transition: background 0.15s ease;
+  }
+
+  .cta-btn:hover { background: var(--amber-deep); color: var(--paper); }
+  .cta-btn:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
+
+  article > .cta-btn { margin: 4px 0 20px; }
+
+  article h2 {
+    font-family: 'Alegreya', serif;
+    font-weight: 700;
+    font-size: 27px;
+    margin: 44px 0 14px;
+    color: var(--ink);
+  }
+
+  article p { margin: 0 0 18px; max-width: 66ch; }
+
+  .signs {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 28px;
+    border-left: 3px solid var(--amber);
+  }
+  .signs li {
+    padding: 6px 0 6px 18px;
+    color: var(--ink-soft);
+  }
+
+  .faq {
+    margin-top: 56px;
+    padding-top: 8px;
+    border-top: 1px solid var(--border-tint-soft);
+  }
+  .faq h3 {
+    font-family: 'Alegreya', serif;
+    font-size: 19px;
+    margin: 26px 0 6px;
+  }
+  .faq p { color: var(--ink-soft); font-size: 16px; }
+
+  .final-cta {
+    margin: 64px 0 0;
+    padding: 40px 32px;
+    background: var(--paper-deep);
+    border-radius: 6px;
+    text-align: left;
+  }
+  .final-cta h2 {
+    font-family: 'Alegreya', serif;
+    font-weight: 700;
+    font-size: 26px;
+    margin: 0 0 12px;
+  }
+  .final-cta p {
+    margin: 0 0 26px;
+    color: var(--ink-soft);
+    max-width: 52ch;
+  }
+  .final-cta .btn-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+  }
+  .btn-outline {
+    display: inline-block;
+    padding: 12px 20px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--ink);
+    border: 1.5px solid var(--ink-soft);
+    transition: background 0.15s ease, color 0.15s ease;
+  }
+  .btn-outline:hover { background: var(--ink); color: var(--paper); }
+
+  .related {
+    margin-top: 56px;
+    padding-top: 8px;
+    border-top: 1px solid var(--border-tint-soft);
+  }
+  .related h2 {
+    font-family: 'Alegreya', serif;
+    font-weight: 700;
+    font-size: 22px;
+    margin: 0 0 18px;
+    color: var(--ink);
+  }
+  .related-grid {
+    display: grid;
+    gap: 14px;
+  }
+  @media (min-width: 560px) {
+    .related-grid { grid-template-columns: 1fr 1fr; }
+  }
+  .related-item {
+    padding: 18px 20px;
+    background: var(--paper-deep);
+    border-radius: 4px;
+  }
+  .related-item a {
+    color: var(--ink);
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'Alegreya', serif;
+    font-size: 17px;
+  }
+  .related-item a:hover { color: var(--amber); }
+  .related-item p { margin: 6px 0 0; color: var(--ink-soft); font-size: 14px; }
+
+  @media (max-width: 480px) {
+    .moon { display: none; }
+    body { font-size: 16px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <header class="hero">
+    <div class="moon" aria-hidden="true"></div>
+    <h1>Медитация не работает не потому, что ты не умеешь. Просто практика не та</h1>
+    <p class="lede">Дыхательные техники, телесные практики, работа с мыслями — подходят по-разному. Бесплатный тест за 2 минуты покажет, какая медитативная практика подойдёт именно тебе.</p>
+  </header>
+
+  <article>
+    <p>Ты пробовал медитировать и через пять минут ловил себя на мысли, что вместо тишины в голове — список дел на завтра? Это не значит, что медитация не для тебя. Скорее всего, просто выбрана не та практика.</p>
+
+    <p>Дыхательные техники хорошо работают для одних, но раздражают других, которым сложнее сидеть неподвижно, чем двигаться. Кому-то нужна работа именно с мыслями, а не с телом, а кому-то — наоборот, физическое действие, а не попытка «просто ни о чём не думать».</p>
+
+    <h2>Что определяет тест</h2>
+    <p>Тест на медитативную практику в Tea Bro смотрит, что именно сложнее всего даётся тебе прямо сейчас: успокоить тело, остановить поток мыслей или просто найти момент тишины в течение дня. По этим ответам подбирается направление практики — не абстрактная рекомендация «медитируй больше», а конкретный формат, с которого стоит начать.</p>
+
+    <p>Вопросы простые: что происходит, когда ты пытаешься посидеть в тишине, что отвлекает тебя чаще всего, легче ли тебе двигаться или оставаться неподвижным, нужен ли тебе внешний ориентир вроде дыхания или голоса.</p>
+
+    <h2>Признаки, что практика выбрана не та</h2>
+    <ul class="signs">
+      <li>Пробовал медитировать, но «не могу отключить голову»</li>
+      <li>5 минут в тишине ощущаются как час</li>
+      <li>После медитации в приложении всё ещё тревожно</li>
+      <li>Кажется, что медитация — это вообще не про тебя</li>
+    </ul>
+
+    <div class="cta-card">
+      <p>Тест на медитативную практику — 2 минуты, без регистрации, результат сразу с направлением, откуда начать.</p>
+      <a class="cta-btn" href="http://t.me/TeaBroLifeBot/TeaBro" target="_blank" rel="noopener">Подобрать свою практику</a>
+    </div>
+
+    <h2>Тест подбор практики медитации: как это работает</h2>
+    <p>Бот задаёт несколько вопросов о том, как ты обычно реагируешь на попытки остановиться и побыть в тишине, а затем предлагает направление: дыхательные техники, телесные практики или работу с мыслями — вместе с коротким объяснением, почему именно это подойдёт тебе лучше остальных.</p>
+
+    <h2>Зачем вообще это знать</h2>
+    <p>Чтобы перестать винить себя за «неспособность медитировать» и один раз попробовать формат, который реально подходит твоей нервной системе, а не тот, который просто оказался самым популярным в ленте.</p>
+
+    <a class="cta-btn" href="http://t.me/TeaBroLifeBot/TeaBro" target="_blank" rel="noopener">Твоё чайное пространство — заходи</a>
+  </article>
+
+  <section class="faq">
+    <h3>Какие практики предлагает тест?</h3>
+    <p>Тест смотрит, что тебе сейчас сложнее всего — успокоить тело, остановить поток мыслей или просто найти время на тишину, и на основе этого предлагает направление: дыхательные техники, телесные практики или работу с мыслями.</p>
+
+    <h3>Тест на подбор медитативной практики бесплатный?</h3>
+    <p>Да, полностью бесплатный, проходится в Telegram-боте Tea Bro без регистрации и занимает около двух минут.</p>
+
+    <h3>Нужен ли опыт медитации, чтобы пройти тест?</h3>
+    <p>Нет. Тест подходит и тем, кто никогда не медитировал, и тем, кто уже пробовал, но «не пошло» — вопросы касаются только твоих текущих ощущений.</p>
+  </section>
+
+  <section class="final-cta">
+    <h2>Хочешь узнать, какая практика подойдёт тебе?</h2>
+    <p>Пара вопросов о том, как ты реагируешь на тишину — и станет ясно, с чего начать. Бесплатно, без регистрации.</p>
+    <div class="btn-row">
+      <a class="cta-btn" href="http://t.me/TeaBroLifeBot/TeaBro" target="_blank" rel="noopener">Подобрать свою практику</a>
+      <a class="btn-outline" href="https://t.me/TeaBroLife" target="_blank" rel="noopener">Заглянуть в чайное пространство</a>
+    </div>
+  </section>
+
+  <section class="related">
+    <h2>Смежные тесты</h2>
+    <div class="related-grid">
+      <div class="related-item">
+        <a href="vygoranie-test.html">Тест на выгорание</a>
+        <p>Если практика не помогает — возможно, ресурс уже настолько истощён, что нужна не техника, а честная точка отсчёта.</p>
+      </div>
+      <div class="related-item">
+        <a href="gormonalny-kod-test.html">Тест на гормональный тип</a>
+        <p>Разным гормональным типам подходят разные практики — узнай свой, прежде чем выбирать технику.</p>
+      </div>
+      <div class="related-item">
+        <a href="samoobman-test.html">Тест на самообман</a>
+        <p>Медитация иногда превращается в ещё один способ не смотреть на правду — проверь, не пропускаешь ли ты важное.</p>
+      </div>
+      <div class="related-item">
+        <a href="kakoy-chay-test.html">Чайный тест</a>
+        <p>Чай как якорь для практики — какой подойдёт именно тебе.</p>
+      </div>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>

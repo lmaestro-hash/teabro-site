@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Тест на гормональный тип личности бесплатно — какой гормон тобой управляет | Tea Bro</title>
+<meta name="description" content="Бесплатный тест на доминирующий гормон: дофамин, серотонин, окситоцин или кортизол. 2 минуты, без регистрации. Узнай свой гормональный код в Tea Bro.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://teabro-site.vercel.app/gormonalny-kod-test.html">
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="Тест на гормональный тип личности — узнай свой гормональный код">
+<meta property="og:description" content="Бесплатный тест за 2 минуты. Дофамин, серотонин, окситоцин, кортизол — какой из них сейчас рулит твоим поведением.">
+<meta property="og:url" content="https://teabro-site.vercel.app/gormonalny-kod-test.html">
+<meta property="og:locale" content="ru_RU">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Твоё поведение — не характер. Это гормоны, которые сейчас рулят",
+  "description": "Бесплатный тест на гормональный тип личности и объяснение концепции гормонального кода от Tea Bro",
+  "inLanguage": "ru"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Как понять, какой у меня доминирующий гормон?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Тест на гормональный тип личности отвечает именно на этот вопрос: по нескольким ответам о твоих повседневных реакциях бот определяет, какой гормон — дофамин, серотонин, окситоцин или кортизол — сейчас доминирует."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Тест на гормональный тип личности бесплатный?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Да, полностью бесплатный, проходится в Telegram-боте Tea Bro без регистрации и занимает около двух минут."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Это медицинский анализ на гормоны?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Нет. Это не лабораторный анализ и не диагностика, а инструмент самонаблюдения через поведенческие паттерны. Для реальной картины гормонального фона нужны анализы у врача."
+      }
+    }
+  ]
+}
+</script>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@600;700;900&family=Golos+Text:wght@400;500;600&display=swap');
+
+  :root {
+    --paper: #161D22;
+    --paper-deep: #232D33;
+    --ink: #F2E9D8;
+    --ink-soft: #A9B0AC;
+    --amber: #B8823B;
+    --amber-deep: #D29A4C;
+    --jade: #5C7A72;
+    --border-tint: rgba(242,233,216,0.12);
+    --border-tint-soft: rgba(242,233,216,0.16);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Golos Text', sans-serif;
+    font-size: 17px;
+    line-height: 1.65;
+  }
+
+  .wrap {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 24px;
+    padding-bottom: 48px;
+  }
+
+  header.hero {
+    padding: 64px 0 40px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .moon {
+    position: absolute;
+    top: -40px;
+    right: -60px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 35%, var(--paper-deep), var(--amber) 140%);
+    opacity: 0.35;
+  }
+
+  h1 {
+    font-family: 'Alegreya', serif;
+    font-weight: 900;
+    font-size: clamp(32px, 6vw, 48px);
+    line-height: 1.15;
+    max-width: 11ch;
+    margin: 0 0 20px;
+    color: var(--ink);
+  }
+
+  .lede {
+    font-size: 19px;
+    color: var(--ink-soft);
+    max-width: 52ch;
+  }
+
+  .cta-card {
+    background: var(--paper-deep);
+    color: var(--ink);
+    border-radius: 4px;
+    padding: 28px 30px;
+    margin: 36px 0;
+    border: 1px solid var(--border-tint);
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .cta-card p {
+    margin: 0;
+    font-size: 16px;
+    color: var(--ink-soft);
+  }
+
+  .cta-btn {
+    display: inline-block;
+    background: var(--amber);
+    color: var(--paper);
+    font-weight: 600;
+    text-decoration: none;
+    padding: 13px 22px;
+    border-radius: 3px;
+    width: fit-content;
+    transition: background 0.15s ease;
+  }
+
+  .cta-btn:hover { background: var(--amber-deep); color: var(--paper); }
+  .cta-btn:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
+
+  article > .cta-btn { margin: 4px 0 20px; }
+
+  article h2 {
+    font-family: 'Alegreya', serif;
+    font-weight: 700;
+    font-size: 27px;
+    margin: 44px 0 14px;
+    color: var(--ink);
+  }
+
+  article p { margin: 0 0 18px; max-width: 66ch; }
+
+  .signs {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 28px;
+    border-left: 3px solid var(--amber);
+  }
+  .signs li {
+    padding: 6px 0 6px 18px;
+    color: var(--ink-soft);
+  }
+
+  .faq {
+    margin-top: 56px;
+    padding-top: 8px;
+    border-top: 1px solid var(--border-tint-soft);
+  }
+  .faq h3 {
+    font-family: 'Alegreya', serif;
+    font-size: 19px;
+    margin: 26px 0 6px;
+  }
+  .faq p { color: var(--ink-soft); font-size: 16px; }
+
+  .final-cta {
+    margin: 64px 0 0;
+    padding: 40px 32px;
+    background: var(--paper-deep);
+    border-radius: 6px;
+    text-align: left;
+  }
+  .final-cta h2 {
+    font-family: 'Alegreya', serif;
+    font-weight: 700;
+    font-size: 26px;
+    margin: 0 0 12px;
+  }
+  .final-cta p {
+    margin: 0 0 26px;
+    color: var(--ink-soft);
+    max-width: 52ch;
+  }
+  .final-cta .btn-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+  }
+  .btn-outline {
+    display: inline-block;
+    padding: 12px 20px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--ink);
+    border: 1.5px solid var(--ink-soft);
+    transition: background 0.15s ease, color 0.15s ease;
+  }
+  .btn-outline:hover { background: var(--ink); color: var(--paper); }
+
+  .related {
+    margin-top: 56px;
+    padding-top: 8px;
+    border-top: 1px solid var(--border-tint-soft);
+  }
+  .related h2 {
+    font-family: 'Alegreya', serif;
+    font-weight: 700;
+    font-size: 22px;
+    margin: 0 0 18px;
+    color: var(--ink);
+  }
+  .related-grid {
+    display: grid;
+    gap: 14px;
+  }
+  @media (min-width: 560px) {
+    .related-grid { grid-template-columns: 1fr 1fr; }
+  }
+  .related-item {
+    padding: 18px 20px;
+    background: var(--paper-deep);
+    border-radius: 4px;
+  }
+  .related-item a {
+    color: var(--ink);
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'Alegreya', serif;
+    font-size: 17px;
+  }
+  .related-item a:hover { color: var(--amber); }
+  .related-item p { margin: 6px 0 0; color: var(--ink-soft); font-size: 14px; }
+
+  @media (max-width: 480px) {
+    .moon { display: none; }
+    body { font-size: 16px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <header class="hero">
+    <div class="moon" aria-hidden="true"></div>
+    <h1>Твоё поведение — не характер. Это гормоны, которые сейчас рулят</h1>
+    <p class="lede">Дофаминовый голод, окситоциновый дефицит, кортизоловая тревога — за привычными реакциями стоит конкретная химия. Бесплатный тест на гормональный тип личности за 2 минуты покажет твой доминирующий гормон: дофамин, серотонин, окситоцин или кортизол.</p>
+  </header>
+
+  <article>
+    <p>Ты замечал, что одни и те же ситуации люди переживают совершенно по-разному? Кто-то бросается за новым стимулом и быстро остывает, кто-то не может спокойно жить без постоянного подтверждения, что всё в порядке, а кто-то реагирует тревогой там, где другой даже не напрягся бы.</p>
+
+    <p>Это не «просто характер». За такими паттернами часто стоит конкретный доминирующий гормон — дофамин, серотонин, окситоцин или кортизол. Они не работают по отдельности, но в каждый момент времени один из них обычно перевешивает и определяет, как ты реагируешь на мир.</p>
+
+    <h2>Что такое гормональный код</h2>
+    <p>В Tea Bro мы называем это гормональным кодом — понятной картой того, какой гормональный паттерн сейчас у тебя доминирует. Это не медицинский анализ и не диагноз, а способ увидеть логику за собственным поведением, вместо того чтобы просто злиться на себя за «нестабильность».</p>
+
+    <p>Тест не спрашивает напрямую «у вас избыток кортизола?» — вместо этого он смотрит на конкретные повседневные реакции: как ты ищешь стимулы, насколько легко тебе даётся близость с людьми, как быстро включается тревога, нужно ли тебе постоянное одобрение.</p>
+
+    <h2>Признаки, которые легко списать на характер</h2>
+    <ul class="signs">
+      <li>Постоянно ищешь новый стимул, но быстро скучаешь</li>
+      <li>Тяжело даётся близость, хотя внутри этого хочется</li>
+      <li>Реагируешь тревогой на то, что раньше вообще не задевало</li>
+      <li>Нужно постоянное подтверждение, что всё в порядке</li>
+    </ul>
+
+    <div class="cta-card">
+      <p>Тест на гормональный тип — 2 минуты, без регистрации, результат сразу с объяснением твоего доминирующего гормона.</p>
+      <a class="cta-btn" href="http://t.me/TeaBroLifeBot/TeaBro" target="_blank" rel="noopener">Узнать свой гормональный код</a>
+    </div>
+
+    <h2>Тест на гормональный тип личности: как это работает</h2>
+    <p>Вопросы касаются простых повседневных вещей: как ты ищешь удовольствие, как реагируешь на стресс, что тебе нужно от близких людей. По ответам бот определяет твой доминирующий гормон — дофамин, серотонин, окситоцин или кортизол — и коротко объясняет, что с этим знанием делать: не для того, чтобы объяснить всё гормонами, а чтобы перестать винить себя за реакции, у которых есть понятная причина.</p>
+
+    <h2>Зачем вообще это знать</h2>
+    <p>Когда понимаешь, что «сегодня я снова всё бросаю на середине» — это не слабоволие, а дофаминовый паттерн поиска нового, легче перестать бороться с собой и начать работать с реальной причиной. То же самое с тревожностью, с потребностью в одобрении, с трудностями близости — за каждым стоит понятная логика, а не приговор характеру.</p>
+
+    <a class="cta-btn" href="http://t.me/TeaBroLifeBot/TeaBro" target="_blank" rel="noopener">Твоё чайное пространство — заходи</a>
+  </article>
+
+  <section class="faq">
+    <h3>Как понять, какой у меня доминирующий гормон?</h3>
+    <p>Тест на гормональный тип личности отвечает именно на этот вопрос: по нескольким ответам о твоих повседневных реакциях бот определяет, какой гормон — дофамин, серотонин, окситоцин или кортизол — сейчас доминирует.</p>
+
+    <h3>Тест на гормональный тип личности бесплатный?</h3>
+    <p>Да, полностью бесплатный, проходится в Telegram-боте Tea Bro без регистрации, около двух минут.</p>
+
+    <h3>Это медицинский анализ на гормоны?</h3>
+    <p>Нет. Это не лабораторный анализ и не диагностика, а инструмент самонаблюдения через поведенческие паттерны. Для реальной картины гормонального фона нужны анализы у врача.</p>
+  </section>
+
+  <section class="final-cta">
+    <h2>Хочешь узнать свой гормональный код прямо сейчас?</h2>
+    <p>Пара минут — и станет понятнее, почему ты реагируешь именно так, а не иначе. Бесплатно, без регистрации.</p>
+    <div class="btn-row">
+      <a class="cta-btn" href="http://t.me/TeaBroLifeBot/TeaBro" target="_blank" rel="noopener">Узнать свой гормональный код</a>
+      <a class="btn-outline" href="https://t.me/TeaBroLife" target="_blank" rel="noopener">Заглянуть в чайное пространство</a>
+    </div>
+  </section>
+
+  <section class="related">
+    <h2>Смежные тесты</h2>
+    <div class="related-grid">
+      <div class="related-item">
+        <a href="vygoranie-test.html">Тест на выгорание</a>
+        <p>Гормональные качели и выгорание часто идут рука об руку — проверь оба состояния сразу.</p>
+      </div>
+      <div class="related-item">
+        <a href="samoobman-test.html">Тест на самообман</a>
+        <p>Иногда мы объясняем перепады настроения характером, хотя дело в гормонах, о которых мы не хотим знать.</p>
+      </div>
+      <div class="related-item">
+        <a href="kakoy-chay-test.html">Чайный тест</a>
+        <p>Разные гормональные типы по-разному реагируют на чай — узнай свой.</p>
+      </div>
+      <div class="related-item">
+        <a href="meditaciya-test.html">Тест на медитативную практику</a>
+        <p>Практики влияют на гормональный фон не хуже привычек — какая подойдёт тебе.</p>
+      </div>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>

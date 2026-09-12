@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Тест на эмоциональное выгорание бесплатно онлайн — узнай свою точку сборки | Tea Bro</title>
+<meta name="description" content="Бесплатный тест на эмоциональное выгорание за 2 минуты. Узнай свою точку сборки — реальный уровень усталости, а не то, что ты сам себе говоришь. Без регистрации.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://teabro-site.vercel.app/vygoranie-test.html">
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="Тест на эмоциональное выгорание — узнай свою точку сборки">
+<meta property="og:description" content="Бесплатный тест за 2 минуты. Не про диагнозы — про честный взгляд на то, где ты сейчас находишься.">
+<meta property="og:url" content="https://teabro-site.vercel.app/vygoranie-test.html">
+<meta property="og:locale" content="ru_RU">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Ты не устал. Ты выгорел — и это разные вещи",
+  "description": "Бесплатный тест на эмоциональное выгорание и объяснение концепции точки сборки от Tea Bro",
+  "inLanguage": "ru"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Что такое точка сборки в тесте на выгорание?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Условная метка твоего текущего состояния: насколько ты держишься на автопилоте, а насколько уже работаешь на остатках ресурса. Тест на выгорание переводит твои ответы в понятный уровень, а не в медицинский диагноз."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Тест на выгорание правда бесплатный?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Да, тест полностью бесплатный, проходится в Telegram-боте Tea Bro без регистрации и занимает около двух минут."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Это заменяет консультацию психолога?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Нет. Это инструмент самонаблюдения, а не диагностика и не замена специалиста. Если состояние тяжёлое и долгое — обратись к психологу или психотерапевту."
+      }
+    }
+  ]
+}
+</script>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@600;700;900&family=Golos+Text:wght@400;500;600&display=swap');
+
+  :root {
+    --paper: #161D22;
+    --paper-deep: #232D33;
+    --ink: #F2E9D8;
+    --ink-soft: #A9B0AC;
+    --amber: #B8823B;
+    --amber-deep: #D29A4C;
+    --jade: #5C7A72;
+    --border-tint: rgba(242,233,216,0.12);
+    --border-tint-soft: rgba(242,233,216,0.16);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Golos Text', sans-serif;
+    font-size: 17px;
+    line-height: 1.65;
+  }
+
+  .wrap {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  header.hero {
+    padding: 64px 0 40px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .moon {
+    position: absolute;
+    top: -40px;
+    right: -60px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 35%, var(--paper-deep), var(--amber) 140%);
+    opacity: 0.35;
+  }
+
+  h1 {
+    font-family: 'Alegreya', serif;
+    font-weight: 900;
+    font-size: clamp(32px, 6vw, 48px);
+    line-height: 1.15;
+    max-width: 11ch;
+    margin: 0 0 20px;
+    color: var(--ink);
+  }
+
+  .lede {
+    font-size: 19px;
+    color: var(--ink-soft);
+    max-width: 52ch;
+  }
+
+  .cta-card {
+    background: var(--paper-deep);
+    color: var(--ink);
+    border-radius: 4px;
+    padding: 28px 30px;
+    margin: 36px 0;
+    border: 1px solid var(--border-tint);
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .cta-card p {
+    margin: 0;
+    font-size: 16px;
+    color: var(--ink-soft);
+  }
+
+  .cta-btn {
+    display: inline-block;
+    background: var(--amber);
+    color: var(--paper);
+    font-weight: 600;
+    text-decoration: none;
+    padding: 13px 22px;
+    border-radius: 3px;
+    width: fit-content;
+    transition: background 0.15s ease;
+  }
+
+  .cta-btn:hover { background: var(--amber-deep); color: var(--paper); }
+  .cta-btn:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
+
+  article > .cta-btn { margin: 4px 0 20px; }
+
+  article h2 {
+    font-family: 'Alegreya', serif;
+    font-weight: 700;
+    font-size: 27px;
+    margin: 44px 0 14px;
+    color: var(--ink);
+  }
+
+  article p { margin: 0 0 18px; max-width: 66ch; }
+
+  .signs {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 28px;
+    border-left: 3px solid var(--amber);
+  }
+  .signs li {
+    padding: 6px 0 6px 18px;
+    color: var(--ink-soft);
+  }
+
+  .faq {
+    margin-top: 56px;
+    padding-top: 8px;
+    border-top: 1px solid var(--border-tint-soft);
+  }
+  .faq h3 {
+    font-family: 'Alegreya', serif;
+    font-size: 19px;
+    margin: 26px 0 6px;
+  }
+  .faq p { color: var(--ink-soft); font-size: 16px; }
+
+  .final-cta {
+    margin: 64px 0 0;
+    padding: 40px 32px;
+    background: var(--paper-deep);
+    border-radius: 6px;
+    text-align: left;
+  }
+  .final-cta h2 {
+    font-family: 'Alegreya', serif;
+    font-weight: 700;
+    font-size: 26px;
+    margin: 0 0 12px;
+  }
+  .final-cta p {
+    margin: 0 0 26px;
+    color: var(--ink-soft);
+    max-width: 52ch;
+  }
+  .final-cta .btn-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+  }
+  .btn-outline {
+    display: inline-block;
+    padding: 12px 20px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--ink);
+    border: 1.5px solid var(--ink-soft);
+    transition: background 0.15s ease, color 0.15s ease;
+  }
+  .btn-outline:hover { background: var(--ink); color: var(--paper); }
+
+  .related {
+    margin-top: 56px;
+    padding-top: 8px;
+    border-top: 1px solid var(--border-tint-soft);
+  }
+  .related h2 {
+    font-family: 'Alegreya', serif;
+    font-weight: 700;
+    font-size: 22px;
+    margin: 0 0 18px;
+    color: var(--ink);
+  }
+  .related-grid {
+    display: grid;
+    gap: 14px;
+  }
+  @media (min-width: 560px) {
+    .related-grid { grid-template-columns: 1fr 1fr; }
+  }
+  .related-item {
+    padding: 18px 20px;
+    background: var(--paper-deep);
+    border-radius: 4px;
+  }
+  .related-item a {
+    color: var(--ink);
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'Alegreya', serif;
+    font-size: 17px;
+  }
+  .related-item a:hover { color: var(--amber); }
+  .related-item p { margin: 6px 0 0; color: var(--ink-soft); font-size: 14px; }
+
+  .wrap { padding-bottom: 48px; }
+
+  @media (max-width: 480px) {
+    .moon { display: none; }
+    body { font-size: 16px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <header class="hero">
+    <div class="moon" aria-hidden="true"></div>
+    <h1>Ты не устал. Ты выгорел — и это разные вещи</h1>
+    <p class="lede">Усталость проходит после выходных. Выгорание — нет. Бесплатный тест на выгорание за 2 минуты покажет твою точку сборки: где ты сейчас на самом деле, а не на словах.</p>
+  </header>
+
+  <article>
+    <p>Ты замечал это ощущение — вроде бы выспался, вроде бы неделя была не самая тяжёлая, а внутри всё равно пусто? Не физическая усталость, а какая-то более глубокая, которая не проходит после чашки чая и раннего отбоя.</p>
+
+    <p>Это не лень и не слабость характера — так себя ведёт нервная система, когда долго работает без реального восстановления. Мозг просто перестаёт различать «отдых» и «ещё одну задачу», и даже тишина в выходной день не ощущается как пауза.</p>
+
+    <h2>Что такое точка сборки</h2>
+    <p>В Tea Bro мы называем это точкой сборки — условной меткой того, насколько ты сейчас держишься на автопилоте, а насколько уже работаешь на остатках ресурса. Это не медицинский диагноз и не приговор, а просто честная координата: где ты находишься прямо сейчас, без розовых очков и без самобичевания.</p>
+
+    <p>Тест устроен так, чтобы не спрашивать в лоб «У вас выгорание?» — большинство людей на автомате ответят «нет, всё нормально», даже если давно не нормально. Вместо этого вопросы касаются конкретных повседневных вещей: как ты реагируешь на мелкие раздражители, легко ли включиться в работу утром, остаётся ли энергия на то, что раньше радовало.</p>
+
+    <h2>Признаки, которые легко списать на «просто устал»</h2>
+    <ul class="signs">
+      <li>Раздражение на вещи, которые раньше не задевали</li>
+      <li>Утро начинается с усилия, а не с интереса</li>
+      <li>Хобби и люди, которые радовали, теперь требуют энергии, которой нет</li>
+      <li>Сон есть, а ощущения отдыха — нет</li>
+    </ul>
+
+    <div class="cta-card">
+      <p>Тест на выгорание — 2 минуты, без регистрации, результат сразу с объяснением твоей точки сборки.</p>
+      <a class="cta-btn" href="http://t.me/TeaBroLifeBot/TeaBro" target="_blank" rel="noopener">Посмотреть, где я сейчас</a>
+    </div>
+
+    <h2>Тест на уровень выгорания: как это работает</h2>
+    <p>Никаких длинных клинических опросников — тест на уровень выгорания в Tea Bro состоит из простых вопросов о повседневных мелочах: реакция на раздражители, утренний настрой, желание общаться с людьми. По ответам бот считает твою точку сборки — число, которое показывает, насколько глубоко сейчас исчерпан ресурс, и коротко объясняет, что с этим делать дальше.</p>
+
+    <h2>Зачем вообще это знать</h2>
+    <p>Не для того, чтобы навесить на себя ярлык. А для того, чтобы перестать требовать от себя прежней скорости там, где сейчас нужно восстановление, а не ещё одно усилие воли. Иногда достаточно просто увидеть цифру и понять: «Так, дело не во мне, дело в том, что ресурс правда на нуле» — и это уже снимает часть тяжести.</p>
+
+    <a class="cta-btn" href="http://t.me/TeaBroLifeBot/TeaBro" target="_blank" rel="noopener">Твоё чайное пространство — заходи</a>
+  </article>
+
+  <section class="faq">
+    <h3>Что такое точка сборки в тесте на выгорание?</h3>
+    <p>Условная метка твоего текущего состояния — насколько ты держишься на автопилоте, а насколько уже работаешь на остатках ресурса. Тест на выгорание переводит твои ответы в понятный уровень, а не в диагноз.</p>
+
+    <h3>Тест на выгорание правда бесплатный?</h3>
+    <p>Да, полностью бесплатный, проходится в Telegram-боте Tea Bro без регистрации, около двух минут.</p>
+
+    <h3>Это заменяет консультацию психолога?</h3>
+    <p>Нет. Это инструмент самонаблюдения, а не диагностика и не замена специалиста. При тяжёлом и долгом состоянии — обратись к психологу или психотерапевту.</p>
+  </section>
+
+  <section class="final-cta">
+    <h2>Хочешь узнать свою точку сборки прямо сейчас?</h2>
+    <p>Два вопроса ниже — и ты либо убедишься, что всё правда в порядке, либо наконец назовёшь то, что чувствуешь, своим именем. Бесплатно, без регистрации, 2 минуты.</p>
+    <div class="btn-row">
+      <a class="cta-btn" href="http://t.me/TeaBroLifeBot/TeaBro" target="_blank" rel="noopener">Посмотреть, где я сейчас на самом деле</a>
+      <a class="btn-outline" href="https://t.me/TeaBroLife" target="_blank" rel="noopener">Заглянуть в чайное пространство</a>
+    </div>
+  </section>
+
+  <section class="related">
+    <h2>Смежные тесты</h2>
+    <div class="related-grid">
+      <div class="related-item">
+        <a href="gormonalny-kod-test.html">Тест на гормональный тип</a>
+        <p>Иногда то, что похоже на выгорание, на самом деле гормональные качели — проверь, что сейчас управляет твоим состоянием.</p>
+      </div>
+      <div class="related-item">
+        <a href="samoobman-test.html">Тест на самообман</a>
+        <p>«Да ладно, всё нормально» — частая фраза перед настоящим выгоранием. Тест показывает, где ты не замечаешь очевидного.</p>
+      </div>
+      <div class="related-item">
+        <a href="kakoy-chay-test.html">Чайный тест</a>
+        <p>Ритуал, который помогает выйти из режима на автомате — узнай, какой чай сейчас нужен именно тебе.</p>
+      </div>
+      <div class="related-item">
+        <a href="meditaciya-test.html">Тест на медитативную практику</a>
+        <p>Когда ресурса на нуле, важна не сила воли, а правильная практика восстановления.</p>
+      </div>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>

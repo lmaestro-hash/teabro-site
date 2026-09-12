@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Тест на самообман бесплатно онлайн — насколько ты честен с собой | Tea Bro</title>
+<meta name="description" content="Бесплатный тест на самообман за 2 минуты. Узнай своё слепое пятно — где именно ты чаще всего врёшь себе. Без регистрации, в Tea Bro.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://teabro-site.vercel.app/samoobman-test.html">
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="Тест на самообман — насколько честен ты с собой">
+<meta property="og:description" content="Бесплатный тест за 2 минуты. Не приговор, а честная координата: где именно ты чаще всего обманываешь себя.">
+<meta property="og:url" content="https://teabro-site.vercel.app/samoobman-test.html">
+<meta property="og:locale" content="ru_RU">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Ты не ленишься. Ты просто не хочешь видеть правду — и это разные вещи",
+  "description": "Бесплатный тест на самообман и объяснение концепции слепого пятна от Tea Bro",
+  "inLanguage": "ru"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Как понять, насколько я вру себе?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Тест на самообман показывает именно это: не оценку твоей честности с другими, а зону — слепое пятно, — в которой ты чаще всего обманываешь себя сам."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Что такое слепое пятно в тесте на самообман?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Слепое пятно — это область, в которой ты чаще всего обманываешь себя: оправдываешь бездействие, откладываешь решение или не замечаешь очевидного. Тест на самообман показывает эту зону, а не выносит приговор характеру."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Тест на самообман бесплатный?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Да, тест полностью бесплатный, проходится в Telegram-боте Tea Bro без регистрации и занимает около двух минут."
+      }
+    }
+  ]
+}
+</script>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@600;700;900&family=Golos+Text:wght@400;500;600&display=swap');
+
+  :root {
+    --paper: #161D22;
+    --paper-deep: #232D33;
+    --ink: #F2E9D8;
+    --ink-soft: #A9B0AC;
+    --amber: #B8823B;
+    --amber-deep: #D29A4C;
+    --jade: #5C7A72;
+    --border-tint: rgba(242,233,216,0.12);
+    --border-tint-soft: rgba(242,233,216,0.16);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Golos Text', sans-serif;
+    font-size: 17px;
+    line-height: 1.65;
+  }
+
+  .wrap {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 24px;
+    padding-bottom: 48px;
+  }
+
+  header.hero {
+    padding: 64px 0 40px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .moon {
+    position: absolute;
+    top: -40px;
+    right: -60px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 35%, var(--paper-deep), var(--amber) 140%);
+    opacity: 0.35;
+  }
+
+  h1 {
+    font-family: 'Alegreya', serif;
+    font-weight: 900;
+    font-size: clamp(32px, 6vw, 48px);
+    line-height: 1.15;
+    max-width: 11ch;
+    margin: 0 0 20px;
+    color: var(--ink);
+  }
+
+  .lede {
+    font-size: 19px;
+    color: var(--ink-soft);
+    max-width: 52ch;
+  }
+
+  .cta-card {
+    background: var(--paper-deep);
+    color: var(--ink);
+    border-radius: 4px;
+    padding: 28px 30px;
+    margin: 36px 0;
+    border: 1px solid var(--border-tint);
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .cta-card p {
+    margin: 0;
+    font-size: 16px;
+    color: var(--ink-soft);
+  }
+
+  .cta-btn {
+    display: inline-block;
+    background: var(--amber);
+    color: var(--paper);
+    font-weight: 600;
+    text-decoration: none;
+    padding: 13px 22px;
+    border-radius: 3px;
+    width: fit-content;
+    transition: background 0.15s ease;
+  }
+
+  .cta-btn:hover { background: var(--amber-deep); color: var(--paper); }
+  .cta-btn:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
+
+  article > .cta-btn { margin: 4px 0 20px; }
+
+  article h2 {
+    font-family: 'Alegreya', serif;
+    font-weight: 700;
+    font-size: 27px;
+    margin: 44px 0 14px;
+    color: var(--ink);
+  }
+
+  article p { margin: 0 0 18px; max-width: 66ch; }
+
+  .signs {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 28px;
+    border-left: 3px solid var(--amber);
+  }
+  .signs li {
+    padding: 6px 0 6px 18px;
+    color: var(--ink-soft);
+  }
+
+  .faq {
+    margin-top: 56px;
+    padding-top: 8px;
+    border-top: 1px solid var(--border-tint-soft);
+  }
+  .faq h3 {
+    font-family: 'Alegreya', serif;
+    font-size: 19px;
+    margin: 26px 0 6px;
+  }
+  .faq p { color: var(--ink-soft); font-size: 16px; }
+
+  .final-cta {
+    margin: 64px 0 0;
+    padding: 40px 32px;
+    background: var(--paper-deep);
+    border-radius: 6px;
+    text-align: left;
+  }
+  .final-cta h2 {
+    font-family: 'Alegreya', serif;
+    font-weight: 700;
+    font-size: 26px;
+    margin: 0 0 12px;
+  }
+  .final-cta p {
+    margin: 0 0 26px;
+    color: var(--ink-soft);
+    max-width: 52ch;
+  }
+  .final-cta .btn-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+  }
+  .btn-outline {
+    display: inline-block;
+    padding: 12px 20px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--ink);
+    border: 1.5px solid var(--ink-soft);
+    transition: background 0.15s ease, color 0.15s ease;
+  }
+  .btn-outline:hover { background: var(--ink); color: var(--paper); }
+
+  .related {
+    margin-top: 56px;
+    padding-top: 8px;
+    border-top: 1px solid var(--border-tint-soft);
+  }
+  .related h2 {
+    font-family: 'Alegreya', serif;
+    font-weight: 700;
+    font-size: 22px;
+    margin: 0 0 18px;
+    color: var(--ink);
+  }
+  .related-grid {
+    display: grid;
+    gap: 14px;
+  }
+  @media (min-width: 560px) {
+    .related-grid { grid-template-columns: 1fr 1fr; }
+  }
+  .related-item {
+    padding: 18px 20px;
+    background: var(--paper-deep);
+    border-radius: 4px;
+  }
+  .related-item a {
+    color: var(--ink);
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'Alegreya', serif;
+    font-size: 17px;
+  }
+  .related-item a:hover { color: var(--amber); }
+  .related-item p { margin: 6px 0 0; color: var(--ink-soft); font-size: 14px; }
+
+  @media (max-width: 480px) {
+    .moon { display: none; }
+    body { font-size: 16px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <header class="hero">
+    <div class="moon" aria-hidden="true"></div>
+    <h1>Ты не ленишься. Ты просто не хочешь видеть правду — и это разные вещи</h1>
+    <p class="lede">Иногда честнее соврать себе, чем признать неприятное. Бесплатный тест на самообман за 2 минуты покажет, где именно ты чаще всего обманываешь себя.</p>
+  </header>
+
+  <article>
+    <p>Ты замечал за собой — знаешь ответ заранее, но всё равно спрашиваешь у других, надеясь услышать другое? Или откладываешь решение месяцами, называя это «ещё не время», хотя внутри давно всё понятно?</p>
+
+    <p>Это не глупость и не слабость — так работает психика, когда правда неудобна. Мозг умеет находить обходные пути, чтобы не смотреть в глаза тому, что не хочется признавать, и делает это настолько незаметно, что сам человек искренне верит своим оправданиям.</p>
+
+    <h2>Что такое слепое пятно</h2>
+    <p>В Tea Bro мы называем это слепым пятном — зоной, в которой ты обманываешь себя чаще всего. Это не приговор и не повод для самобичевания, а просто честная координата: где конкретно правда ускользает от тебя, пока ты не смотришь.</p>
+
+    <p>Тест не спрашивает в лоб «вы себе врёте?» — почти никто честно не ответит «да» на такой вопрос. Вместо этого вопросы касаются конкретных повседневных ситуаций: как ты реагируешь на критику, как объясняешь себе отложенные решения, чьё поведение оправдываешь охотнее — своё или чужое.</p>
+
+    <h2>Признаки, которые легко списать на осторожность</h2>
+    <ul class="signs">
+      <li>Оправдываешь чужое плохое поведение раньше, чем своё</li>
+      <li>Знаешь ответ, но продолжаешь спрашивать других</li>
+      <li>Откладываешь решение, называя это «ещё не время»</li>
+      <li>Злишься на критику, которая на самом деле точная</li>
+    </ul>
+
+    <div class="cta-card">
+      <p>Тест на самообман — 2 минуты, без регистрации, результат сразу с объяснением твоего слепого пятна.</p>
+      <a class="cta-btn" href="http://t.me/TeaBroLifeBot/TeaBro" target="_blank" rel="noopener">Узнать своё слепое пятно</a>
+    </div>
+
+    <h2>Тест на честность с собой онлайн: как это работает</h2>
+    <p>Вопросы построены так, чтобы обходить привычные защитные реакции — не «врёшь ли ты себе», а конкретные бытовые ситуации, где самообман обычно проявляется незаметнее всего. По ответам бот определяет твою основную зону слепого пятна и коротко объясняет, как она обычно работает.</p>
+
+    <h2>Зачем вообще это знать</h2>
+    <p>Не для того, чтобы стыдить себя за найденную слабость. А для того, чтобы в следующий раз, когда снова появится знакомое оправдание, узнать его раньше — и хотя бы на секунду остановиться и посмотреть на ситуацию честно, прежде чем действовать по привычному сценарию.</p>
+
+    <a class="cta-btn" href="http://t.me/TeaBroLifeBot/TeaBro" target="_blank" rel="noopener">Твоё чайное пространство — заходи</a>
+  </article>
+
+  <section class="faq">
+    <h3>Как понять, насколько я вру себе?</h3>
+    <p>Тест на самообман показывает именно это: не оценку твоей честности с другими, а зону — слепое пятно, — в которой ты чаще всего обманываешь себя сам.</p>
+
+    <h3>Что такое слепое пятно в тесте на самообман?</h3>
+    <p>Слепое пятно — это область, в которой ты чаще всего обманываешь себя: оправдываешь бездействие, откладываешь решение или не замечаешь очевидного. Тест на самообман показывает эту зону, а не выносит приговор характеру.</p>
+
+    <h3>Тест на самообман бесплатный?</h3>
+    <p>Да, тест полностью бесплатный, проходится в Telegram-боте Tea Bro без регистрации и занимает около двух минут.</p>
+  </section>
+
+  <section class="final-cta">
+    <h2>Хочешь узнать своё слепое пятно прямо сейчас?</h2>
+    <p>Два вопроса ниже — и станет чуть яснее, где именно правда обычно ускользает от тебя. Бесплатно, без регистрации, 2 минуты.</p>
+    <div class="btn-row">
+      <a class="cta-btn" href="http://t.me/TeaBroLifeBot/TeaBro" target="_blank" rel="noopener">Узнать своё слепое пятно</a>
+      <a class="btn-outline" href="https://t.me/TeaBroLife" target="_blank" rel="noopener">Заглянуть в чайное пространство</a>
+    </div>
+  </section>
+
+  <section class="related">
+    <h2>Смежные тесты</h2>
+    <div class="related-grid">
+      <div class="related-item">
+        <a href="vygoranie-test.html">Тест на выгорание</a>
+        <p>Самообман часто маскирует именно выгорание — «не устал», просто не хочешь себе в этом признаваться.</p>
+      </div>
+      <div class="related-item">
+        <a href="gormonalny-kod-test.html">Тест на гормональный тип</a>
+        <p>То, что кажется «просто характером», иногда оказывается гормональным фоном, о котором ты не знал.</p>
+      </div>
+      <div class="related-item">
+        <a href="kakoy-chay-test.html">Чайный тест</a>
+        <p>Маленький безопасный ритуал, чтобы начать слышать себя честнее.</p>
+      </div>
+      <div class="related-item">
+        <a href="meditaciya-test.html">Тест на медитативную практику</a>
+        <p>Практика, которая учит замечать, а не убегать от себя.</p>
+      </div>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>
