@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" href="/favicon-180.png">
+<title>Рационализация: как мозг оправдывает решения, которые нам не нравятся | Tea Bro</title>
+<meta name="description" content="Разбираем механизм рационализации — как мозг придумывает логичные объяснения для решений, принятых по эмоциональным причинам.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://teabro-site.vercel.app/ratsionalizatsiya-mozg-opravdyvaet.html">
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="Рационализация: как мозг оправдывает решения">
+<meta property="og:description" content="Мозг умеет находить логичные объяснения даже для решений, принятых совсем не по логике. Разбираем механизм.">
+<meta property="og:url" content="https://teabro-site.vercel.app/ratsionalizatsiya-mozg-opravdyvaet.html">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:image" content="https://teabro-site.vercel.app/assets/og-samoobman.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Рационализация: как мозг оправдывает решения">
+<meta name="twitter:description" content="Мозг умеет находить логичные объяснения даже для решений, принятых совсем не по логике. Разбираем механизм.">
+<meta name="twitter:image" content="https://teabro-site.vercel.app/assets/og-samoobman.png">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Рационализация: как мозг оправдывает решения, которые нам не нравятся",
+  "description": "Мозг умеет находить логичные объяснения даже для решений, принятых совсем не по логике. Разбираем механизм.",
+  "inLanguage": "ru"
+}
+</script>
+
+<style>
+
+  :root {
+    --paper: #161D22;
+    --paper-deep: #232D33;
+    --ink: #F2E9D8;
+    --ink-soft: #A9B0AC;
+    --amber: #B8823B;
+    --amber-deep: #D29A4C;
+    --jade: #5C7A72;
+    --border-tint: rgba(242,233,216,0.12);
+    --border-tint-soft: rgba(242,233,216,0.16);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 17px;
+    line-height: 1.65;
+  }
+
+  .wrap {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  header.hero {
+    padding: 64px 0 40px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .moon {
+    position: absolute;
+    top: -40px;
+    right: -60px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 35%, var(--amber) 0%, var(--amber-deep) 55%, transparent 78%);
+    opacity: 0.9;
+    box-shadow: 0 0 70px 24px rgba(184,130,59,0.28);
+  }
+
+  h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-weight: 700;
+    font-size: clamp(32px, 6vw, 48px);
+    line-height: 1.15;
+    margin: 0 0 20px;
+    color: var(--ink);
+  }
+
+  .lede {
+    font-size: 19px;
+    color: var(--ink-soft);
+    max-width: 52ch;
+  }
+
+  .cta-card {
+    background: var(--paper-deep);
+    color: var(--ink);
+    border-radius: 4px;
+    padding: 28px 30px;
+    margin: 36px 0;
+    border: 1px solid var(--border-tint);
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .cta-card p {
+    margin: 0;
+    font-size: 16px;
+    color: var(--ink-soft);
+  }
+
+  .cta-btn {
+    display: inline-block;
+    background: var(--amber);
+    color: var(--paper);
+    font-weight: 600;
+    text-decoration: none;
+    padding: 13px 22px;
+    border-radius: 3px;
+    width: fit-content;
+    transition: background 0.15s ease;
+  }
+
+  .cta-btn:hover { background: var(--amber-deep); color: var(--paper); }
+  .cta-btn:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
+
+  article > .cta-btn { margin: 4px 0 20px; }
+
+  article h2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 27px;
+    margin: 44px 0 14px;
+    color: var(--ink);
+  }
+
+  article p { margin: 0 0 18px; max-width: 66ch; }
+
+  .signs {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 28px;
+    border-left: 3px solid var(--amber);
+  }
+  .signs li {
+    padding: 6px 0 6px 18px;
+    color: var(--ink-soft);
+  }
+
+  .faq {
+    margin-top: 56px;
+    padding-top: 8px;
+    border-top: 1px solid var(--border-tint-soft);
+  }
+  .faq h3 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 19px;
+    margin: 26px 0 6px;
+  }
+  .faq p { color: var(--ink-soft); font-size: 16px; }
+
+  .final-cta {
+    margin: 64px 0 0;
+    padding: 40px 32px;
+    background: var(--paper-deep);
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+  }
+  .final-cta::before {
+    content: "";
+    position: absolute;
+    top: -50px;
+    right: -30px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: radial-gradient(circle, var(--amber) 0%, transparent 72%);
+    opacity: 0.3;
+    pointer-events: none;
+  }
+  .final-cta h2, .final-cta p, .final-cta .btn-row {
+    position: relative;
+  }
+  .final-cta h2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    margin: 0 0 12px;
+  }
+  .final-cta p {
+    margin: 0 0 26px;
+    color: var(--ink-soft);
+    max-width: 52ch;
+  }
+  .final-cta .btn-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+  }
+  .btn-outline {
+    display: inline-block;
+    padding: 12px 20px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--ink);
+    border: 1.5px solid var(--ink-soft);
+    transition: background 0.15s ease, color 0.15s ease;
+  }
+  .btn-outline:hover { background: var(--ink); color: var(--paper); }
+
+  .related {
+    margin-top: 56px;
+    padding-top: 8px;
+    border-top: 1px solid var(--border-tint-soft);
+  }
+  .related h2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    margin: 0 0 18px;
+    color: var(--ink);
+  }
+  .related-grid {
+    display: grid;
+    gap: 14px;
+  }
+  @media (min-width: 560px) {
+    .related-grid { grid-template-columns: 1fr 1fr; }
+  }
+  .related-item {
+    display: block;
+    padding: 18px 20px;
+    background: var(--paper-deep);
+    border-radius: 4px;
+    border: 1px solid var(--border-tint);
+    text-decoration: none;
+    color: inherit;
+    transition: background 0.15s ease, border-color 0.15s ease;
+  }
+  .related-item:hover, .related-item:focus-visible {
+    background: var(--amber);
+    border-color: var(--amber);
+  }
+  .related-item:hover .related-title,
+  .related-item:hover p,
+  .related-item:focus-visible .related-title,
+  .related-item:focus-visible p { color: var(--paper); }
+  .related-title {
+    display: block;
+    color: var(--ink);
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 17px;
+  }
+  .related-item p { margin: 6px 0 0; color: var(--ink-soft); font-size: 14px; }
+
+  .breadcrumb { font-size: 14px; color: var(--ink-soft); margin: 0 0 18px; }
+  .breadcrumb a { color: var(--amber-deep); text-decoration: none; }
+  .breadcrumb a:hover { text-decoration: underline; }
+
+  .wrap { padding-bottom: 48px; }
+
+  @media (max-width: 480px) {
+    .moon { width: 130px; height: 130px; top: -20px; right: -36px; opacity: 0.75; }
+    body { font-size: 16px; }
+    h1 { max-width: none; font-size: 30px; }
+  }
+</style>
+
+<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+<script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body>
+
+<div class="wrap">
+
+  <p class="breadcrumb"><a href="samoobman-test.html">Тест на самообман</a> / Рационализация</p>
+
+  <header class="hero">
+    <div class="moon" aria-hidden="true"></div>
+    <h1>Рационализация: как мозг оправдывает решения, которые нам не нравятся</h1>
+    <p class="lede">«Я просто решил, что так будет лучше» — иногда это правда, а иногда постфактум придуманное оправдание. Разбираем, как это работает.</p>
+  </header>
+
+  <article>
+
+    <p>Рационализация — один из самых распространённых защитных механизмов психики: способность придумать логичное, убедительное объяснение для решения, которое на самом деле было принято по эмоциональным или менее приятным причинам.</p>
+
+    <h2>Как это выглядит на практике</h2>
+    <p>Классический пример — человек отказывается от возможности, которая пугает (смена работы, важный разговор), и объясняет это себе логичными доводами («сейчас не время», «риски слишком велики»), хотя настоящая причина — страх, не связанный напрямую с этими доводами.</p>
+
+    <h2>Почему рационализация так убедительна</h2>
+    <p>Она использует настоящую логику и реальные факты — просто выбирает их избирательно, подгоняя под уже принятое эмоциональное решение. Из-за этого рационализация ощущается изнутри как честный, взвешенный анализ, а не как оправдание.</p>
+
+    <div class="cta-card">
+      <p>Тест на самообман помогает заметить моменты, где логика используется для оправдания, а не для честного анализа.</p>
+      <a class="cta-btn" href="http://t.me/TeaBroLifeBot/TeaBro" target="_blank" rel="noopener">Узнать своё слепое пятно</a>
+    </div>
+
+    <h2>Признак, который стоит отслеживать</h2>
+    <p>Один из индикаторов рационализации — количество доводов. Если для оправдания решения нужно приводить много разных аргументов сразу, это иногда сигнал, что ни один из них не является настоящей причиной, а решение уже было принято до появления доводов.</p>
+
+    <h2>Как отличить рационализацию от реального анализа</h2>
+    <p>Полезный вопрос — «принял бы я то же решение, если бы не боялся/не хотел этого избежать». Если ответ меняется при убирании эмоционального компонента — вероятно, изначальные доводы были рационализацией, а не настоящей причиной.</p>
+
+  </article>
+
+  <section class="faq">
+
+    <h3>Рационализация — это всегда плохо?</h3>
+    <p>Не обязательно вредно в моменте — иногда это способ мягко прожить неприятное решение. Проблема возникает, если рационализация мешает увидеть реальную причину и что-то изменить в долгосрочной перспективе.</p>
+    <h3>Как заметить рационализацию у себя?</h3>
+    <p>Полезно замечать моменты, когда решение уже принято, а объяснение появляется только потом — это частый признак рационализации, а не наоборот.</p>
+
+  </section>
+
+  <section class="final-cta">
+    <h2>Пройди тест прямо сейчас</h2>
+    <p>Два вопроса — и станет ясно, что с этим делать дальше. Бесплатно, без регистрации, 2 минуты.</p>
+    <div class="btn-row">
+      <a class="cta-btn" href="http://t.me/TeaBroLifeBot/TeaBro" target="_blank" rel="noopener" style="width:100%;box-sizing:border-box;text-align:center;">Узнать своё слепое пятно</a>
+      <a class="btn-outline" href="https://t.me/TeaBroLife" target="_blank" rel="noopener" style="width:100%;box-sizing:border-box;text-align:center;color:var(--amber-deep);border-color:var(--amber-deep);">Заглянуть в чайное пространство</a>
+    </div>
+  </section>
+
+  <section class="related">
+    <h2>Читать по теме</h2>
+    <div class="related-grid">
+      <a class="related-item" href="samoobman-v-otnosheniyah.html">
+        <span class="related-title">Самообман в отношениях</span>
+        <p>Почему тревожные звоночки в отношениях так часто игнорируются.</p>
+      </a>
+      <a class="related-item" href="pozitivnoe-myshlenie-ili-otritsanie.html">
+        <span class="related-title">Позитив или отрицание</span>
+        <p>Где заканчивается здоровый оптимизм и начинается отрицание реальных проблем.</p>
+      </a>
+      <a class="related-item" href="malenkie-testy-na-samoobman.html">
+        <span class="related-title">Маленькие тесты на самообман</span>
+        <p>Простые практические способы проверить себя на самообман буквально за один день.</p>
+      </a>
+      <a class="related-item" href="https://teabro-app.vercel.app" target="_blank" rel="noopener">
+        <span class="related-title">Tea Bro — приложение</span>
+        <p>Все тесты и дневник самонаблюдения в одном месте — открой веб-версию Tea Bro.</p>
+      </a>
+    </div>
+  </section>
+
+</div>
+
+  <footer style="max-width:640px;margin:40px auto 0;padding:20px 16px 32px;text-align:center;border-top:1px solid var(--border-tint);font-size:14px;color:var(--ink-soft);">
+    <a href="https://teabro-app.vercel.app" target="_blank" rel="noopener" style="color:var(--amber-deep);text-decoration:none;">Tea Bro — веб-версия</a>
+    &nbsp;·&nbsp;
+    <a href="https://t.me/TeaBroLife" target="_blank" rel="noopener" style="color:var(--amber-deep);text-decoration:none;">Telegram-канал</a>
+  </footer>
+</body>
+</html>
