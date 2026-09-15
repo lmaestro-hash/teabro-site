@@ -24,6 +24,52 @@
 <meta name="twitter:description" content="Тесты на самопознание и дневник самонаблюдения в Telegram.">
 <meta name="twitter:image" content="https://teabro-site.vercel.app/assets/og-index.png">
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Tea Bro",
+  "url": "https://teabro-site.vercel.app/",
+  "description": "5 бесплатных тестов на самонаблюдение: выгорание, гормональный тип, самообман, подбор чая, медитативная практика."
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Тест на выгорание", "url": "https://teabro-site.vercel.app/vygoranie-test.html" },
+    { "@type": "ListItem", "position": 2, "name": "Тест на гормональный тип", "url": "https://teabro-site.vercel.app/gormonalny-kod-test.html" },
+    { "@type": "ListItem", "position": 3, "name": "Тест на самообман", "url": "https://teabro-site.vercel.app/samoobman-test.html" },
+    { "@type": "ListItem", "position": 4, "name": "Чайный тест", "url": "https://teabro-site.vercel.app/kakoy-chay-test.html" },
+    { "@type": "ListItem", "position": 5, "name": "Тест на медитативную практику", "url": "https://teabro-site.vercel.app/meditaciya-test.html" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Тесты Tea Bro действительно бесплатные?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Да, все 5 тестов бесплатны без ограничений и без скрытых платных версий. Результат ты видишь сразу после прохождения." }
+    },
+    {
+      "@type": "Question",
+      "name": "Нужна регистрация, чтобы пройти тест?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Нет, регистрация не нужна. Тест открывается в браузере или в Telegram-боте, и результат показывается сразу." }
+    },
+    {
+      "@type": "Question",
+      "name": "Чем тесты Tea Bro отличаются от обычных развлекательных тестов?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Каждый тест построен вокруг одной конкретной темы самонаблюдения — выгорания, гормонального фона, самообмана, чайных предпочтений или медитации — и даёт не абстрактный тип личности, а практический ориентир, с чего начать." }
+    }
+  ]
+}
+</script>
+
 <style>
 
   :root {
@@ -90,11 +136,31 @@
     position: relative;
   }
 
+  .intro {
+    max-width: 68ch;
+    margin: 32px auto 0;
+    color: var(--ink-soft);
+  }
+  .intro h2 {
+    color: var(--ink);
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 10px;
+  }
+  .intro p { margin: 0 0 12px; }
+
+  h2.section-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+    color: var(--ink);
+  }
+
   .row {
     display: flex;
     flex-wrap: wrap;
     gap: 18px;
-    margin-top: 48px;
+    margin-top: 20px;
   }
 
   .card {
@@ -126,10 +192,32 @@
     text-decoration: underline;
     text-underline-offset: 3px;
     color: var(--ink);
-    margin-bottom: 8px;
+    margin: 0 0 8px;
   }
 
   .card-desc {
+    margin: 0;
+    color: var(--ink-soft);
+    font-size: 15px;
+  }
+
+  .faq {
+    margin-top: 56px;
+  }
+  .faq h2 {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0 0 20px;
+    color: var(--ink);
+  }
+  .faq-item { margin-bottom: 18px; }
+  .faq-item h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 0 6px;
+    color: var(--ink);
+  }
+  .faq-item p {
     margin: 0;
     color: var(--ink-soft);
     font-size: 15px;
@@ -153,7 +241,7 @@
   @media (max-width: 480px) {
     .moon { width: 130px; height: 130px; top: -30px; }
     body { font-size: 16px; }
-    .row { margin-top: 36px; }
+    .row { margin-top: 20px; }
   }
 </style>
 
@@ -170,28 +258,52 @@
     <p class="lede">5 бесплатных тестов, каждый на 2 минуты, без регистрации. Выбери, с чего начать.</p>
   </header>
 
+  <section class="intro">
+    <h2>Что такое пространство самонаблюдения</h2>
+    <p>Tea Bro — это не очередной развлекательный тест на 16 типов личности. Каждый из пяти тестов разбирает одну конкретную область: выгорание, гормональный фон, самообман, отношения с чаем как ритуалом или медитативную практику. Вопросы короткие, результат — конкретный, без общих формулировок вроде «ты особенный».</p>
+    <p>Идея простая: прежде чем что-то менять в привычках, полезно честно увидеть, где ты сейчас находишься. Тест — это не диагноз и не терапия, а отправная точка для наблюдения за собой на пару минут.</p>
+  </section>
+
+  <h2 class="section-title" style="margin-top:48px;">Выбери тест, с которого начнёшь</h2>
+
   <div class="row">
     <a class="card" href="vygoranie-test.html">
-      <span class="card-title">Тест на выгорание</span>
+      <h3 class="card-title">Тест на выгорание</h3>
       <p class="card-desc">Усталость проходит после выходных. Выгорание — нет. Узнай свою точку сборки.</p>
     </a>
     <a class="card" href="gormonalny-kod-test.html">
-      <span class="card-title">Тест на гормональный тип</span>
+      <h3 class="card-title">Тест на гормональный тип</h3>
       <p class="card-desc">Дофамин, серотонин, окситоцин или кортизол — какой из них сейчас рулит твоим поведением.</p>
     </a>
     <a class="card" href="samoobman-test.html">
-      <span class="card-title">Тест на самообман</span>
+      <h3 class="card-title">Тест на самообман</h3>
       <p class="card-desc">Иногда честнее соврать себе, чем признать неприятное. Узнай своё слепое пятно.</p>
     </a>
     <a class="card" href="kakoy-chay-test.html">
-      <span class="card-title">Чайный тест</span>
+      <h3 class="card-title">Чайный тест</h3>
       <p class="card-desc">Подбор чая не по вкусу, а по тому, что тебе сейчас на самом деле нужно.</p>
     </a>
     <a class="card" href="meditaciya-test.html">
-      <span class="card-title">Тест на медитативную практику</span>
+      <h3 class="card-title">Тест на медитативную практику</h3>
       <p class="card-desc">Медитация не работает не потому, что ты не умеешь. Просто практика не та.</p>
     </a>
   </div>
+
+  <section class="faq">
+    <h2>Частые вопросы</h2>
+    <div class="faq-item">
+      <h3>Тесты Tea Bro действительно бесплатные?</h3>
+      <p>Да, все 5 тестов бесплатны без ограничений и без скрытых платных версий. Результат ты видишь сразу после прохождения.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Нужна регистрация, чтобы пройти тест?</h3>
+      <p>Нет, регистрация не нужна. Тест открывается в браузере или в Telegram-боте, и результат показывается сразу.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Чем тесты Tea Bro отличаются от обычных развлекательных тестов?</h3>
+      <p>Каждый тест построен вокруг одной конкретной темы самонаблюдения — выгорания, гормонального фона, самообмана, чайных предпочтений или медитации — и даёт не абстрактный тип личности, а практический ориентир, с чего начать.</p>
+    </div>
+  </section>
 
   <div class="footer-links">
     <p>Больше о Tea Bro:</p>
