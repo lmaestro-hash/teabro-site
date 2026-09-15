@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" href="/favicon-180.png">
+<title>Дневник как инструмент против самообмана | Tea Bro</title>
+<meta name="description" content="Простой способ увидеть собственный самообман — письменно. Разбираем, что и как писать в дневнике, чтобы он реально работал.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://teabro-site.vercel.app/dnevnik-protiv-samoobmana.html">
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="Дневник против самообмана">
+<meta property="og:description" content="Как дневник самонаблюдения помогает увидеть собственный самообман — практическое руководство.">
+<meta property="og:url" content="https://teabro-site.vercel.app/dnevnik-protiv-samoobmana.html">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:image" content="https://teabro-site.vercel.app/assets/og-samoobman.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Дневник против самообмана">
+<meta name="twitter:description" content="Как дневник самонаблюдения помогает увидеть собственный самообман — практическое руководство.">
+<meta name="twitter:image" content="https://teabro-site.vercel.app/assets/og-samoobman.png">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Дневник как инструмент против самообмана: что писать и зачем",
+  "description": "Как дневник самонаблюдения помогает увидеть собственный самообман — практическое руководство.",
+  "inLanguage": "ru"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Сколько времени в день нужно уделять дневнику?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Достаточно 5-10 минут несколько раз в неделю — важна регулярность, а не объём записей." }
+    },
+    {
+      "@type": "Question",
+      "name": "Можно ли вести такой дневник в приложении, а не на бумаге?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Да, формат не принципиален. Дневник самонаблюдения в Tea Bro устроен именно для этой цели." }
+    }
+  ]
+}
+</script>
+
+<style>
+
+  :root {
+    --paper: #161D22;
+    --paper-deep: #232D33;
+    --ink: #F2E9D8;
+    --ink-soft: #A9B0AC;
+    --amber: #B8823B;
+    --amber-deep: #D29A4C;
+    --jade: #5C7A72;
+    --border-tint: rgba(242,233,216,0.12);
+    --border-tint-soft: rgba(242,233,216,0.16);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 17px;
+    line-height: 1.65;
+  }
+
+  .wrap {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  header.hero {
+    padding: 64px 0 40px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .moon {
+    position: absolute;
+    top: -40px;
+    right: -60px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 35%, var(--amber) 0%, var(--amber-deep) 55%, transparent 78%);
+    opacity: 0.9;
+    box-shadow: 0 0 70px 24px rgba(184,130,59,0.28);
+  }
+
+  h1 {
+    font-weight: 700;
+    font-size: clamp(32px, 6vw, 48px);
+    line-height: 1.15;
+    margin: 0 0 20px;
+    color: var(--ink);
+  }
+
+  .lede {
+    font-size: 19px;
+    color: var(--ink-soft);
+    max-width: 52ch;
+  }
+
+  .cta-card {
+    background: var(--paper-deep);
+    color: var(--ink);
+    border-radius: 4px;
+    padding: 28px 30px;
+    margin: 36px 0;
+    border: 1px solid var(--border-tint);
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .cta-card p { margin: 0; font-size: 16px; color: var(--ink-soft); }
+  .cta-btn {
+    display: inline-block;
+    background: var(--amber);
+    color: var(--paper);
+    font-weight: 600;
+    text-decoration: none;
+    padding: 13px 22px;
+    border-radius: 3px;
+    width: fit-content;
+    transition: background 0.15s ease;
+  }
+  .cta-btn:hover { background: var(--amber-deep); color: var(--paper); }
+  .cta-btn:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
+
+  article h2 {
+    font-weight: 700;
+    font-size: 27px;
+    margin: 44px 0 14px;
+    color: var(--ink);
+  }
+  article p { margin: 0 0 18px; max-width: 66ch; }
+
+  .signs { list-style: none; padding: 0; margin: 20px 0 28px; border-left: 3px solid var(--amber); }
+  .signs li { padding: 6px 0 6px 18px; color: var(--ink-soft); }
+
+  .faq { margin-top: 56px; padding-top: 8px; border-top: 1px solid var(--border-tint-soft); }
+  .faq h3 { font-size: 19px; margin: 26px 0 6px; }
+  .faq p { color: var(--ink-soft); font-size: 16px; }
+
+  .final-cta {
+    margin: 64px 0 0;
+    padding: 40px 32px;
+    background: var(--paper-deep);
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+  }
+  .final-cta::before {
+    content: "";
+    position: absolute; top: -50px; right: -30px; width: 150px; height: 150px;
+    border-radius: 50%;
+    background: radial-gradient(circle, var(--amber) 0%, transparent 72%);
+    opacity: 0.3; pointer-events: none;
+  }
+  .final-cta h2, .final-cta p, .final-cta .btn-row { position: relative; }
+  .final-cta h2 { font-weight: 700; font-size: 26px; margin: 0 0 12px; }
+  .final-cta p { margin: 0 0 26px; color: var(--ink-soft); max-width: 52ch; }
+  .final-cta .btn-row { display: flex; flex-wrap: wrap; gap: 14px; }
+  .btn-outline {
+    display: inline-block; padding: 12px 20px; border-radius: 3px; text-decoration: none;
+    font-weight: 600; color: var(--ink); border: 1.5px solid var(--ink-soft);
+    transition: background 0.15s ease, color 0.15s ease;
+  }
+  .btn-outline:hover { background: var(--ink); color: var(--paper); }
+
+  .related { margin-top: 56px; padding-top: 8px; border-top: 1px solid var(--border-tint-soft); }
+  .related h2 { font-weight: 700; font-size: 22px; margin: 0 0 18px; color: var(--ink); }
+  .related-grid { display: grid; gap: 14px; }
+  @media (min-width: 560px) { .related-grid { grid-template-columns: 1fr 1fr; } }
+  .related-item {
+    display: block; padding: 18px 20px; background: var(--paper-deep); border-radius: 4px;
+    border: 1px solid var(--border-tint); text-decoration: none; color: inherit;
+    transition: background 0.15s ease, border-color 0.15s ease;
+  }
+  .related-item:hover, .related-item:focus-visible { background: var(--amber); border-color: var(--amber); }
+  .related-item:hover .related-title, .related-item:hover p,
+  .related-item:focus-visible .related-title, .related-item:focus-visible p { color: var(--paper); }
+  .related-title {
+    display: block; color: var(--ink); font-weight: 600; text-decoration: underline;
+    text-underline-offset: 3px; font-size: 17px;
+  }
+  .related-item p { margin: 6px 0 0; color: var(--ink-soft); font-size: 14px; }
+
+  .breadcrumb { font-size: 14px; color: var(--ink-soft); margin: 0 0 18px; }
+  .breadcrumb a { color: var(--amber-deep); text-decoration: none; }
+  .breadcrumb a:hover { text-decoration: underline; }
+
+  .wrap { padding-bottom: 48px; }
+
+  @media (max-width: 480px) {
+    .moon { width: 130px; height: 130px; top: -20px; right: -36px; opacity: 0.75; }
+    body { font-size: 16px; }
+    h1 { max-width: none; font-size: 30px; }
+  }
+</style>
+
+<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+<script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body>
+
+<div class="wrap">
+
+  <p class="breadcrumb"><a href="samoobman-test.html">Тест на самообман</a> / Дневник против самообмана</p>
+
+  <header class="hero">
+    <div class="moon" aria-hidden="true"></div>
+    <h1>Дневник как инструмент против самообмана: что писать и зачем</h1>
+    <p class="lede">Самообман работает лучше всего в голове — в момент, когда мысль ещё не оформлена в слова. Дневник ломает именно этот механизм.</p>
+  </header>
+
+  <article>
+    <p>Самообман почти всегда живёт в непроговорённых, размытых мыслях: «наверное, само рассосётся», «не такая уж это проблема». Как только эту же мысль пробуешь записать конкретными словами, самообман становится куда заметнее — письмо заставляет формулировать то, что мозг предпочитает оставлять расплывчатым.</p>
+
+    <h2>Почему письмо работает лучше, чем размышление в голове</h2>
+    <p>Дневник против самообмана эффективен именно потому, что письменная речь требует структуры и конкретики, а внутренний монолог — нет. Мысль «всё в порядке» на бумаге часто вынуждает уточнить: в порядке в чём именно, и что тогда означает вот этот факт, который не вписывается в картину.</p>
+
+    <h2>Что писать, если цель — увидеть самообман</h2>
+    <p>Полезнее не общие рефлексии, а конкретные вопросы: что я сегодня объяснил себе слишком легко? Где я заметил у себя раздражение на чужой комментарий, который на самом деле был справедлив? Такие вопросы в дневнике направлены именно на поиск слепых пятен, а не на пересказ дня.</p>
+
+    <div class="cta-card">
+      <p>Хочешь узнать, в какой области у тебя сейчас самое заметное слепое пятно?</p>
+      <a class="cta-btn" href="http://t.me/TeaBroLifeBot/TeaBro" target="_blank" rel="noopener">Пройти тест на самообман</a>
+    </div>
+
+    <h2>Частая ошибка — вести дневник только в хорошем настроении</h2>
+    <p>Дневник против самообмана теряет смысл, если в нём фиксируются только приятные выводы. Самое ценное — записывать именно неудобные наблюдения о себе, в момент, когда хочется этого не делать. Это тот самый момент, где самообман обычно и включается.</p>
+
+    <h2>Как встроить это в привычку, а не разовую попытку</h2>
+    <p>Не нужен ежедневный длинный текст — хватает нескольких честных предложений раз в несколько дней. Регулярность важнее объёма: дневник против самообмана работает как накопительный эффект, а не разовое озарение.</p>
+  </article>
+
+  <section class="faq">
+    <h3>Сколько времени в день нужно уделять дневнику?</h3>
+    <p>Достаточно 5-10 минут несколько раз в неделю — важна регулярность, а не объём записей.</p>
+    <h3>Можно ли вести такой дневник в приложении, а не на бумаге?</h3>
+    <p>Да, формат не принципиален. Дневник самонаблюдения в Tea Bro устроен именно для этой цели.</p>
+  </section>
+
+  <section class="final-cta">
+    <h2>Пройди тест прямо сейчас</h2>
+    <p>Два вопроса — и станет ясно, что с этим делать дальше. Бесплатно, без регистрации, 2 минуты.</p>
+    <div class="btn-row">
+      <a class="cta-btn" href="http://t.me/TeaBroLifeBot/TeaBro" target="_blank" rel="noopener" style="width:100%;box-sizing:border-box;text-align:center;">Пройти тест на самообман</a>
+      <a class="btn-outline" href="https://t.me/TeaBroLife" target="_blank" rel="noopener" style="width:100%;box-sizing:border-box;text-align:center;color:var(--amber-deep);border-color:var(--amber-deep);">Заглянуть в чайное пространство</a>
+    </div>
+  </section>
+
+  <section class="related">
+    <h2>Читать по теме</h2>
+    <div class="related-grid">
+      <a class="related-item" href="kognitivnye-iskazheniya-karta.html">
+        <span class="related-title">Когнитивные искажения</span>
+        <p>Карта ловушек мышления, которые дневник помогает заметить.</p>
+      </a>
+      <a class="related-item" href="samoobman-s-dengami.html">
+        <span class="related-title">Самообман с деньгами</span>
+        <p>Конкретная область, где дневник особенно полезен.</p>
+      </a>
+      <a class="related-item" href="samoobman-pro-zdorovie.html">
+        <span class="related-title">Самообман про здоровье</span>
+        <p>Ещё одна область, где письменная фиксация помогает увидеть отрицание.</p>
+      </a>
+      <a class="related-item" href="chestnost-s-soboy-navyk.html">
+        <span class="related-title">Честность с собой как навык</span>
+        <p>Более широкий разбор того, как развивать эту способность.</p>
+      </a>
+    </div>
+  </section>
+
+  <section class="related">
+    <h2>Смежные тесты</h2>
+    <div class="related-grid">
+      <a class="related-item" href="vygoranie-test.html">
+        <span class="related-title">Тест на выгорание</span>
+        <p>Усталость проходит после выходных. Выгорание — нет. Узнай свою точку сборки.</p>
+      </a>
+      <a class="related-item" href="gormonalny-kod-test.html">
+        <span class="related-title">Тест на гормональный тип</span>
+        <p>Дофамин, серотонин, окситоцин или кортизол — какой из них сейчас рулит твоим поведением.</p>
+      </a>
+      <a class="related-item" href="kakoy-chay-test.html">
+        <span class="related-title">Чайный тест</span>
+        <p>Подбор чая не по вкусу, а по тому, что тебе сейчас на самом деле нужно.</p>
+      </a>
+      <a class="related-item" href="meditaciya-test.html">
+        <span class="related-title">Тест на медитативную практику</span>
+        <p>Медитация не работает не потому, что ты не умеешь. Просто практика не та.</p>
+      </a>
+    </div>
+  </section>
+
+  <div style="text-align:center;margin-top:40px;">
+    <a class="btn-outline" href="index.html" style="display:inline-block;padding:12px 28px;">← На главную</a>
+  </div>
+
+</div>
+
+  <footer style="max-width:640px;margin:40px auto 0;padding:20px 16px 32px;text-align:center;border-top:1px solid var(--border-tint);font-size:14px;color:var(--ink-soft);">
+    <a href="https://teabro-app.vercel.app" target="_blank" rel="noopener" style="color:var(--amber-deep);text-decoration:none;">Tea Bro — веб-версия</a>
+    &nbsp;·&nbsp;
+    <a href="https://t.me/TeaBroLife" target="_blank" rel="noopener" style="color:var(--amber-deep);text-decoration:none;">Telegram-канал</a>
+  </footer>
+</body>
+</html>
