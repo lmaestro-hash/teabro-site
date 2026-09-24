@@ -232,6 +232,19 @@
   .tb-bar a:hover, .tb-bar button:hover { border-color:var(--amber); color:var(--ink); }
   .tb-bar .on { background:var(--amber); border-color:var(--amber); color:var(--paper); }
   .tb-bar .on:hover { color:var(--paper); }
+
+  /* === tb: hub lists === */
+  .hub-group { margin-top: 28px; }
+  .hub-group h3 { font-size: 18px; margin: 0 0 12px; color: var(--ink); font-weight: 700; }
+  .hub-links { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+  @media (min-width: 560px) { .hub-links { grid-template-columns: 1fr 1fr; } }
+  .hub-links a { display: block; padding: 12px 14px; background: var(--paper-deep); border: 1px solid var(--border-tint);
+    border-radius: 4px; text-decoration: none; color: var(--ink); font-weight: 600; font-size: 15px; line-height: 1.35;
+    transition: background 0.15s ease, border-color 0.15s ease; }
+  .hub-links a small { display: block; font-weight: 400; color: var(--ink-soft); font-size: 13px; margin-top: 3px; }
+  .hub-links a:hover, .hub-links a:focus-visible { background: var(--amber); border-color: var(--amber); color: var(--paper); }
+  .hub-links a:hover small, .hub-links a:focus-visible small { color: var(--paper); }
+  .hub-note { color: var(--ink-soft); font-size: 15px; margin: 0 0 6px; }
 </style>
 
 <script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
@@ -240,7 +253,7 @@
 <body>
 
 <div class="wrap">
-<div class="tb-bar" role="navigation" aria-label="Мова / Язык"><a class="on" href="/chay-vmesto-kofe.html" hreflang="ru" lang="ru" aria-current="true">RU</a><a href="/uk/" hreflang="uk" lang="uk">UK</a><button type="button" id="tb-theme"></button></div>
+<div class="tb-bar" role="navigation" aria-label="Мова / Язык"><a class="on" href="/chay-vmesto-kofe.html" hreflang="ru" lang="ru" aria-current="true">RU</a><a href="/uk-index.html" hreflang="uk" lang="uk">UK</a><button type="button" id="tb-theme"></button></div>
 
 
   <p class="breadcrumb"><a href="kakoy-chay-test.html">Чайный тест</a> / Чай вместо кофе</p>
@@ -311,26 +324,49 @@
   </section>
 
   <section class="related">
-    <h2>Смежные тесты</h2>
+    <h2>Ещё про чай</h2>
     <div class="related-grid">
-      <a class="related-item" href="vygoranie-test.html">
-        <span class="related-title">Тест на выгорание</span>
-        <p>Усталость проходит после выходных. Выгорание — нет. Узнай свою точку сборки.</p>
+      <a class="related-item" href="ritual-zavarivaniya-nervnaya-sistema.html">
+        <span class="related-title">Ритуал заваривания</span>
+        <p>Как сам процесс заваривания влияет на состояние, а не только результат.</p>
       </a>
-      <a class="related-item" href="gormonalny-kod-test.html">
-        <span class="related-title">Тест на гормональный тип</span>
-        <p>Дофамин, серотонин, окситоцин или кортизол — какой из них сейчас рулит твоим поведением.</p>
+      <a class="related-item" href="da-hun-pao-chto-eto-za-chay.html">
+        <span class="related-title">Да Хун Пао: что это за чай</span>
+        <p>Скальный улун из Уишаня: вкус, заварка и как выбрать настоящий.</p>
       </a>
-      <a class="related-item" href="samoobman-test.html">
-        <span class="related-title">Тест на самообман</span>
-        <p>«Да ладно, всё нормально» — частая фраза перед тем, как что-то идёт не так. Узнай своё слепое пятно.</p>
+      <a class="related-item" href="voda-dlya-chaya-kakaya-luchshe.html">
+        <span class="related-title">Вода для чая: какая лучше</span>
+        <p>Какая вода подходит для чая: жёсткость, минерализация, фильтр, проверка дома.</p>
       </a>
-      <a class="related-item" href="meditaciya-test.html">
-        <span class="related-title">Тест на медитативную практику</span>
-        <p>Медитация не работает не потому, что ты не умеешь. Просто практика не та.</p>
+      <a class="related-item" href="shu-puer-kak-zavarivat.html">
+        <span class="related-title">Шу пуэр: как заваривать</span>
+        <p>Что такое шу пуэр, как его заваривать и когда пить: температура, проливы, вкус.</p>
       </a>
     </div>
   </section>
+
+  <section class="related">
+    <h2>Смежные разделы</h2>
+    <div class="related-grid">
+      <a class="related-item" href="nastavleniya-po-meditatsii.html">
+        <span class="related-title">Наставления по медитации</span>
+        <p>Осознанное дыхание, подбор практики и совет дня: шаг за шагом.</p>
+      </a>
+      <a class="related-item" href="chellendzhi-10-20-30-dney.html">
+        <span class="related-title">Челленджи на 10, 20 и 30 дней</span>
+        <p>Небольшие ежедневные ритуалы: спокойствие, энергия, дыхание, гунфу-чаепитие.</p>
+      </a>
+      <a class="related-item" href="kompas-sostoyaniya.html">
+        <span class="related-title">Компас состояния</span>
+        <p>Ежедневный чек-ин по 10 показателям и одно конкретное действие на сегодня.</p>
+      </a>
+      <a class="related-item" href="dnevnik-sostoyaniy-ritm-zhizni.html">
+        <span class="related-title">Дневник состояний — ритм жизни</span>
+        <p>Отмечай состояние каждый день и смотри, куда на самом деле движется жизнь.</p>
+      </a>
+    </div>
+  </section>
+
 
   <div style="text-align:center;margin-top:40px;">
     <a class="btn-outline" href="index.html" style="display:inline-block;padding:12px 28px;">← На главную</a>

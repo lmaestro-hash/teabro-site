@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" href="/favicon-180.png">
+<title>Компас состояния: чек-ин самочувствия онлайн бесплатно | Tea Bro</title>
+<meta name="description" content="Компас состояния: ежедневный чек-ин самочувствия за минуту. 10 показателей (энергия, сон, тревожность, концентрация), результат в процентах и одно действие на сегодня.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://teabro-site.vercel.app/kompas-sostoyaniya.html">
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="Компас состояния: чек-ин самочувствия и одно действие на сегодня">
+<meta property="og:description" content="Компас состояния: ежедневный чек-ин самочувствия за минуту. 10 показателей (энергия, сон, тревожность, концентрация), результат в процентах и одно действие на сегодня.">
+<meta property="og:url" content="https://teabro-site.vercel.app/kompas-sostoyaniya.html">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:image" content="https://teabro-site.vercel.app/assets/og-index.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Компас состояния: чек-ин самочувствия и одно действие на сегодня">
+<meta name="twitter:description" content="Компас состояния: ежедневный чек-ин самочувствия за минуту. 10 показателей (энергия, сон, тревожность, концентрация), результат в процентах и одно действие на сегодня.">
+<meta name="twitter:image" content="https://teabro-site.vercel.app/assets/og-index.png">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Компас состояния: чек-ин самочувствия и одно действие на сегодня",
+  "description": "Компас состояния: ежедневный чек-ин самочувствия за минуту. 10 показателей (энергия, сон, тревожность, концентрация), результат в процентах и одно действие на сегодня.",
+  "inLanguage": "ru"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Сколько занимает чек-ин в Компасе состояния?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Около минуты: десять коротких вопросов с готовыми вариантами ответа."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Нужно ли ждать несколько тестов, чтобы увидеть статистику?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Нет. Результат появляется уже после первого чек-ина, а с накоплением данных картина становится устойчивее."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Компас состояния бесплатный?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Да, чек-ин доступен в Telegram-боте Tea Bro бесплатно, отдельная регистрация не нужна."
+      }
+    }
+  ]
+}
+</script>
+
+<script>try{var _t=localStorage.getItem('tb-theme');document.documentElement.setAttribute('data-theme',_t==='light'?'light':'dark')}catch(e){document.documentElement.setAttribute('data-theme','dark')}</script>
+<style>
+
+  :root {
+    --paper: #161D22;
+    --paper-deep: #232D33;
+    --ink: #F2E9D8;
+    --ink-soft: #A9B0AC;
+    --amber: #B8823B;
+    --amber-deep: #D29A4C;
+    --jade: #5C7A72;
+    --border-tint: rgba(242,233,216,0.12);
+    --border-tint-soft: rgba(242,233,216,0.16);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 17px;
+    line-height: 1.65;
+  }
+
+  .wrap {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  header.hero {
+    padding: 64px 0 40px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .moon {
+    position: absolute;
+    top: -40px;
+    right: -60px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 35%, var(--amber) 0%, var(--amber-deep) 55%, transparent 78%);
+    opacity: 0.9;
+    box-shadow: 0 0 70px 24px var(--amber-soft);
+  }
+
+  h1 {
+    font-weight: 700;
+    font-size: clamp(32px, 6vw, 48px);
+    line-height: 1.15;
+    margin: 0 0 20px;
+    color: var(--ink);
+  }
+
+  .lede {
+    font-size: 19px;
+    color: var(--ink-soft);
+    max-width: 52ch;
+  }
+
+  .cta-card {
+    background: var(--paper-deep);
+    color: var(--ink);
+    border-radius: 4px;
+    padding: 28px 30px;
+    margin: 36px 0;
+    border: 1px solid var(--border-tint);
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .cta-card p { margin: 0; font-size: 16px; color: var(--ink-soft); }
+  .cta-btn {
+    display: inline-block;
+    background: var(--amber);
+    color: var(--paper);
+    font-weight: 600;
+    text-decoration: none;
+    padding: 13px 22px;
+    border-radius: 3px;
+    width: fit-content;
+    transition: background 0.15s ease;
+  }
+  .cta-btn:hover { background: var(--amber-deep); color: var(--paper); }
+  .cta-btn:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
+
+  article h2 {
+    font-weight: 700;
+    font-size: 27px;
+    margin: 44px 0 14px;
+    color: var(--ink);
+  }
+  article p { margin: 0 0 18px; max-width: 66ch; }
+
+  .signs { list-style: none; padding: 0; margin: 20px 0 28px; border-left: 3px solid var(--amber); }
+  .signs li { padding: 6px 0 6px 18px; color: var(--ink-soft); }
+
+  .faq { margin-top: 56px; padding-top: 8px; border-top: 1px solid var(--border-tint-soft); }
+  .faq h3 { font-size: 19px; margin: 26px 0 6px; }
+  .faq p { color: var(--ink-soft); font-size: 16px; }
+
+  .final-cta {
+    margin: 64px 0 0;
+    padding: 40px 32px;
+    background: var(--paper-deep);
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+  }
+  .final-cta::before {
+    content: "";
+    position: absolute; top: -50px; right: -30px; width: 150px; height: 150px;
+    border-radius: 50%;
+    background: radial-gradient(circle, var(--amber) 0%, transparent 72%);
+    opacity: 0.3; pointer-events: none;
+  }
+  .final-cta h2, .final-cta p, .final-cta .btn-row { position: relative; }
+  .final-cta h2 { font-weight: 700; font-size: 26px; margin: 0 0 12px; }
+  .final-cta p { margin: 0 0 26px; color: var(--ink-soft); max-width: 52ch; }
+  .final-cta .btn-row { display: flex; flex-wrap: wrap; gap: 14px; }
+  .btn-outline {
+    display: inline-block; padding: 12px 20px; border-radius: 3px; text-decoration: none;
+    font-weight: 600; color: var(--ink); border: 1.5px solid var(--ink-soft);
+    transition: background 0.15s ease, color 0.15s ease;
+  }
+  .btn-outline:hover { background: var(--ink); color: var(--paper); }
+
+  .related { margin-top: 56px; padding-top: 8px; border-top: 1px solid var(--border-tint-soft); }
+  .related h2 { font-weight: 700; font-size: 22px; margin: 0 0 18px; color: var(--ink); }
+  .related-grid { display: grid; gap: 14px; }
+  @media (min-width: 560px) { .related-grid { grid-template-columns: 1fr 1fr; } }
+  .related-item {
+    display: block; padding: 18px 20px; background: var(--paper-deep); border-radius: 4px;
+    border: 1px solid var(--border-tint); text-decoration: none; color: inherit;
+    transition: background 0.15s ease, border-color 0.15s ease;
+  }
+  .related-item:hover, .related-item:focus-visible { background: var(--amber); border-color: var(--amber); }
+  .related-item:hover .related-title, .related-item:hover p,
+  .related-item:focus-visible .related-title, .related-item:focus-visible p { color: var(--paper); }
+  .related-title {
+    display: block; color: var(--ink); font-weight: 600; text-decoration: underline;
+    text-underline-offset: 3px; font-size: 17px;
+  }
+  .related-item p { margin: 6px 0 0; color: var(--ink-soft); font-size: 14px; }
+
+  .breadcrumb { font-size: 14px; color: var(--ink-soft); margin: 0 0 18px; }
+  .breadcrumb a { color: var(--amber-deep); text-decoration: none; }
+  .breadcrumb a:hover { text-decoration: underline; }
+
+  .wrap { padding-bottom: 48px; }
+
+  @media (max-width: 480px) {
+    .moon { width: 130px; height: 130px; top: -20px; right: -36px; opacity: 0.75; }
+    body { font-size: 16px; }
+    h1 { max-width: none; font-size: 30px; }
+  }
+
+  /* === tb: theme + language switcher === */
+  :root { --amber-soft: rgba(184,130,59,0.28); --glow: rgba(184,130,59,0.22); color-scheme: dark; }
+  :root[data-theme="light"] {
+    --paper: #F1E9D4; --paper-deep: #FAF7E8; --ink: #2A251F; --ink-soft: #6A5D47;
+    --amber: #8A5E2D; --amber-deep: #6E4A20;
+    --border-tint: rgba(42,37,31,0.16); --amber-soft: rgba(138,94,45,0.35); --glow: rgba(138,94,45,0.18);
+    color-scheme: light;
+  }
+  :root[data-theme="light"] .moon { background: radial-gradient(circle at 35% 35%, #F6CF7E 0%, #E6A94C 55%, transparent 78%); opacity: 0.8; box-shadow: 0 0 70px 24px rgba(230,169,76,0.35); }
+  .tb-bar { display:flex; justify-content:flex-end; gap:8px; padding:16px 0 0; position:relative; z-index:5; }
+  .tb-bar a, .tb-bar button {
+    font: 600 14px/1 -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    min-width:46px; height:38px; padding:0 14px; border-radius:8px;
+    border:1px solid var(--border-tint); background:var(--paper-deep); color:var(--ink-soft);
+    text-decoration:none; display:inline-flex; align-items:center; justify-content:center; cursor:pointer;
+  }
+  .tb-bar a:hover, .tb-bar button:hover { border-color:var(--amber); color:var(--ink); }
+  .tb-bar .on { background:var(--amber); border-color:var(--amber); color:var(--paper); }
+  .tb-bar .on:hover { color:var(--paper); }
+
+  /* === tb: hub lists === */
+  .hub-group { margin-top: 28px; }
+  .hub-group h3 { font-size: 18px; margin: 0 0 12px; color: var(--ink); font-weight: 700; }
+  .hub-links { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+  @media (min-width: 560px) { .hub-links { grid-template-columns: 1fr 1fr; } }
+  .hub-links a { display: block; padding: 12px 14px; background: var(--paper-deep); border: 1px solid var(--border-tint);
+    border-radius: 4px; text-decoration: none; color: var(--ink); font-weight: 600; font-size: 15px; line-height: 1.35;
+    transition: background 0.15s ease, border-color 0.15s ease; }
+  .hub-links a small { display: block; font-weight: 400; color: var(--ink-soft); font-size: 13px; margin-top: 3px; }
+  .hub-links a:hover, .hub-links a:focus-visible { background: var(--amber); border-color: var(--amber); color: var(--paper); }
+  .hub-links a:hover small, .hub-links a:focus-visible small { color: var(--paper); }
+  .hub-note { color: var(--ink-soft); font-size: 15px; margin: 0 0 6px; }
+</style>
+
+<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+<script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body>
+
+<div class="wrap">
+<div class="tb-bar" role="navigation" aria-label="Мова / Язык"><a class="on" href="/kompas-sostoyaniya.html" hreflang="ru" lang="ru" aria-current="true">RU</a><a href="/uk-index.html" hreflang="uk" lang="uk">UK</a><button type="button" id="tb-theme"></button></div>
+
+  <header class="hero">
+    <div class="moon" aria-hidden="true"></div>
+    <h1>Компас состояния: чек-ин самочувствия и одно действие на сегодня</h1>
+    <p class="lede">Десять коротких вопросов, честный результат и одно небольшое действие. Компас состояния показывает, как ты на самом деле, а не «нормально».</p>
+  </header>
+
+  <article>
+    <p>Мы привыкли отвечать «нормально», даже когда сон разваливается, энергия на нуле, а внутри натянута струна. Компас состояния в Tea Bro задаёт десять конкретных вопросов и превращает ответы в понятную картину: где ты сейчас по энергии, настроению, напряжению, тревожности, усталости, сну, концентрации, желанию общаться, мотивации и внутреннему спокойствию.</p>
+    <p>К результату прилагается одно конкретное действие на сегодня. Не список из двадцати советов, а шаг, который можно сделать даже на слабой энергии. Всё это работает прямо в Telegram, без отдельного приложения.</p>
+
+    <h2>Что оценивает чек-ин самочувствия</h2>
+    <ul class="signs">
+      <li>Энергия и усталость</li>
+      <li>Настроение и внутреннее спокойствие</li>
+      <li>Напряжение и тревожность</li>
+      <li>Качество сна</li>
+      <li>Концентрация и мотивация</li>
+      <li>Желание общаться</li>
+    </ul>
+    <p>Все ответы выстроены так, что больше значит лучше, поэтому результат читается без путаницы. Итоговые проценты сглаживаются по последним трём чек-инам, и картина не прыгает от одного плохого дня.</p>
+
+    <div class="cta-card">
+      <p>Десять коротких вопросов, честный результат и одно конкретное действие на сегодня. Бесплатно, в Telegram.</p>
+      <a class="cta-btn" href="http://t.me/TeaBroLifeBot/TeaBro" target="_blank" rel="noopener">Открыть Компас состояния</a>
+    </div>
+
+    <h2>Чек-ин, действие и динамика</h2>
+    <p>После каждого чек-ина ты видишь общий уровень (тяжело, средне, ровно или на подъёме), короткое объяснение сочетаний показателей и одно действие из шести направлений: восстановление, разгрузка, спокойствие, энергия, концентрация или пауза.</p>
+    <p>Если одно направление повторяется, приложение предложит челлендж по нему. Результаты — ориентиры, а не медицинская консультация: при затяжном тяжёлом состоянии обратись к специалисту.</p>
+  </article>
+
+  <section class="faq">
+    <h3>Сколько занимает чек-ин в Компасе состояния?</h3>
+    <p>Около минуты: десять коротких вопросов с готовыми вариантами ответа.</p>
+    <h3>Нужно ли ждать несколько тестов, чтобы увидеть статистику?</h3>
+    <p>Нет. Результат появляется уже после первого чек-ина, а с накоплением данных картина становится устойчивее.</p>
+    <h3>Компас состояния бесплатный?</h3>
+    <p>Да, чек-ин доступен в Telegram-боте Tea Bro бесплатно, отдельная регистрация не нужна.</p>
+  </section>
+
+  <section class="final-cta">
+    <h2>Попробуй Компас состояния</h2>
+    <p>Десять коротких вопросов, честный результат и одно конкретное действие на сегодня. Бесплатно, в Telegram.</p>
+    <div class="btn-row">
+      <a class="cta-btn" href="http://t.me/TeaBroLifeBot/TeaBro" target="_blank" rel="noopener" style="width:100%;box-sizing:border-box;text-align:center;">Открыть Компас состояния</a>
+      <a class="btn-outline" href="https://t.me/TeaBroLife" target="_blank" rel="noopener" style="width:100%;box-sizing:border-box;text-align:center;color:var(--amber-deep);border-color:var(--amber-deep);">Заглянуть в чайное пространство</a>
+    </div>
+  </section>
+
+  <section class="related">
+    <h2>Все материалы раздела</h2>
+    <div class="hub-group">
+      <h3>Разбираемся в теме</h3>
+    <ul class="hub-links">
+      <li><a href="kak-ponyat-svoyo-sostoyanie-za-minutu.html">Как понять своё состояние за минуту<small>Десять конкретных вопросов вместо «нормально»: чек-ин самочувствия на минуту.</small></a></li>
+      <li><a href="ezhednevny-chek-in-samochuvstviya.html">Ежедневный чек-ин самочувствия<small>Зачем оценивать самочувствие каждый день и как встроить чек-ин в привычный ритм.</small></a></li>
+      <li><a href="kak-izmerit-trevozhnost-i-napryazhenie.html">Как оценить тревожность и напряжение<small>Тревожность и напряжение: чем отличаются и как замечать их без самодиагноза.</small></a></li>
+      <li><a href="kak-otsenit-son-i-energiyu-bez-priborov.html">Как оценить сон и энергию без приборов<small>Простые вопросы к себе вместо гаджетов: сон, энергия, концентрация.</small></a></li>
+      <li><a href="vnutrennee-spokoystvie-kak-zametit.html">Внутреннее спокойствие: как заметить<small>Как заметить изменения внутреннего спокойствия и что на него влияет.</small></a></li>
+    </ul>
+    </div>
+    <div class="hub-group">
+      <h3>Как это работает в Tea Bro</h3>
+    <ul class="hub-links">
+      <li><a href="kompas-sostoyaniya-v-telegram.html">Компас состояния в Telegram<small>Чек-ин самочувствия внутри Telegram: как он работает и что получаешь сразу.</small></a></li>
+      <li><a href="odno-deystvie-na-segodnya.html">Одно действие на сегодня<small>Как Компас выбирает одно действие из шести направлений и зачем это нужно.</small></a></li>
+      <li><a href="statistika-samochuvstviya-po-chek-inam.html">Статистика самочувствия по чек-инам<small>Как считается сглаженная статистика самочувствия и как её читать.</small></a></li>
+      <li><a href="kompas-i-chay-kak-svyazat.html">Компас и чай: как связать<small>Как связать чек-ин самочувствия и выбор чая в один простой ритуал.</small></a></li>
+      <li><a href="kompas-bez-obeshchaniy-chestny-podhod.html">Почему Компас не обещает результат<small>Почему честнее не обещать результата и как относиться к ориентирам.</small></a></li>
+    </ul>
+    </div>
+  </section>
+
+  <section class="related">
+    <h2>Ещё про чай</h2>
+    <div class="related-grid">
+      <a class="related-item" href="chay-po-sostoyaniyu-podbor-v-tea-bro.html">
+        <span class="related-title">Чай по состоянию: подбор в Tea Bro</span>
+        <p>Пять вопросов, шесть типов чая: как бот подбирает чай под твоё состояние.</p>
+      </a>
+      <a class="related-item" href="chay-pri-trevoge-kakoy-vybrat.html">
+        <span class="related-title">Чай при тревоге: какой выбрать</span>
+        <p>Какой чай выбрать в тревожные дни, как влияет кофеин и при чём ритуал.</p>
+      </a>
+      <a class="related-item" href="chay-pri-ustalosti-kakoy-vybrat.html">
+        <span class="related-title">Чай при усталости: какой выбрать</span>
+        <p>Какой чай выбрать при усталости и как не перейти границу кофеина.</p>
+      </a>
+      <a class="related-item" href="kak-vybrat-chay-pod-nastroenie.html">
+        <span class="related-title">Чай под настроение</span>
+        <p>Как выбирать чай исходя из текущего состояния, а не только по привычному вкусу.</p>
+      </a>
+    </div>
+  </section>
+
+  <section class="related">
+    <h2>Смежные разделы</h2>
+    <div class="related-grid">
+      <a class="related-item" href="kakoy-chay-test.html">
+        <span class="related-title">Всё о чае и чайный тест</span>
+        <p>Виды чая, гунфу, заваривание и подбор чая по состоянию: 40 материалов и тест.</p>
+      </a>
+      <a class="related-item" href="dnevnik-sostoyaniy-ritm-zhizni.html">
+        <span class="related-title">Дневник состояний — ритм жизни</span>
+        <p>Отмечай состояние каждый день и смотри, куда на самом деле движется жизнь.</p>
+      </a>
+      <a class="related-item" href="chellendzhi-10-20-30-dney.html">
+        <span class="related-title">Челленджи на 10, 20 и 30 дней</span>
+        <p>Небольшие ежедневные ритуалы: спокойствие, энергия, дыхание, гунфу-чаепитие.</p>
+      </a>
+      <a class="related-item" href="vygoranie-test.html">
+        <span class="related-title">Тест на выгорание</span>
+        <p>Усталость проходит после выходных. Выгорание — нет. Узнай свою точку сборки.</p>
+      </a>
+    </div>
+  </section>
+
+  <div style="text-align:center;margin-top:40px;">
+    <a class="btn-outline" href="index.html" style="display:inline-block;padding:12px 28px;">← На главную</a>
+  </div>
+
+</div>
+
+  <footer style="max-width:640px;margin:40px auto 0;padding:20px 16px 32px;text-align:center;border-top:1px solid var(--border-tint);font-size:14px;color:var(--ink-soft);">
+    <a href="https://teabro-app.vercel.app" target="_blank" rel="noopener" style="color:var(--amber-deep);text-decoration:none;">Tea Bro — веб-версия</a>
+    &nbsp;·&nbsp;
+    <a href="https://t.me/TeaBroLife" target="_blank" rel="noopener" style="color:var(--amber-deep);text-decoration:none;">Telegram-канал</a>
+  </footer>
+<script>
+(function(){var b=document.getElementById('tb-theme');if(!b)return;var r=document.documentElement;
+function s(t){r.setAttribute('data-theme',t);b.textContent=t==='light'?'\uD83C\uDF19':'\u2600\uFE0F';try{localStorage.setItem('tb-theme',t)}catch(e){}}
+b.setAttribute('aria-label','Переключить тему');s(r.getAttribute('data-theme')==='light'?'light':'dark');
+b.addEventListener('click',function(){s(r.getAttribute('data-theme')==='light'?'dark':'light')});})();
+</script>
+</body>
+</html>

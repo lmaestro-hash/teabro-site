@@ -325,6 +325,19 @@
   .tb-bar a:hover, .tb-bar button:hover { border-color:var(--amber); color:var(--ink); }
   .tb-bar .on { background:var(--amber); border-color:var(--amber); color:var(--paper); }
   .tb-bar .on:hover { color:var(--paper); }
+
+  /* === tb: hub lists === */
+  .hub-group { margin-top: 28px; }
+  .hub-group h3 { font-size: 18px; margin: 0 0 12px; color: var(--ink); font-weight: 700; }
+  .hub-links { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+  @media (min-width: 560px) { .hub-links { grid-template-columns: 1fr 1fr; } }
+  .hub-links a { display: block; padding: 12px 14px; background: var(--paper-deep); border: 1px solid var(--border-tint);
+    border-radius: 4px; text-decoration: none; color: var(--ink); font-weight: 600; font-size: 15px; line-height: 1.35;
+    transition: background 0.15s ease, border-color 0.15s ease; }
+  .hub-links a small { display: block; font-weight: 400; color: var(--ink-soft); font-size: 13px; margin-top: 3px; }
+  .hub-links a:hover, .hub-links a:focus-visible { background: var(--amber); border-color: var(--amber); color: var(--paper); }
+  .hub-links a:hover small, .hub-links a:focus-visible small { color: var(--paper); }
+  .hub-note { color: var(--ink-soft); font-size: 15px; margin: 0 0 6px; }
 </style>
 
 <script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
@@ -333,7 +346,7 @@
 <body>
 
 <div class="wrap">
-<div class="tb-bar" role="navigation" aria-label="Мова / Язык"><a class="on" href="/kakoy-chay-test.html" hreflang="ru" lang="ru" aria-current="true">RU</a><a href="/uk/" hreflang="uk" lang="uk">UK</a><button type="button" id="tb-theme"></button></div>
+<div class="tb-bar" role="navigation" aria-label="Мова / Язык"><a class="on" href="/kakoy-chay-test.html" hreflang="ru" lang="ru" aria-current="true">RU</a><a href="/uk-index.html" hreflang="uk" lang="uk">UK</a><button type="button" id="tb-theme"></button></div>
 
 
   <header class="hero">
@@ -418,26 +431,91 @@
   </section>
 
   <section class="related">
-    <h2>Смежные тесты</h2>
+    <h2>Все материалы о чае</h2>
+    <div class="hub-group">
+      <h3>Виды чая</h3>
+    <ul class="hub-links">
+      <li><a href="shu-puer-kak-zavarivat.html">Шу пуэр: как заваривать<small>Что такое шу пуэр, как его заваривать и когда пить: температура, проливы, вкус.</small></a></li>
+      <li><a href="sheng-puer-dlya-nachinayushchih.html">Шэн пуэр для начинающих<small>Сырой пуэр без горечи: температура, время, доза и типичные ошибки новичка.</small></a></li>
+      <li><a href="shu-i-sheng-puer-raznitsa.html">Шу и шэн пуэр: разница<small>Обработка, вкус, заварка и хранение: как выбрать между шу и шэн.</small></a></li>
+      <li><a href="bely-chay-kak-zavarivat.html">Белый чай: как заваривать<small>Виды белого чая, температура, время и проливы: без горечи и разочарований.</small></a></li>
+      <li><a href="te-guan-in-chto-eto-i-kak-zavarivat.html">Те Гуань Инь: что это и как заваривать<small>Знаменитый улун из Аньси: светлый и обжаренный стили, заварка, проливы.</small></a></li>
+      <li><a href="da-hun-pao-chto-eto-za-chay.html">Да Хун Пао: что это за чай<small>Скальный улун из Уишаня: вкус, заварка и как выбрать настоящий.</small></a></li>
+      <li><a href="gaba-ulun-chto-eto-za-chay.html">Габа улун: что это за чай<small>Улун с необычной обработкой: вкус, заварка и честный взгляд на «эффекты».</small></a></li>
+      <li><a href="ulun-vidy-chaya.html">Улун: виды чая<small>Светлые и обжаренные улуны: вкусы, названия и как не запутаться.</small></a></li>
+      <li><a href="chyorny-i-krasny-chay-raznitsa.html">Чёрный и красный чай: разница<small>Почему «чёрный» в России — это «красный» в Китае, и при чём тут пуэр.</small></a></li>
+      <li><a href="travyanoy-chay-vs-klassicheskiy.html">Травяной vs классический чай<small>Смежный разбор разницы между настоящим чаем и травяными сборами.</small></a></li>
+    </ul>
+    </div>
+    <div class="hub-group">
+      <h3>Заваривание, вода и посуда</h3>
+    <ul class="hub-links">
+      <li><a href="gunfu-cha-dlya-nachinayushchih.html">Гунфу-ча для начинающих<small>Что такое гунфу-ча и как начать дома: посуда, шаги, ошибки.</small></a></li>
+      <li><a href="temperatura-vody-dlya-chaya.html">Температура воды для чая<small>Таблица температур по видам чая и способы понять нагрев воды без термометра.</small></a></li>
+      <li><a href="skolko-raz-zavarivat-chay-prolivy.html">Сколько раз заваривать чай<small>Сколько проливов даёт каждый вид чая и как понять, что лист отработал.</small></a></li>
+      <li><a href="proportsii-chaya-i-vody-gunfu.html">Пропорции чая и воды<small>Сколько граммов чая на гайвань, чайник и кружку и как менять дозу.</small></a></li>
+      <li><a href="posuda-dlya-gunfu-chto-nuzhno.html">Посуда для гунфу-ча<small>Минимальный набор для гунфу: гайвань, пиалы, чахай и что можно не покупать.</small></a></li>
+      <li><a href="voda-dlya-chaya-kakaya-luchshe.html">Вода для чая: какая лучше<small>Какая вода подходит для чая: жёсткость, минерализация, фильтр, проверка дома.</small></a></li>
+      <li><a href="kak-hranit-chay-doma.html">Как хранить чай дома<small>Как хранить разные виды чая: посуда, место, сроки и ошибки.</small></a></li>
+      <li><a href="kak-zavarivat-chay-pravilno.html">Как заваривать чай<small>Температура и время заваривания по видам чая.</small></a></li>
+      <li><a href="minimalny-chayny-nabor.html">Минимальный чайный набор<small>Что реально нужно для заваривания дома, а на чём можно сэкономить.</small></a></li>
+      <li><a href="mify-o-chae.html">Мифы о чае<small>Разбираем громкие утверждения о пользе и вреде чая.</small></a></li>
+    </ul>
+    </div>
+    <div class="hub-group">
+      <h3>Чай и состояние</h3>
+    <ul class="hub-links">
+      <li><a href="chay-pri-trevoge-kakoy-vybrat.html">Чай при тревоге: какой выбрать<small>Какой чай выбрать в тревожные дни, как влияет кофеин и при чём ритуал.</small></a></li>
+      <li><a href="chay-pri-ustalosti-kakoy-vybrat.html">Чай при усталости: какой выбрать<small>Какой чай выбрать при усталости и как не перейти границу кофеина.</small></a></li>
+      <li><a href="kofein-v-chae-skolko.html">Кофеин в чае: сколько<small>Сколько кофеина в чае, от чего оно зависит и как пить чай, не мешая сну.</small></a></li>
+      <li><a href="teanin-v-chae.html">Теанин в чае<small>L-теанин и чай: что известно, что преувеличивают и как это связано с бодростью.</small></a></li>
+      <li><a href="chay-utrom-ili-vecherom.html">Чай утром или вечером<small>Какой чай пить утром, днём и вечером и почему время важно.</small></a></li>
+      <li><a href="chay-vmesto-kofe.html">Чай вместо кофе<small>Энергия без резких скачков — ещё один практический разбор.</small></a></li>
+      <li><a href="chay-pered-snom-mif-ili-pravda.html">Чай перед сном<small>Более подробный разбор мифа про чай для сна.</small></a></li>
+      <li><a href="chay-i-kontsentratsiya.html">Чай и концентрация<small>Какие сорта чая реально помогают сосредоточиться — и почему дело не только в кофеине.</small></a></li>
+      <li><a href="kak-vybrat-chay-pod-nastroenie.html">Чай под настроение<small>Как выбирать чай исходя из текущего состояния, а не только по привычному вкусу.</small></a></li>
+      <li><a href="kak-chitat-telo-cherez-vybor-napitka.html">Читать тело через напиток<small>Как замечать сигналы тела через то, к какому напитку тянет в разное время.</small></a></li>
+    </ul>
+    </div>
+    <div class="hub-group">
+      <h3>Ритуал, практика и Tea Bro</h3>
+    <ul class="hub-links">
+      <li><a href="chay-po-sostoyaniyu-podbor-v-tea-bro.html">Чай по состоянию: подбор в Tea Bro<small>Пять вопросов, шесть типов чая: как бот подбирает чай под твоё состояние.</small></a></li>
+      <li><a href="chasovoe-chaepitie-kak-praktika.html">Часовое чаепитие как практика<small>Как провести час с чаем так, чтобы он стал практикой внимания.</small></a></li>
+      <li><a href="chayny-dnevnik-kak-vesti.html">Чайный дневник: как вести<small>Что записывать в чайный дневник и как найти закономерности за две недели.</small></a></li>
+      <li><a href="chay-na-podarok-kak-vybrat.html">Чай на подарок: как выбрать<small>Как выбрать чай на подарок, если не знаешь вкуса, и что положить в набор.</small></a></li>
+      <li><a href="chaynaya-tseremoniya-doma.html">Чайная церемония дома<small>Как устроить простую чайную церемонию дома без специального инвентаря.</small></a></li>
+      <li><a href="ritual-zavarivaniya-nervnaya-sistema.html">Ритуал заваривания<small>Как сам процесс заваривания влияет на состояние, а не только результат.</small></a></li>
+      <li><a href="istoriya-chaynyh-traditsiy-ritual.html">История чайных традиций<small>Почему осознанный ритуал даёт больше пользы, чем механическая привычка.</small></a></li>
+      <li><a href="chay-i-meditatsiya-sochetanie.html">Чай и медитация<small>Как чайный ритуал и короткая медитация вместе помогают начать практику без сложных техник.</small></a></li>
+      <li><a href="ohlazhdayushchie-chai-na-leto.html">Охлаждающие чаи<small>Практический разбор чая под конкретную задачу.</small></a></li>
+      <li><a href="sogrevayushchie-chai-zimoy.html">Согревающие чаи зимой<small>Почему пряные согревающие чаи зимой работают не только на уровне вкуса.</small></a></li>
+    </ul>
+    </div>
+  </section>
+
+  <section class="related">
+    <h2>Смежные разделы</h2>
     <div class="related-grid">
-      <a class="related-item" href="vygoranie-test.html">
-        <span class="related-title">Тест на выгорание</span>
-        <p>Усталость проходит после выходных. Выгорание — нет. Узнай свою точку сборки.</p>
+      <a class="related-item" href="nastavleniya-po-meditatsii.html">
+        <span class="related-title">Наставления по медитации</span>
+        <p>Осознанное дыхание, подбор практики и совет дня: шаг за шагом.</p>
       </a>
-      <a class="related-item" href="gormonalny-kod-test.html">
-        <span class="related-title">Тест на гормональный тип</span>
-        <p>Дофамин, серотонин, окситоцин или кортизол — какой из них сейчас рулит твоим поведением.</p>
+      <a class="related-item" href="chellendzhi-10-20-30-dney.html">
+        <span class="related-title">Челленджи на 10, 20 и 30 дней</span>
+        <p>Небольшие ежедневные ритуалы: спокойствие, энергия, дыхание, гунфу-чаепитие.</p>
       </a>
-      <a class="related-item" href="samoobman-test.html">
-        <span class="related-title">Тест на самообман</span>
-        <p>«Да ладно, всё нормально» — частая фраза перед тем, как что-то идёт не так. Узнай своё слепое пятно.</p>
+      <a class="related-item" href="kompas-sostoyaniya.html">
+        <span class="related-title">Компас состояния</span>
+        <p>Ежедневный чек-ин по 10 показателям и одно конкретное действие на сегодня.</p>
       </a>
-      <a class="related-item" href="meditaciya-test.html">
-        <span class="related-title">Тест на медитативную практику</span>
-        <p>Медитация не работает не потому, что ты не умеешь. Просто практика не та.</p>
+      <a class="related-item" href="dnevnik-sostoyaniy-ritm-zhizni.html">
+        <span class="related-title">Дневник состояний — ритм жизни</span>
+        <p>Отмечай состояние каждый день и смотри, куда на самом деле движется жизнь.</p>
       </a>
     </div>
   </section>
+
 
 </div>
 

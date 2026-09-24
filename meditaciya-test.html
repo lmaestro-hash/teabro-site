@@ -325,6 +325,19 @@
   .tb-bar a:hover, .tb-bar button:hover { border-color:var(--amber); color:var(--ink); }
   .tb-bar .on { background:var(--amber); border-color:var(--amber); color:var(--paper); }
   .tb-bar .on:hover { color:var(--paper); }
+
+  /* === tb: hub lists === */
+  .hub-group { margin-top: 28px; }
+  .hub-group h3 { font-size: 18px; margin: 0 0 12px; color: var(--ink); font-weight: 700; }
+  .hub-links { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+  @media (min-width: 560px) { .hub-links { grid-template-columns: 1fr 1fr; } }
+  .hub-links a { display: block; padding: 12px 14px; background: var(--paper-deep); border: 1px solid var(--border-tint);
+    border-radius: 4px; text-decoration: none; color: var(--ink); font-weight: 600; font-size: 15px; line-height: 1.35;
+    transition: background 0.15s ease, border-color 0.15s ease; }
+  .hub-links a small { display: block; font-weight: 400; color: var(--ink-soft); font-size: 13px; margin-top: 3px; }
+  .hub-links a:hover, .hub-links a:focus-visible { background: var(--amber); border-color: var(--amber); color: var(--paper); }
+  .hub-links a:hover small, .hub-links a:focus-visible small { color: var(--paper); }
+  .hub-note { color: var(--ink-soft); font-size: 15px; margin: 0 0 6px; }
 </style>
 
 <script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
@@ -333,7 +346,7 @@
 <body>
 
 <div class="wrap">
-<div class="tb-bar" role="navigation" aria-label="Мова / Язык"><a class="on" href="/meditaciya-test.html" hreflang="ru" lang="ru" aria-current="true">RU</a><a href="/uk/" hreflang="uk" lang="uk">UK</a><button type="button" id="tb-theme"></button></div>
+<div class="tb-bar" role="navigation" aria-label="Мова / Язык"><a class="on" href="/meditaciya-test.html" hreflang="ru" lang="ru" aria-current="true">RU</a><a href="/uk-index.html" hreflang="uk" lang="uk">UK</a><button type="button" id="tb-theme"></button></div>
 
 
   <header class="hero">
@@ -418,26 +431,73 @@
   </section>
 
   <section class="related">
-    <h2>Смежные тесты</h2>
+    <h2>Все статьи раздела</h2>
+    <div class="hub-group">
+      <h3>15 материалов раздела</h3>
+    <ul class="hub-links">
+      <li><a href="dyhatelnye-praktiki-za-3-minuty.html">Дыхание за 3 минуты<small>Конкретная короткая практика для старта.</small></a></li>
+      <li><a href="meditatsiya-dlya-skeptikov-nauka.html">Медитация для скептиков<small>Что реально говорит наука о влиянии медитации на мозг и психику.</small></a></li>
+      <li><a href="meditatsiya-dlya-tekh-kto-ne-mozhet-sidet.html">Медитация для непосед<small>Альтернативные формы медитативной практики для тех, кому сидячая версия не подходит.</small></a></li>
+      <li><a href="meditatsiya-i-son-vechernie-praktiki.html">Медитация и сон<small>Вечерние практики для тех, кому мешает уснуть постоянный поток мыслей перед сном.</small></a></li>
+      <li><a href="meditatsiya-i-trevozhnye-mysli.html">Медитация и тревожные мысли<small>Что делать, когда в голове особенно шумно.</small></a></li>
+      <li><a href="meditatsiya-na-rabochem-meste.html">Медитация на рабочем месте<small>Похожий подход — короткие практики в условиях без тишины.</small></a></li>
+      <li><a href="meditatsiya-protiv-ruminatsii.html">Медитация против руминации<small>Как медитативные практики помогают справиться с навязчивым прокручиванием мыслей.</small></a></li>
+      <li><a href="meditatsiya-s-detmi-v-dome.html">Медитация с детьми в доме<small>Практики, устойчивые к постоянным прерываниям.</small></a></li>
+      <li><a href="mikropraktiki-zamechaniya-bez-20-minut.html">Микро-практики замечания<small>Короткие практики осознанности на 30-60 секунд для плотного графика.</small></a></li>
+      <li><a href="osoznannost-v-bytu-bez-kovrika.html">Осознанность в быту<small>Как практиковать осознанность в обычных бытовых делах без специальных условий.</small></a></li>
+      <li><a href="pochemu-meditatsiya-ne-rabotaet-srazu.html">Почему не работает сразу<small>Почему первые попытки медитации часто разочаровывают — и почему это нормально.</small></a></li>
+      <li><a href="praktiki-zazemleniya-pri-trevoge.html">Практики заземления<small>Ещё один вид практики для конкретного состояния.</small></a></li>
+      <li><a href="raznitsa-meditatsiya-i-otdyh.html">Медитация vs отдых<small>Чем медитация принципиально отличается от обычного отдыха с разным эффектом.</small></a></li>
+      <li><a href="s-chego-nachat-meditatsiyu.html">С чего начать медитацию<small>Пошаговый план для тех, кто пробует практику впервые.</small></a></li>
+      <li><a href="vidy-meditatsii-raznitsa.html">Виды медитации<small>Как выбрать практику под конкретное состояние.</small></a></li>
+    </ul>
+    </div>
+  </section>
+
+  <section class="related">
+    <h2>Ещё про чай</h2>
     <div class="related-grid">
-      <a class="related-item" href="vygoranie-test.html">
-        <span class="related-title">Тест на выгорание</span>
-        <p>Усталость проходит после выходных. Выгорание — нет. Узнай свою точку сборки.</p>
+      <a class="related-item" href="chasovoe-chaepitie-kak-praktika.html">
+        <span class="related-title">Часовое чаепитие как практика</span>
+        <p>Как провести час с чаем так, чтобы он стал практикой внимания.</p>
       </a>
-      <a class="related-item" href="gormonalny-kod-test.html">
-        <span class="related-title">Тест на гормональный тип</span>
-        <p>Дофамин, серотонин, окситоцин или кортизол — какой из них сейчас рулит твоим поведением.</p>
+      <a class="related-item" href="chay-i-meditatsiya-sochetanie.html">
+        <span class="related-title">Чай и медитация</span>
+        <p>Как чайный ритуал и короткая медитация вместе помогают начать практику без сложных техник.</p>
       </a>
-      <a class="related-item" href="samoobman-test.html">
-        <span class="related-title">Тест на самообман</span>
-        <p>«Да ладно, всё нормально» — частая фраза перед тем, как что-то идёт не так. Узнай своё слепое пятно.</p>
+      <a class="related-item" href="gunfu-cha-dlya-nachinayushchih.html">
+        <span class="related-title">Гунфу-ча для начинающих</span>
+        <p>Что такое гунфу-ча и как начать дома: посуда, шаги, ошибки.</p>
       </a>
-      <a class="related-item" href="kakoy-chay-test.html">
-        <span class="related-title">Чайный тест</span>
-        <p>Подбор чая не по вкусу, а по тому, что тебе сейчас на самом деле нужно.</p>
+      <a class="related-item" href="ritual-zavarivaniya-nervnaya-sistema.html">
+        <span class="related-title">Ритуал заваривания</span>
+        <p>Как сам процесс заваривания влияет на состояние, а не только результат.</p>
       </a>
     </div>
   </section>
+
+  <section class="related">
+    <h2>Смежные разделы</h2>
+    <div class="related-grid">
+      <a class="related-item" href="kakoy-chay-test.html">
+        <span class="related-title">Всё о чае и чайный тест</span>
+        <p>Виды чая, гунфу, заваривание и подбор чая по состоянию: 40 материалов и тест.</p>
+      </a>
+      <a class="related-item" href="nastavleniya-po-meditatsii.html">
+        <span class="related-title">Наставления по медитации</span>
+        <p>Осознанное дыхание, подбор практики и совет дня: шаг за шагом.</p>
+      </a>
+      <a class="related-item" href="chellendzhi-10-20-30-dney.html">
+        <span class="related-title">Челленджи на 10, 20 и 30 дней</span>
+        <p>Небольшие ежедневные ритуалы: спокойствие, энергия, дыхание, гунфу-чаепитие.</p>
+      </a>
+      <a class="related-item" href="kompas-sostoyaniya.html">
+        <span class="related-title">Компас состояния</span>
+        <p>Ежедневный чек-ин по 10 показателям и одно конкретное действие на сегодня.</p>
+      </a>
+    </div>
+  </section>
+
 
 </div>
 

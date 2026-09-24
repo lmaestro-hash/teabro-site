@@ -325,6 +325,19 @@
   .tb-bar a:hover, .tb-bar button:hover { border-color:var(--amber); color:var(--ink); }
   .tb-bar .on { background:var(--amber); border-color:var(--amber); color:var(--paper); }
   .tb-bar .on:hover { color:var(--paper); }
+
+  /* === tb: hub lists === */
+  .hub-group { margin-top: 28px; }
+  .hub-group h3 { font-size: 18px; margin: 0 0 12px; color: var(--ink); font-weight: 700; }
+  .hub-links { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+  @media (min-width: 560px) { .hub-links { grid-template-columns: 1fr 1fr; } }
+  .hub-links a { display: block; padding: 12px 14px; background: var(--paper-deep); border: 1px solid var(--border-tint);
+    border-radius: 4px; text-decoration: none; color: var(--ink); font-weight: 600; font-size: 15px; line-height: 1.35;
+    transition: background 0.15s ease, border-color 0.15s ease; }
+  .hub-links a small { display: block; font-weight: 400; color: var(--ink-soft); font-size: 13px; margin-top: 3px; }
+  .hub-links a:hover, .hub-links a:focus-visible { background: var(--amber); border-color: var(--amber); color: var(--paper); }
+  .hub-links a:hover small, .hub-links a:focus-visible small { color: var(--paper); }
+  .hub-note { color: var(--ink-soft); font-size: 15px; margin: 0 0 6px; }
 </style>
 
 <script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
@@ -333,7 +346,7 @@
 <body>
 
 <div class="wrap">
-<div class="tb-bar" role="navigation" aria-label="Мова / Язык"><a class="on" href="/gormonalny-kod-test.html" hreflang="ru" lang="ru" aria-current="true">RU</a><a href="/uk/" hreflang="uk" lang="uk">UK</a><button type="button" id="tb-theme"></button></div>
+<div class="tb-bar" role="navigation" aria-label="Мова / Язык"><a class="on" href="/gormonalny-kod-test.html" hreflang="ru" lang="ru" aria-current="true">RU</a><a href="/uk-index.html" hreflang="uk" lang="uk">UK</a><button type="button" id="tb-theme"></button></div>
 
 
   <header class="hero">
@@ -418,26 +431,73 @@
   </section>
 
   <section class="related">
-    <h2>Смежные тесты</h2>
+    <h2>Все статьи раздела</h2>
+    <div class="hub-group">
+      <h3>15 материалов раздела</h3>
+    <ul class="hub-links">
+      <li><a href="dofamin-i-prokrastinatsiya.html">Дофамин и прокрастинация<small>Ещё один гормональный механизм, который влияет на продуктивность.</small></a></li>
+      <li><a href="fazy-tsikla-planirovanie.html">Фазы цикла<small>Как энергия и мотивация меняются предсказуемо в течение месяца.</small></a></li>
+      <li><a href="gormonalny-tip-i-chay.html">Гормональный тип и чай<small>Как понимание гормонального состояния помогает выбирать чай по потребности тела.</small></a></li>
+      <li><a href="gormony-i-energiya-vremya-sutok.html">Гормоны и энергия по времени суток<small>Почему у одних людей энергия утром, а у других вечером — гормональная природа хронотипа.</small></a></li>
+      <li><a href="gormony-i-harakter-granitsa.html">Гормоны и характер<small>Где заканчивается черта личности и начинается влияние гормонального фона.</small></a></li>
+      <li><a href="gormony-i-trevoga.html">Гормоны и тревога<small>Физиология внутри состояния «накрутила себя».</small></a></li>
+      <li><a href="kogda-k-endokrinologu.html">Когда к эндокринологу<small>Где проходит граница между самонаблюдением и поводом обратиться к врачу.</small></a></li>
+      <li><a href="kortizol-i-razdrazhitelnost.html">Кортизол и раздражительность<small>Как хронический стресс меняет реакции — и почему это путают с чертой личности.</small></a></li>
+      <li><a href="muzhskie-gormonalnye-tsikly.html">Мужские гормональные циклы<small>У мужчин тоже есть закономерные гормональные колебания — просто другой природы, чем менструальный цикл.</small></a></li>
+      <li><a href="oksitotsin-i-privyazannost.html">Окситоцин и привязанность<small>Ещё один гормон, который незаметно управляет поведением — на этот раз в отношениях.</small></a></li>
+      <li><a href="pitanie-i-gormonalny-fon.html">Питание и гормональный фон<small>Простые изменения в питании, которые поддерживают гормональный баланс без строгих диет.</small></a></li>
+      <li><a href="pms-ili-harakter.html">ПМС или характер<small>Как отличить гормональные качели цикла от устойчивых черт личности.</small></a></li>
+      <li><a href="shchitovidka-i-nastroenie.html">Щитовидная железа и настроение<small>Как гормоны щитовидной железы влияют на настроение сильнее, чем принято думать.</small></a></li>
+      <li><a href="son-i-gormony-harakter.html">Сон и гормоны<small>Почему после недосыпа человек как будто становится другим — гормональный механизм явления.</small></a></li>
+      <li><a href="sport-kak-gormonalny-rychag.html">Спорт и гормоны<small>Как физическая активность меняет гормональный фон и характер.</small></a></li>
+    </ul>
+    </div>
+  </section>
+
+  <section class="related">
+    <h2>Ещё про чай</h2>
     <div class="related-grid">
+      <a class="related-item" href="teanin-v-chae.html">
+        <span class="related-title">Теанин в чае</span>
+        <p>L-теанин и чай: что известно, что преувеличивают и как это связано с бодростью.</p>
+      </a>
+      <a class="related-item" href="kofein-v-chae-skolko.html">
+        <span class="related-title">Кофеин в чае: сколько</span>
+        <p>Сколько кофеина в чае, от чего оно зависит и как пить чай, не мешая сну.</p>
+      </a>
+      <a class="related-item" href="chay-pri-trevoge-kakoy-vybrat.html">
+        <span class="related-title">Чай при тревоге: какой выбрать</span>
+        <p>Какой чай выбрать в тревожные дни, как влияет кофеин и при чём ритуал.</p>
+      </a>
+      <a class="related-item" href="chay-pered-snom-mif-ili-pravda.html">
+        <span class="related-title">Чай перед сном</span>
+        <p>Более подробный разбор мифа про чай для сна.</p>
+      </a>
+    </div>
+  </section>
+
+  <section class="related">
+    <h2>Смежные разделы</h2>
+    <div class="related-grid">
+      <a class="related-item" href="kakoy-chay-test.html">
+        <span class="related-title">Всё о чае и чайный тест</span>
+        <p>Виды чая, гунфу, заваривание и подбор чая по состоянию: 40 материалов и тест.</p>
+      </a>
+      <a class="related-item" href="kompas-sostoyaniya.html">
+        <span class="related-title">Компас состояния</span>
+        <p>Ежедневный чек-ин по 10 показателям и одно конкретное действие на сегодня.</p>
+      </a>
+      <a class="related-item" href="dnevnik-sostoyaniy-ritm-zhizni.html">
+        <span class="related-title">Дневник состояний — ритм жизни</span>
+        <p>Отмечай состояние каждый день и смотри, куда на самом деле движется жизнь.</p>
+      </a>
       <a class="related-item" href="vygoranie-test.html">
         <span class="related-title">Тест на выгорание</span>
         <p>Усталость проходит после выходных. Выгорание — нет. Узнай свою точку сборки.</p>
       </a>
-      <a class="related-item" href="samoobman-test.html">
-        <span class="related-title">Тест на самообман</span>
-        <p>«Да ладно, всё нормально» — частая фраза перед тем, как что-то идёт не так. Узнай своё слепое пятно.</p>
-      </a>
-      <a class="related-item" href="kakoy-chay-test.html">
-        <span class="related-title">Чайный тест</span>
-        <p>Подбор чая не по вкусу, а по тому, что тебе сейчас на самом деле нужно.</p>
-      </a>
-      <a class="related-item" href="meditaciya-test.html">
-        <span class="related-title">Тест на медитативную практику</span>
-        <p>Медитация не работает не потому, что ты не умеешь. Просто практика не та.</p>
-      </a>
     </div>
   </section>
+
 
 </div>
 

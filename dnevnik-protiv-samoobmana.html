@@ -232,6 +232,19 @@
   .tb-bar a:hover, .tb-bar button:hover { border-color:var(--amber); color:var(--ink); }
   .tb-bar .on { background:var(--amber); border-color:var(--amber); color:var(--paper); }
   .tb-bar .on:hover { color:var(--paper); }
+
+  /* === tb: hub lists === */
+  .hub-group { margin-top: 28px; }
+  .hub-group h3 { font-size: 18px; margin: 0 0 12px; color: var(--ink); font-weight: 700; }
+  .hub-links { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+  @media (min-width: 560px) { .hub-links { grid-template-columns: 1fr 1fr; } }
+  .hub-links a { display: block; padding: 12px 14px; background: var(--paper-deep); border: 1px solid var(--border-tint);
+    border-radius: 4px; text-decoration: none; color: var(--ink); font-weight: 600; font-size: 15px; line-height: 1.35;
+    transition: background 0.15s ease, border-color 0.15s ease; }
+  .hub-links a small { display: block; font-weight: 400; color: var(--ink-soft); font-size: 13px; margin-top: 3px; }
+  .hub-links a:hover, .hub-links a:focus-visible { background: var(--amber); border-color: var(--amber); color: var(--paper); }
+  .hub-links a:hover small, .hub-links a:focus-visible small { color: var(--paper); }
+  .hub-note { color: var(--ink-soft); font-size: 15px; margin: 0 0 6px; }
 </style>
 
 <script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
@@ -240,7 +253,7 @@
 <body>
 
 <div class="wrap">
-<div class="tb-bar" role="navigation" aria-label="Мова / Язык"><a class="on" href="/dnevnik-protiv-samoobmana.html" hreflang="ru" lang="ru" aria-current="true">RU</a><a href="/uk/" hreflang="uk" lang="uk">UK</a><button type="button" id="tb-theme"></button></div>
+<div class="tb-bar" role="navigation" aria-label="Мова / Язык"><a class="on" href="/dnevnik-protiv-samoobmana.html" hreflang="ru" lang="ru" aria-current="true">RU</a><a href="/uk-index.html" hreflang="uk" lang="uk">UK</a><button type="button" id="tb-theme"></button></div>
 
 
   <p class="breadcrumb"><a href="samoobman-test.html">Тест на самообман</a> / Дневник против самообмана</p>
@@ -311,26 +324,49 @@
   </section>
 
   <section class="related">
-    <h2>Смежные тесты</h2>
+    <h2>Ещё про чай</h2>
     <div class="related-grid">
+      <a class="related-item" href="ritual-zavarivaniya-nervnaya-sistema.html">
+        <span class="related-title">Ритуал заваривания</span>
+        <p>Как сам процесс заваривания влияет на состояние, а не только результат.</p>
+      </a>
+      <a class="related-item" href="kak-chitat-telo-cherez-vybor-napitka.html">
+        <span class="related-title">Читать тело через напиток</span>
+        <p>Как замечать сигналы тела через то, к какому напитку тянет в разное время.</p>
+      </a>
+      <a class="related-item" href="mify-o-chae.html">
+        <span class="related-title">Мифы о чае</span>
+        <p>Разбираем громкие утверждения о пользе и вреде чая.</p>
+      </a>
+      <a class="related-item" href="chasovoe-chaepitie-kak-praktika.html">
+        <span class="related-title">Часовое чаепитие как практика</span>
+        <p>Как провести час с чаем так, чтобы он стал практикой внимания.</p>
+      </a>
+    </div>
+  </section>
+
+  <section class="related">
+    <h2>Смежные разделы</h2>
+    <div class="related-grid">
+      <a class="related-item" href="kakoy-chay-test.html">
+        <span class="related-title">Всё о чае и чайный тест</span>
+        <p>Виды чая, гунфу, заваривание и подбор чая по состоянию: 40 материалов и тест.</p>
+      </a>
+      <a class="related-item" href="dnevnik-sostoyaniy-ritm-zhizni.html">
+        <span class="related-title">Дневник состояний — ритм жизни</span>
+        <p>Отмечай состояние каждый день и смотри, куда на самом деле движется жизнь.</p>
+      </a>
+      <a class="related-item" href="kompas-sostoyaniya.html">
+        <span class="related-title">Компас состояния</span>
+        <p>Ежедневный чек-ин по 10 показателям и одно конкретное действие на сегодня.</p>
+      </a>
       <a class="related-item" href="vygoranie-test.html">
         <span class="related-title">Тест на выгорание</span>
         <p>Усталость проходит после выходных. Выгорание — нет. Узнай свою точку сборки.</p>
       </a>
-      <a class="related-item" href="gormonalny-kod-test.html">
-        <span class="related-title">Тест на гормональный тип</span>
-        <p>Дофамин, серотонин, окситоцин или кортизол — какой из них сейчас рулит твоим поведением.</p>
-      </a>
-      <a class="related-item" href="kakoy-chay-test.html">
-        <span class="related-title">Чайный тест</span>
-        <p>Подбор чая не по вкусу, а по тому, что тебе сейчас на самом деле нужно.</p>
-      </a>
-      <a class="related-item" href="meditaciya-test.html">
-        <span class="related-title">Тест на медитативную практику</span>
-        <p>Медитация не работает не потому, что ты не умеешь. Просто практика не та.</p>
-      </a>
     </div>
   </section>
+
 
   <div style="text-align:center;margin-top:40px;">
     <a class="btn-outline" href="index.html" style="display:inline-block;padding:12px 28px;">← На главную</a>

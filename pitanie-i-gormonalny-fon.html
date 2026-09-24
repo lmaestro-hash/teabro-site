@@ -297,6 +297,19 @@
   .tb-bar a:hover, .tb-bar button:hover { border-color:var(--amber); color:var(--ink); }
   .tb-bar .on { background:var(--amber); border-color:var(--amber); color:var(--paper); }
   .tb-bar .on:hover { color:var(--paper); }
+
+  /* === tb: hub lists === */
+  .hub-group { margin-top: 28px; }
+  .hub-group h3 { font-size: 18px; margin: 0 0 12px; color: var(--ink); font-weight: 700; }
+  .hub-links { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+  @media (min-width: 560px) { .hub-links { grid-template-columns: 1fr 1fr; } }
+  .hub-links a { display: block; padding: 12px 14px; background: var(--paper-deep); border: 1px solid var(--border-tint);
+    border-radius: 4px; text-decoration: none; color: var(--ink); font-weight: 600; font-size: 15px; line-height: 1.35;
+    transition: background 0.15s ease, border-color 0.15s ease; }
+  .hub-links a small { display: block; font-weight: 400; color: var(--ink-soft); font-size: 13px; margin-top: 3px; }
+  .hub-links a:hover, .hub-links a:focus-visible { background: var(--amber); border-color: var(--amber); color: var(--paper); }
+  .hub-links a:hover small, .hub-links a:focus-visible small { color: var(--paper); }
+  .hub-note { color: var(--ink-soft); font-size: 15px; margin: 0 0 6px; }
 </style>
 
 <script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
@@ -305,7 +318,7 @@
 <body>
 
 <div class="wrap">
-<div class="tb-bar" role="navigation" aria-label="Мова / Язык"><a class="on" href="/pitanie-i-gormonalny-fon.html" hreflang="ru" lang="ru" aria-current="true">RU</a><a href="/uk/" hreflang="uk" lang="uk">UK</a><button type="button" id="tb-theme"></button></div>
+<div class="tb-bar" role="navigation" aria-label="Мова / Язык"><a class="on" href="/pitanie-i-gormonalny-fon.html" hreflang="ru" lang="ru" aria-current="true">RU</a><a href="/uk-index.html" hreflang="uk" lang="uk">UK</a><button type="button" id="tb-theme"></button></div>
 
 
   <p class="breadcrumb"><a href="gormonalny-kod-test.html">Тест на гормональный тип</a> / Питание и гормональный фон</p>
@@ -380,26 +393,49 @@
   </section>
 
   <section class="related">
-    <h2>Смежные тесты</h2>
+    <h2>Ещё про чай</h2>
     <div class="related-grid">
-      <a class="related-item" href="vygoranie-test.html">
-        <span class="related-title">Тест на выгорание</span>
-        <p>Гормональные качели и выгорание часто идут рука об руку — проверь оба состояния сразу.</p>
+      <a class="related-item" href="chay-pri-trevoge-kakoy-vybrat.html">
+        <span class="related-title">Чай при тревоге: какой выбрать</span>
+        <p>Какой чай выбрать в тревожные дни, как влияет кофеин и при чём ритуал.</p>
       </a>
-      <a class="related-item" href="samoobman-test.html">
-        <span class="related-title">Тест на самообман</span>
-        <p>Иногда мы объясняем перепады настроения характером, хотя дело в гормонах, о которых мы не хотим знать.</p>
+      <a class="related-item" href="chay-pered-snom-mif-ili-pravda.html">
+        <span class="related-title">Чай перед сном</span>
+        <p>Более подробный разбор мифа про чай для сна.</p>
       </a>
-      <a class="related-item" href="kakoy-chay-test.html">
-        <span class="related-title">Чайный тест</span>
-        <p>Разные гормональные типы по-разному реагируют на чай — узнай свой.</p>
+      <a class="related-item" href="chay-utrom-ili-vecherom.html">
+        <span class="related-title">Чай утром или вечером</span>
+        <p>Какой чай пить утром, днём и вечером и почему время важно.</p>
       </a>
-      <a class="related-item" href="meditaciya-test.html">
-        <span class="related-title">Тест на медитативную практику</span>
-        <p>Практики влияют на гормональный фон не хуже привычек — какая подойдёт тебе.</p>
+      <a class="related-item" href="chay-i-kontsentratsiya.html">
+        <span class="related-title">Чай и концентрация</span>
+        <p>Какие сорта чая реально помогают сосредоточиться — и почему дело не только в кофеине.</p>
       </a>
     </div>
   </section>
+
+  <section class="related">
+    <h2>Смежные разделы</h2>
+    <div class="related-grid">
+      <a class="related-item" href="kakoy-chay-test.html">
+        <span class="related-title">Всё о чае и чайный тест</span>
+        <p>Виды чая, гунфу, заваривание и подбор чая по состоянию: 40 материалов и тест.</p>
+      </a>
+      <a class="related-item" href="kompas-sostoyaniya.html">
+        <span class="related-title">Компас состояния</span>
+        <p>Ежедневный чек-ин по 10 показателям и одно конкретное действие на сегодня.</p>
+      </a>
+      <a class="related-item" href="dnevnik-sostoyaniy-ritm-zhizni.html">
+        <span class="related-title">Дневник состояний — ритм жизни</span>
+        <p>Отмечай состояние каждый день и смотри, куда на самом деле движется жизнь.</p>
+      </a>
+      <a class="related-item" href="vygoranie-test.html">
+        <span class="related-title">Тест на выгорание</span>
+        <p>Усталость проходит после выходных. Выгорание — нет. Узнай свою точку сборки.</p>
+      </a>
+    </div>
+  </section>
+
 
   <div style="text-align:center;margin-top:40px;">
     <a class="btn-outline" href="index.html" style="display:inline-block;padding:12px 28px;">← На главную</a>
