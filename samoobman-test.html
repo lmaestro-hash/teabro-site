@@ -325,6 +325,19 @@
   .tb-bar a:hover, .tb-bar button:hover { border-color:var(--amber); color:var(--ink); }
   .tb-bar .on { background:var(--amber); border-color:var(--amber); color:var(--paper); }
   .tb-bar .on:hover { color:var(--paper); }
+
+  /* === tb: hub lists === */
+  .hub-group { margin-top: 28px; }
+  .hub-group h3 { font-size: 18px; margin: 0 0 12px; color: var(--ink); font-weight: 700; }
+  .hub-links { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+  @media (min-width: 560px) { .hub-links { grid-template-columns: 1fr 1fr; } }
+  .hub-links a { display: block; padding: 12px 14px; background: var(--paper-deep); border: 1px solid var(--border-tint);
+    border-radius: 4px; text-decoration: none; color: var(--ink); font-weight: 600; font-size: 15px; line-height: 1.35;
+    transition: background 0.15s ease, border-color 0.15s ease; }
+  .hub-links a small { display: block; font-weight: 400; color: var(--ink-soft); font-size: 13px; margin-top: 3px; }
+  .hub-links a:hover, .hub-links a:focus-visible { background: var(--amber); border-color: var(--amber); color: var(--paper); }
+  .hub-links a:hover small, .hub-links a:focus-visible small { color: var(--paper); }
+  .hub-note { color: var(--ink-soft); font-size: 15px; margin: 0 0 6px; }
 </style>
 
 <script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
@@ -333,7 +346,7 @@
 <body>
 
 <div class="wrap">
-<div class="tb-bar" role="navigation" aria-label="Мова / Язык"><a class="on" href="/samoobman-test.html" hreflang="ru" lang="ru" aria-current="true">RU</a><a href="/uk/" hreflang="uk" lang="uk">UK</a><button type="button" id="tb-theme"></button></div>
+<div class="tb-bar" role="navigation" aria-label="Мова / Язык"><a class="on" href="/samoobman-test.html" hreflang="ru" lang="ru" aria-current="true">RU</a><a href="/uk-index.html" hreflang="uk" lang="uk">UK</a><button type="button" id="tb-theme"></button></div>
 
 
   <header class="hero">
@@ -418,26 +431,73 @@
   </section>
 
   <section class="related">
-    <h2>Смежные тесты</h2>
+    <h2>Все статьи раздела</h2>
+    <div class="hub-group">
+      <h3>15 материалов раздела</h3>
+    <ul class="hub-links">
+      <li><a href="chestnost-s-soboy-navyk.html">Честность как навык<small>Способность быть честным с собой можно тренировать, как любой другой навык.</small></a></li>
+      <li><a href="dnevnik-protiv-samoobmana.html">Дневник против самообмана<small>Практический инструмент, который помогает замечать искажения в моменте.</small></a></li>
+      <li><a href="kognitivnye-iskazheniya-karta.html">Когнитивные искажения<small>Более широкая карта того, как мозг искажает картину происходящего.</small></a></li>
+      <li><a href="malenkie-testy-na-samoobman.html">Маленькие тесты<small>Простые практические способы проверить себя на самообман буквально за один день.</small></a></li>
+      <li><a href="optimizm-ili-samoobman.html">Оптимизм или самообман<small>Как отличить здоровый взгляд на вещи от искажённого.</small></a></li>
+      <li><a href="pozitivnoe-myshlenie-ili-otritsanie.html">Позитив или отрицание<small>Где заканчивается здоровый оптимизм и начинается отрицание реальных проблем.</small></a></li>
+      <li><a href="prokrastinatsiya-forma-samoobmana.html">Прокрастинация как самообман<small>Взгляд на ту же привычку с другой стороны — со стороны психологии, а не гормонов.</small></a></li>
+      <li><a href="ratsionalizatsiya-mozg-opravdyvaet.html">Рационализация<small>Как мозг придумывает логичные объяснения для решений, принятых по эмоциональным причинам.</small></a></li>
+      <li><a href="samoobman-na-rabote.html">Самообман на работе<small>Почему на работе особенно легко мириться с тем, что давно пора менять.</small></a></li>
+      <li><a href="samoobman-pro-zdorovie.html">Самообман про здоровье<small>Похожий механизм отрицания, но в другой сфере жизни.</small></a></li>
+      <li><a href="samoobman-s-dengami.html">Самообман с деньгами<small>Конкретный пример когнитивных искажений в финансовых решениях.</small></a></li>
+      <li><a href="samoobman-v-otnosheniyah.html">Самообман в отношениях<small>Почему тревожные звоночки в отношениях так часто игнорируются.</small></a></li>
+      <li><a href="slepye-pyatna-pochemu-ne-zamechaem.html">Слепые пятна<small>Почему то, что видно окружающим, остаётся незаметным для нас самих.</small></a></li>
+      <li><a href="vnutrenniy-kritik-vs-chestnost.html">Внутренний критик vs честность<small>Жёсткая самокритика и настоящая честность с собой — разные вещи с разным эффектом.</small></a></li>
+      <li><a href="vsyo-normalno-opasnaya-fraza.html">«Всё нормально»<small>Почему эта фраза часто скрывает то, что давно пора заметить.</small></a></li>
+    </ul>
+    </div>
+  </section>
+
+  <section class="related">
+    <h2>Ещё про чай</h2>
     <div class="related-grid">
+      <a class="related-item" href="chayny-dnevnik-kak-vesti.html">
+        <span class="related-title">Чайный дневник: как вести</span>
+        <p>Что записывать в чайный дневник и как найти закономерности за две недели.</p>
+      </a>
+      <a class="related-item" href="ritual-zavarivaniya-nervnaya-sistema.html">
+        <span class="related-title">Ритуал заваривания</span>
+        <p>Как сам процесс заваривания влияет на состояние, а не только результат.</p>
+      </a>
+      <a class="related-item" href="kak-chitat-telo-cherez-vybor-napitka.html">
+        <span class="related-title">Читать тело через напиток</span>
+        <p>Как замечать сигналы тела через то, к какому напитку тянет в разное время.</p>
+      </a>
+      <a class="related-item" href="mify-o-chae.html">
+        <span class="related-title">Мифы о чае</span>
+        <p>Разбираем громкие утверждения о пользе и вреде чая.</p>
+      </a>
+    </div>
+  </section>
+
+  <section class="related">
+    <h2>Смежные разделы</h2>
+    <div class="related-grid">
+      <a class="related-item" href="kakoy-chay-test.html">
+        <span class="related-title">Всё о чае и чайный тест</span>
+        <p>Виды чая, гунфу, заваривание и подбор чая по состоянию: 40 материалов и тест.</p>
+      </a>
+      <a class="related-item" href="dnevnik-sostoyaniy-ritm-zhizni.html">
+        <span class="related-title">Дневник состояний — ритм жизни</span>
+        <p>Отмечай состояние каждый день и смотри, куда на самом деле движется жизнь.</p>
+      </a>
+      <a class="related-item" href="kompas-sostoyaniya.html">
+        <span class="related-title">Компас состояния</span>
+        <p>Ежедневный чек-ин по 10 показателям и одно конкретное действие на сегодня.</p>
+      </a>
       <a class="related-item" href="vygoranie-test.html">
         <span class="related-title">Тест на выгорание</span>
         <p>Усталость проходит после выходных. Выгорание — нет. Узнай свою точку сборки.</p>
       </a>
-      <a class="related-item" href="gormonalny-kod-test.html">
-        <span class="related-title">Тест на гормональный тип</span>
-        <p>Дофамин, серотонин, окситоцин или кортизол — какой из них сейчас рулит твоим поведением.</p>
-      </a>
-      <a class="related-item" href="kakoy-chay-test.html">
-        <span class="related-title">Чайный тест</span>
-        <p>Подбор чая не по вкусу, а по тому, что тебе сейчас на самом деле нужно.</p>
-      </a>
-      <a class="related-item" href="meditaciya-test.html">
-        <span class="related-title">Тест на медитативную практику</span>
-        <p>Медитация не работает не потому, что ты не умеешь. Просто практика не та.</p>
-      </a>
     </div>
   </section>
+
 
 </div>
 

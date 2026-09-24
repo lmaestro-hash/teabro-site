@@ -326,6 +326,19 @@
   .tb-bar a:hover, .tb-bar button:hover { border-color:var(--amber); color:var(--ink); }
   .tb-bar .on { background:var(--amber); border-color:var(--amber); color:var(--paper); }
   .tb-bar .on:hover { color:var(--paper); }
+
+  /* === tb: hub lists === */
+  .hub-group { margin-top: 28px; }
+  .hub-group h3 { font-size: 18px; margin: 0 0 12px; color: var(--ink); font-weight: 700; }
+  .hub-links { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+  @media (min-width: 560px) { .hub-links { grid-template-columns: 1fr 1fr; } }
+  .hub-links a { display: block; padding: 12px 14px; background: var(--paper-deep); border: 1px solid var(--border-tint);
+    border-radius: 4px; text-decoration: none; color: var(--ink); font-weight: 600; font-size: 15px; line-height: 1.35;
+    transition: background 0.15s ease, border-color 0.15s ease; }
+  .hub-links a small { display: block; font-weight: 400; color: var(--ink-soft); font-size: 13px; margin-top: 3px; }
+  .hub-links a:hover, .hub-links a:focus-visible { background: var(--amber); border-color: var(--amber); color: var(--paper); }
+  .hub-links a:hover small, .hub-links a:focus-visible small { color: var(--paper); }
+  .hub-note { color: var(--ink-soft); font-size: 15px; margin: 0 0 6px; }
 </style>
 
 <script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
@@ -334,7 +347,7 @@
 <body>
 
 <div class="wrap">
-<div class="tb-bar" role="navigation" aria-label="Мова / Язык"><a class="on" href="/vygoranie-test.html" hreflang="ru" lang="ru" aria-current="true">RU</a><a href="/uk/" hreflang="uk" lang="uk">UK</a><button type="button" id="tb-theme"></button></div>
+<div class="tb-bar" role="navigation" aria-label="Мова / Язык"><a class="on" href="/vygoranie-test.html" hreflang="ru" lang="ru" aria-current="true">RU</a><a href="/uk-index.html" hreflang="uk" lang="uk">UK</a><button type="button" id="tb-theme"></button></div>
 
 
   <header class="hero">
@@ -419,19 +432,65 @@
   </section>
 
   <section class="related">
-    <h2>Смежные тесты</h2>
+    <h2>Все статьи раздела</h2>
+    <div class="hub-group">
+      <h3>15 материалов раздела</h3>
+    <ul class="hub-links">
+      <li><a href="mikroprivychki-protiv-vygoraniya.html">Микро-привычки против выгорания<small>Небольшие практики на пару минут в день, которые снижают скорость истощения без отпуска.</small></a></li>
+      <li><a href="plan-vosstanovleniya-30-dney.html">План восстановления на 30 дней<small>Конкретный план по неделям — без увольнения и отпуска на другой конец света.</small></a></li>
+      <li><a href="rannie-priznaki-vygoraniya.html">Ранние признаки выгорания<small>На что обратить внимание, пока состояние не стало тяжёлым.</small></a></li>
+      <li><a href="roditelskoe-vygoranie.html">Родительское выгорание<small>Смежная тема — как забота о детях истощает ресурс.</small></a></li>
+      <li><a href="ustalost-telo-ili-psihika.html">Тело или психика<small>Как отличить физическую усталость от психологического истощения на практике.</small></a></li>
+      <li><a href="vosstanovlenie-posle-vygoraniya.html">Сколько длится восстановление<small>Честный разбор сроков восстановления после выгорания и от чего они реально зависят.</small></a></li>
+      <li><a href="vozvrashchenie-k-rabote-posle-vygoraniya.html">Возвращение после выгорания<small>Как вернуться в ритм и не выгореть снова через пару месяцев.</small></a></li>
+      <li><a href="vygoranie-i-trevozhnost.html">Выгорание и тревожность<small>Симптомы похожи, механизмы разные. Разбираем, как отличить одно от другого.</small></a></li>
+      <li><a href="vygoranie-ili-depressiya.html">Выгорание или депрессия<small>Ключевые отличия и когда пора к специалисту.</small></a></li>
+      <li><a href="vygoranie-na-udalyonke.html">Выгорание на удалёнке<small>Почему работа из дома часто выгорает быстрее офисной — и как вернуть дому статус места отдыха.</small></a></li>
+      <li><a href="vygoranie-obyasnit-blizkim.html">Как объяснить близким<small>Выгорание со стороны легко принять за лень. Разбираем, как объяснить состояние так, чтобы услышали.</small></a></li>
+      <li><a href="vygoranie-tochka-sborki-etapy.html">Точка сборки: этапы выгорания<small>Пять этапов выгорания простым языком — от первого энтузиазма до кризиса.</small></a></li>
+      <li><a href="vygoranie-u-predprinimateley.html">Выгорание у предпринимателей<small>У владельцев бизнеса выгорание протекает иначе — без начальника, который заметит, и отпуска, который решит всё.</small></a></li>
+      <li><a href="vygoranie-vs-ustalost.html">Выгорание vs усталость<small>Семь конкретных признаков, по которым можно отличить одно от другого уже сегодня.</small></a></li>
+      <li><a href="vygoranie-vyhodnye-ne-pomogayut.html">Почему выходные не помогают<small>Разбираем механику: почему сон и безделье не лечат выгорание, и что помогает вместо этого.</small></a></li>
+    </ul>
+    </div>
+  </section>
+
+  <section class="related">
+    <h2>Ещё про чай</h2>
     <div class="related-grid">
-      <a class="related-item" href="gormonalny-kod-test.html">
-        <span class="related-title">Тест на гормональный тип</span>
-        <p>Дофамин, серотонин, окситоцин или кортизол — какой из них сейчас рулит твоим поведением.</p>
+      <a class="related-item" href="chay-pri-ustalosti-kakoy-vybrat.html">
+        <span class="related-title">Чай при усталости: какой выбрать</span>
+        <p>Какой чай выбрать при усталости и как не перейти границу кофеина.</p>
       </a>
-      <a class="related-item" href="samoobman-test.html">
-        <span class="related-title">Тест на самообман</span>
-        <p>«Да ладно, всё нормально» — частая фраза перед тем, как что-то идёт не так. Узнай своё слепое пятно.</p>
+      <a class="related-item" href="chay-utrom-ili-vecherom.html">
+        <span class="related-title">Чай утром или вечером</span>
+        <p>Какой чай пить утром, днём и вечером и почему время важно.</p>
       </a>
+      <a class="related-item" href="kofein-v-chae-skolko.html">
+        <span class="related-title">Кофеин в чае: сколько</span>
+        <p>Сколько кофеина в чае, от чего оно зависит и как пить чай, не мешая сну.</p>
+      </a>
+      <a class="related-item" href="chay-vmesto-kofe.html">
+        <span class="related-title">Чай вместо кофе</span>
+        <p>Энергия без резких скачков — ещё один практический разбор.</p>
+      </a>
+    </div>
+  </section>
+
+  <section class="related">
+    <h2>Смежные разделы</h2>
+    <div class="related-grid">
       <a class="related-item" href="kakoy-chay-test.html">
-        <span class="related-title">Чайный тест</span>
-        <p>Подбор чая не по вкусу, а по тому, что тебе сейчас на самом деле нужно.</p>
+        <span class="related-title">Всё о чае и чайный тест</span>
+        <p>Виды чая, гунфу, заваривание и подбор чая по состоянию: 40 материалов и тест.</p>
+      </a>
+      <a class="related-item" href="kompas-sostoyaniya.html">
+        <span class="related-title">Компас состояния</span>
+        <p>Ежедневный чек-ин по 10 показателям и одно конкретное действие на сегодня.</p>
+      </a>
+      <a class="related-item" href="chellendzhi-10-20-30-dney.html">
+        <span class="related-title">Челленджи на 10, 20 и 30 дней</span>
+        <p>Небольшие ежедневные ритуалы: спокойствие, энергия, дыхание, гунфу-чаепитие.</p>
       </a>
       <a class="related-item" href="meditaciya-test.html">
         <span class="related-title">Тест на медитативную практику</span>
@@ -439,6 +498,7 @@
       </a>
     </div>
   </section>
+
 
 </div>
 

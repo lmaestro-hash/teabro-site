@@ -6,30 +6,30 @@
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="apple-touch-icon" href="/favicon-180.png">
-<title>Как вернуться к работе после выгорания | Tea Bro</title>
-<meta name="description" content="Пошаговый план возвращения к работе после выгорания так, чтобы не выгореть снова через пару месяцев.">
+<title>Статистика самочувствия по чек-инам | Tea Bro</title>
+<meta name="description" content="Статистика самочувствия в Компасе состояния: сглаживание по трём чек-инам, шкала от тяжело до на подъёме, комбинированные выводы, как читать динамику.">
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="https://teabro-site.vercel.app/vozvrashchenie-k-rabote-posle-vygoraniya.html">
+<link rel="canonical" href="https://teabro-site.vercel.app/statistika-samochuvstviya-po-chek-inam.html">
 
 <meta property="og:type" content="article">
-<meta property="og:title" content="Как вернуться к работе после выгорания">
-<meta property="og:description" content="Самая частая ошибка после паузы — вернуться в том же темпе, что и до неё. Разбираем, что сделать иначе.">
-<meta property="og:url" content="https://teabro-site.vercel.app/vozvrashchenie-k-rabote-posle-vygoraniya.html">
+<meta property="og:title" content="Статистика самочувствия: как считаются проценты в Компасе состояния">
+<meta property="og:description" content="Статистика самочувствия в Компасе состояния: сглаживание по трём чек-инам, шкала от тяжело до на подъёме, комбинированные выводы, как читать динамику.">
+<meta property="og:url" content="https://teabro-site.vercel.app/statistika-samochuvstviya-po-chek-inam.html">
 <meta property="og:locale" content="ru_RU">
-<meta property="og:image" content="https://teabro-site.vercel.app/assets/og-vygoranie.png">
+<meta property="og:image" content="https://teabro-site.vercel.app/assets/og-index.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Как вернуться к работе после выгорания">
-<meta name="twitter:description" content="Самая частая ошибка после паузы — вернуться в том же темпе, что и до неё. Разбираем, что сделать иначе.">
-<meta name="twitter:image" content="https://teabro-site.vercel.app/assets/og-vygoranie.png">
+<meta name="twitter:title" content="Статистика самочувствия: как считаются проценты в Компасе состояния">
+<meta name="twitter:description" content="Статистика самочувствия в Компасе состояния: сглаживание по трём чек-инам, шкала от тяжело до на подъёме, комбинированные выводы, как читать динамику.">
+<meta name="twitter:image" content="https://teabro-site.vercel.app/assets/og-index.png">
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "Как вернуться к работе после выгорания и не выгореть снова",
-  "description": "Самая частая ошибка после паузы — вернуться в том же темпе, что и до неё. Разбираем, что сделать иначе.",
+  "headline": "Статистика самочувствия: как считаются проценты в Компасе состояния",
+  "description": "Статистика самочувствия в Компасе состояния: сглаживание по трём чек-инам, шкала от тяжело до на подъёме, комбинированные выводы, как читать динамику.",
   "inLanguage": "ru"
 }
 </script>
@@ -40,13 +40,19 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Сколько нужно времени на возвращение в прежний темп?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Индивидуально, но резкий рывок в первую неделю обычно откатывает состояние назад. Разумнее закладывать 2-3 недели на плавный вход." }
+      "name": "Почему проценты сразу после первого чек-ина?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Компас показывает результат уже после первого чек-ина, а по мере накопления данных сглаживание делает картину устойчивее."
+      }
     },
     {
       "@type": "Question",
-      "name": "Что если работодатель не готов менять условия?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Тогда стоит честно оценить, совместимо ли долгосрочное здоровье с этой работой в её нынешнем виде — это уже вопрос стратегического решения, а не тактики." }
+      "name": "Можно ли сбросить статистику?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Статистика привязана к твоему аккаунту. Если нужна помощь с данными, напиши в Telegram-канал Tea Bro."
+      }
     }
   ]
 }
@@ -253,53 +259,49 @@
 <body>
 
 <div class="wrap">
-<div class="tb-bar" role="navigation" aria-label="Мова / Язык"><a class="on" href="/vozvrashchenie-k-rabote-posle-vygoraniya.html" hreflang="ru" lang="ru" aria-current="true">RU</a><a href="/uk-index.html" hreflang="uk" lang="uk">UK</a><button type="button" id="tb-theme"></button></div>
+<div class="tb-bar" role="navigation" aria-label="Мова / Язык"><a class="on" href="/statistika-samochuvstviya-po-chek-inam.html" hreflang="ru" lang="ru" aria-current="true">RU</a><a href="/uk-index.html" hreflang="uk" lang="uk">UK</a><button type="button" id="tb-theme"></button></div>
 
-
-  <p class="breadcrumb"><a href="vygoranie-test.html">Тест на выгорание</a> / Возвращение после выгорания</p>
+  <p class="breadcrumb"><a href="kompas-sostoyaniya.html">Компас состояния</a> / Статистика самочувствия по чек-инам</p>
 
   <header class="hero">
     <div class="moon" aria-hidden="true"></div>
-    <h1>Как вернуться к работе после выгорания и не выгореть снова</h1>
-    <p class="lede">Самая частая ошибка после паузы — вернуться в том же темпе, что и до неё. Вот что стоит сделать иначе.</p>
+    <h1>Статистика самочувствия: как считаются проценты в Компасе состояния</h1>
+    <p class="lede">Один плохой день не должен переворачивать картину. Поэтому в Компасе состояния показатели считаются по нескольким последним чек-инам. Объясняем, как это работает.</p>
   </header>
 
   <article>
-    <p>Отпуск или больничный снимает острое состояние, но не меняет условия, которые до этого довели до выгорания. Если вернуться к работе так, будто ничего не произошло, велик шанс оказаться в той же точке через пару месяцев — только уже с меньшим запасом прочности.</p>
-
-    <h2>Почему просто отдохнуть — недостаточно</h2>
-    <p>Отдых восстанавливает ресурс, но не устраняет причину его расхода. Если нагрузка, ожидания или условия труда остались прежними, организм довольно быстро возвращается к тому же состоянию — иногда быстрее, чем в первый раз, потому что накопленная чувствительность к стрессу уже выше.</p>
-
-    <h2>Шаг 1 — вернуться не сразу на полную мощность</h2>
-    <p>Первая неделя после паузы — не время закрывать все хвосты и доказывать, что ты снова «в форме». Разумнее сознательно снизить темп на первые дни: меньше встреч, меньше многозадачности, приоритет — не результат, а стабильное вхождение в ритм.</p>
-
-    <h2>Шаг 2 — назвать вслух, что именно привело к выгоранию</h2>
-    <p>Без честного разбора причины — будь то объём задач, токсичная динамика в команде или отсутствие границ между работой и личным временем — велик риск вернуться в те же условия просто потому, что их никто не менял, пока человек был на паузе.</p>
-
-    <h2>Шаг 3 — договориться об изменениях заранее, а не постфактум</h2>
-    <p>Разговор с руководителем о новых границах лучше вести до возвращения, а не после того, как накопится усталость по новой. Конкретные договорённости — фиксированные часы, право не отвечать вечером, перераспределение части задач — работают лучше общих обещаний «буду беречь себя».</p>
+    <h2>Зачем сглаживать</h2>
+    <p>Настроение и энергия меняются день ото дня. Если показывать только сегодняшнее значение, картина скачет и путает. Поэтому в итоговых процентах используется среднее по последним трём чек-инам.</p>
+    <p>Так ты видишь устойчивый фон, а не случайный всплеск или провал.</p>
+    <h2>Как читать шкалу</h2>
+    <p>Каждый показатель отображается полосой с делениями 25, 50 и 75 процентов и четырьмя уровнями: тяжело, средне, ровно, на подъёме. Все ответы выстроены так, что больше значит лучше.</p>
+    <p>Под полосой стоит короткое пояснение в кавычках, которое объясняет, что значит твой результат.</p>
 
     <div class="cta-card">
-      <p>Прежде чем строить план возвращения, полезно понять, с какой именно стадии ты стартуешь.</p>
-      <a class="cta-btn" href="http://t.me/TeaBroLifeBot/TeaBro" target="_blank" rel="noopener">Пройти тест на выгорание</a>
+      <p>Хочешь увидеть свою динамику? Пройди несколько чек-инов в Компасе состояния Tea Bro.</p>
+      <a class="cta-btn" href="http://t.me/TeaBroLifeBot/TeaBro" target="_blank" rel="noopener">Открыть Компас состояния</a>
     </div>
 
-    <h2>Шаг 4 — отслеживать ранние сигналы, а не ждать повторного кризиса</h2>
-    <p>После возвращения полезно периодически честно спрашивать себя, не начинается ли всё заново, а не дожидаться момента, когда состояние снова станет острым. Небольшие регулярные проверки себя работают лучше, чем разовая переоценка раз в полгода.</p>
+    <h2>Сочетания показателей</h2>
+    <p>Отдельные проценты дополняет краткий вывод по сочетанию: например, усталость вместе с плохим сном говорит об одном, а тревожность вместе с высоким напряжением о другом. Такие связки полезнее одиночных чисел.</p>
+    <p>Это помощь в наблюдении, а не диагностика.</p>
+    <h2>Что делать с динамикой</h2>
+    <p>Смотри, что происходило в дни, когда показатели росли и падали: сон, нагрузка, общение, чай, спорт. Записывай в блокнот пару строк.</p>
+    <p>Если всё стабильно плохо и это длится, стоит обратиться за профессиональной помощью.</p>
   </article>
 
   <section class="faq">
-    <h3>Сколько нужно времени на возвращение в прежний темп?</h3>
-    <p>Индивидуально, но резкий рывок в первую неделю обычно откатывает состояние назад. Разумнее закладывать 2-3 недели на плавный вход.</p>
-    <h3>Что если работодатель не готов менять условия?</h3>
-    <p>Тогда стоит честно оценить, совместимо ли долгосрочное здоровье с этой работой в её нынешнем виде — это уже вопрос стратегического решения, а не тактики.</p>
+    <h3>Почему проценты сразу после первого чек-ина?</h3>
+    <p>Компас показывает результат уже после первого чек-ина, а по мере накопления данных сглаживание делает картину устойчивее.</p>
+    <h3>Можно ли сбросить статистику?</h3>
+    <p>Статистика привязана к твоему аккаунту. Если нужна помощь с данными, напиши в Telegram-канал Tea Bro.</p>
   </section>
 
   <section class="final-cta">
-    <h2>Пройди тест прямо сейчас</h2>
-    <p>Два вопроса — и станет ясно, что с этим делать дальше. Бесплатно, без регистрации, 2 минуты.</p>
+    <h2>Попробуй Компас состояния</h2>
+    <p>Десять коротких вопросов, честный результат и одно конкретное действие на сегодня. Бесплатно, в Telegram.</p>
     <div class="btn-row">
-      <a class="cta-btn" href="http://t.me/TeaBroLifeBot/TeaBro" target="_blank" rel="noopener" style="width:100%;box-sizing:border-box;text-align:center;">Пройти тест на выгорание</a>
+      <a class="cta-btn" href="http://t.me/TeaBroLifeBot/TeaBro" target="_blank" rel="noopener" style="width:100%;box-sizing:border-box;text-align:center;">Открыть Компас состояния</a>
       <a class="btn-outline" href="https://t.me/TeaBroLife" target="_blank" rel="noopener" style="width:100%;box-sizing:border-box;text-align:center;color:var(--amber-deep);border-color:var(--amber-deep);">Заглянуть в чайное пространство</a>
     </div>
   </section>
@@ -307,21 +309,21 @@
   <section class="related">
     <h2>Читать по теме</h2>
     <div class="related-grid">
-      <a class="related-item" href="plan-vosstanovleniya-30-dney.html">
-        <span class="related-title">План восстановления на 30 дней</span>
-        <p>Конкретный план по неделям — без увольнения и отпуска на другой конец света.</p>
+      <a class="related-item" href="kompas-i-chay-kak-svyazat.html">
+        <span class="related-title">Компас и чай: как связать</span>
+        <p>Как связать чек-ин самочувствия и выбор чая в один простой ритуал.</p>
       </a>
-      <a class="related-item" href="rannie-priznaki-vygoraniya.html">
-        <span class="related-title">Ранние признаки выгорания</span>
-        <p>На что обратить внимание, пока состояние не стало тяжёлым.</p>
+      <a class="related-item" href="kompas-bez-obeshchaniy-chestny-podhod.html">
+        <span class="related-title">Почему Компас не обещает результат</span>
+        <p>Почему честнее не обещать результата и как относиться к ориентирам.</p>
       </a>
-      <a class="related-item" href="vygoranie-ili-depressiya.html">
-        <span class="related-title">Выгорание или депрессия</span>
-        <p>Как отличить одно от другого и когда пора к специалисту.</p>
+      <a class="related-item" href="kak-izmerit-trevozhnost-i-napryazhenie.html">
+        <span class="related-title">Как оценить тревожность и напряжение</span>
+        <p>Тревожность и напряжение: чем отличаются и как замечать их без самодиагноза.</p>
       </a>
-      <a class="related-item" href="vygoranie-na-udalyonke.html">
-        <span class="related-title">Выгорание на удалёнке</span>
-        <p>Отдельная специфика, когда дом и работа — одно и то же место.</p>
+      <a class="related-item" href="kak-otsenit-son-i-energiyu-bez-priborov.html">
+        <span class="related-title">Как оценить сон и энергию без приборов</span>
+        <p>Простые вопросы к себе вместо гаджетов: сон, энергия, концентрация.</p>
       </a>
     </div>
   </section>
@@ -329,21 +331,21 @@
   <section class="related">
     <h2>Ещё про чай</h2>
     <div class="related-grid">
-      <a class="related-item" href="shu-puer-kak-zavarivat.html">
-        <span class="related-title">Шу пуэр: как заваривать</span>
-        <p>Что такое шу пуэр, как его заваривать и когда пить: температура, проливы, вкус.</p>
-      </a>
       <a class="related-item" href="da-hun-pao-chto-eto-za-chay.html">
         <span class="related-title">Да Хун Пао: что это за чай</span>
         <p>Скальный улун из Уишаня: вкус, заварка и как выбрать настоящий.</p>
       </a>
+      <a class="related-item" href="chay-po-sostoyaniyu-podbor-v-tea-bro.html">
+        <span class="related-title">Чай по состоянию: подбор в Tea Bro</span>
+        <p>Пять вопросов, шесть типов чая: как бот подбирает чай под твоё состояние.</p>
+      </a>
+      <a class="related-item" href="chay-pri-trevoge-kakoy-vybrat.html">
+        <span class="related-title">Чай при тревоге: какой выбрать</span>
+        <p>Какой чай выбрать в тревожные дни, как влияет кофеин и при чём ритуал.</p>
+      </a>
       <a class="related-item" href="chay-pri-ustalosti-kakoy-vybrat.html">
         <span class="related-title">Чай при усталости: какой выбрать</span>
         <p>Какой чай выбрать при усталости и как не перейти границу кофеина.</p>
-      </a>
-      <a class="related-item" href="chay-utrom-ili-vecherom.html">
-        <span class="related-title">Чай утром или вечером</span>
-        <p>Какой чай пить утром, днём и вечером и почему время важно.</p>
       </a>
     </div>
   </section>
@@ -355,21 +357,20 @@
         <span class="related-title">Всё о чае и чайный тест</span>
         <p>Виды чая, гунфу, заваривание и подбор чая по состоянию: 40 материалов и тест.</p>
       </a>
-      <a class="related-item" href="kompas-sostoyaniya.html">
-        <span class="related-title">Компас состояния</span>
-        <p>Ежедневный чек-ин по 10 показателям и одно конкретное действие на сегодня.</p>
+      <a class="related-item" href="dnevnik-sostoyaniy-ritm-zhizni.html">
+        <span class="related-title">Дневник состояний — ритм жизни</span>
+        <p>Отмечай состояние каждый день и смотри, куда на самом деле движется жизнь.</p>
       </a>
       <a class="related-item" href="chellendzhi-10-20-30-dney.html">
         <span class="related-title">Челленджи на 10, 20 и 30 дней</span>
         <p>Небольшие ежедневные ритуалы: спокойствие, энергия, дыхание, гунфу-чаепитие.</p>
       </a>
-      <a class="related-item" href="meditaciya-test.html">
-        <span class="related-title">Тест на медитативную практику</span>
-        <p>Медитация не работает не потому, что ты не умеешь. Просто практика не та.</p>
+      <a class="related-item" href="vygoranie-test.html">
+        <span class="related-title">Тест на выгорание</span>
+        <p>Усталость проходит после выходных. Выгорание — нет. Узнай свою точку сборки.</p>
       </a>
     </div>
   </section>
-
 
   <div style="text-align:center;margin-top:40px;">
     <a class="btn-outline" href="index.html" style="display:inline-block;padding:12px 28px;">← На главную</a>

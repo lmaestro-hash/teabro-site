@@ -3,499 +3,913 @@
   <url>
     <loc>https://teabro-site.vercel.app/</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-index.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/"/>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://teabro-site.vercel.app/kakoy-chay-test.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://teabro-site.vercel.app/vygoranie-test.html</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/gormonalny-kod-test.html</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/samoobman-test.html</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/kakoy-chay-test.html</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/meditaciya-test.html</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://teabro-site.vercel.app/vygoranie-vs-ustalost.html</loc>
-    <lastmod>2026-09-13</lastmod>
+    <loc>https://teabro-site.vercel.app/kompas-sostoyaniya.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/nastavleniya-po-meditatsii.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/chellendzhi-10-20-30-dney.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/dnevnik-sostoyaniy-ritm-zhizni.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/bely-chay-kak-zavarivat.html</loc>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://teabro-site.vercel.app/vygoranie-vyhodnye-ne-pomogayut.html</loc>
-    <lastmod>2026-09-13</lastmod>
+    <loc>https://teabro-site.vercel.app/chasovoe-chaepitie-kak-praktika.html</loc>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://teabro-site.vercel.app/vygoranie-tochka-sborki-etapy.html</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/vygoranie-na-udalyonke.html</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/vygoranie-obyasnit-blizkim.html</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/vygoranie-i-trevozhnost.html</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/vosstanovlenie-posle-vygoraniya.html</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/vygoranie-u-predprinimateley.html</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/mikroprivychki-protiv-vygoraniya.html</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/ustalost-telo-ili-psihika.html</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/gormony-i-harakter-granitsa.html</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/pms-ili-harakter.html</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/kortizol-i-razdrazhitelnost.html</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/gormony-i-energiya-vremya-sutok.html</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/shchitovidka-i-nastroenie.html</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/gormonalny-tip-i-chay.html</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/muzhskie-gormonalnye-tsikly.html</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/pitanie-i-gormonalny-fon.html</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/son-i-gormony-harakter.html</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/kogda-k-endokrinologu.html</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/vsyo-normalno-opasnaya-fraza.html</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/slepye-pyatna-pochemu-ne-zamechaem.html</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/ratsionalizatsiya-mozg-opravdyvaet.html</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/samoobman-v-otnosheniyah.html</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/prokrastinatsiya-forma-samoobmana.html</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/pozitivnoe-myshlenie-ili-otritsanie.html</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/samoobman-na-rabote.html</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/vnutrenniy-kritik-vs-chestnost.html</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/chestnost-s-soboy-navyk.html</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/malenkie-testy-na-samoobman.html</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/kak-vybrat-chay-pod-nastroenie.html</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/ritual-zavarivaniya-nervnaya-sistema.html</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/travyanoy-chay-vs-klassicheskiy.html</loc>
-    <lastmod>2026-09-13</lastmod>
+    <loc>https://teabro-site.vercel.app/chay-i-dyhanie-chellendzh-chas-v-den.html</loc>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/chay-i-kontsentratsiya.html</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/chaynaya-tseremoniya-doma.html</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/sogrevayushchie-chai-zimoy.html</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/chay-pered-snom-mif-ili-pravda.html</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/istoriya-chaynyh-traditsiy-ritual.html</loc>
-    <lastmod>2026-09-13</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/chay-i-meditatsiya-sochetanie.html</loc>
-    <lastmod>2026-09-13</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://teabro-site.vercel.app/kak-chitat-telo-cherez-vybor-napitka.html</loc>
-    <lastmod>2026-09-13</lastmod>
+    <loc>https://teabro-site.vercel.app/chay-i-nastroenie-kak-svyazat.html</loc>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://teabro-site.vercel.app/meditatsiya-dlya-tekh-kto-ne-mozhet-sidet.html</loc>
-    <lastmod>2026-09-13</lastmod>
+    <loc>https://teabro-site.vercel.app/chay-na-podarok-kak-vybrat.html</loc>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://teabro-site.vercel.app/dyhatelnye-praktiki-za-3-minuty.html</loc>
-    <lastmod>2026-09-13</lastmod>
+    <loc>https://teabro-site.vercel.app/chay-pered-praktikoy-kak-svyazat.html</loc>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://teabro-site.vercel.app/osoznannost-v-bytu-bez-kovrika.html</loc>
-    <lastmod>2026-09-13</lastmod>
+    <loc>https://teabro-site.vercel.app/chay-pered-snom-mif-ili-pravda.html</loc>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://teabro-site.vercel.app/pochemu-meditatsiya-ne-rabotaet-srazu.html</loc>
-    <lastmod>2026-09-13</lastmod>
+    <loc>https://teabro-site.vercel.app/chay-po-sostoyaniyu-podbor-v-tea-bro.html</loc>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://teabro-site.vercel.app/meditatsiya-protiv-ruminatsii.html</loc>
-    <lastmod>2026-09-13</lastmod>
+    <loc>https://teabro-site.vercel.app/chay-pri-trevoge-kakoy-vybrat.html</loc>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://teabro-site.vercel.app/praktiki-zazemleniya-pri-trevoge.html</loc>
-    <lastmod>2026-09-13</lastmod>
+    <loc>https://teabro-site.vercel.app/chay-pri-ustalosti-kakoy-vybrat.html</loc>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://teabro-site.vercel.app/meditatsiya-i-son-vechernie-praktiki.html</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/raznitsa-meditatsiya-i-otdyh.html</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/mikropraktiki-zamechaniya-bez-20-minut.html</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/meditatsiya-dlya-skeptikov-nauka.html</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/roditelskoe-vygoranie.html</loc>
-    <lastmod>2026-09-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/vygoranie-ili-depressiya.html</loc>
-    <lastmod>2026-09-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/vozvrashchenie-k-rabote-posle-vygoraniya.html</loc>
-    <lastmod>2026-09-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/plan-vosstanovleniya-30-dney.html</loc>
-    <lastmod>2026-09-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/rannie-priznaki-vygoraniya.html</loc>
-    <lastmod>2026-09-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/dofamin-i-prokrastinatsiya.html</loc>
-    <lastmod>2026-09-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/oksitotsin-i-privyazannost.html</loc>
-    <lastmod>2026-09-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/fazy-tsikla-planirovanie.html</loc>
-    <lastmod>2026-09-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/sport-kak-gormonalny-rychag.html</loc>
-    <lastmod>2026-09-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/gormony-i-trevoga.html</loc>
-    <lastmod>2026-09-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/kognitivnye-iskazheniya-karta.html</loc>
-    <lastmod>2026-09-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/samoobman-s-dengami.html</loc>
-    <lastmod>2026-09-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/dnevnik-protiv-samoobmana.html</loc>
-    <lastmod>2026-09-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/samoobman-pro-zdorovie.html</loc>
-    <lastmod>2026-09-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/optimizm-ili-samoobman.html</loc>
-    <lastmod>2026-09-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://teabro-site.vercel.app/kak-zavarivat-chay-pravilno.html</loc>
-    <lastmod>2026-09-15</lastmod>
+    <loc>https://teabro-site.vercel.app/chay-utrom-ili-vecherom.html</loc>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/chay-vmesto-kofe.html</loc>
-    <lastmod>2026-09-15</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://teabro-site.vercel.app/ohlazhdayushchie-chai-na-leto.html</loc>
-    <lastmod>2026-09-15</lastmod>
+    <loc>https://teabro-site.vercel.app/chaynaya-tseremoniya-doma.html</loc>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://teabro-site.vercel.app/mify-o-chae.html</loc>
-    <lastmod>2026-09-15</lastmod>
+    <loc>https://teabro-site.vercel.app/chayny-dnevnik-kak-vesti.html</loc>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://teabro-site.vercel.app/minimalny-chayny-nabor.html</loc>
-    <lastmod>2026-09-15</lastmod>
+    <loc>https://teabro-site.vercel.app/chellendzh-10-dney-spokoystvie.html</loc>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://teabro-site.vercel.app/s-chego-nachat-meditatsiyu.html</loc>
-    <lastmod>2026-09-15</lastmod>
+    <loc>https://teabro-site.vercel.app/chellendzh-30-dney-energiya.html</loc>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://teabro-site.vercel.app/vidy-meditatsii-raznitsa.html</loc>
-    <lastmod>2026-09-15</lastmod>
+    <loc>https://teabro-site.vercel.app/chestnost-s-soboy-navyk.html</loc>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://teabro-site.vercel.app/meditatsiya-na-rabochem-meste.html</loc>
-    <lastmod>2026-09-15</lastmod>
+    <loc>https://teabro-site.vercel.app/chyorny-i-krasny-chay-raznitsa.html</loc>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://teabro-site.vercel.app/meditatsiya-s-detmi-v-dome.html</loc>
-    <lastmod>2026-09-15</lastmod>
+    <loc>https://teabro-site.vercel.app/da-hun-pao-chto-eto-za-chay.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/desyatidnevny-chellendzh-osoznannoe-dyhanie.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/devyat-napravleniy-chellendzhey-kak-vybrat.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/dnevnik-emotsiy-onlayn-kak-vesti.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/dnevnik-protiv-samoobmana.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/dofamin-i-prokrastinatsiya.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/dyhatelnye-praktiki-za-3-minuty.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/emotsionalnye-arhetipy-devyat-tipov.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/ezhednevny-chek-in-samochuvstviya.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/fazy-tsikla-planirovanie.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/gaba-ulun-chto-eto-za-chay.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/gormonalny-tip-i-chay.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/gormony-i-energiya-vremya-sutok.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/gormony-i-harakter-granitsa.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/gormony-i-trevoga.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/gunfu-cha-dlya-nachinayushchih.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/gunfu-chaepitie-chellendzh-navyk.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/istoriya-chaynyh-traditsiy-ritual.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/istoriya-chellendzhey-i-otsenka.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/kak-chitat-telo-cherez-vybor-napitka.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/kak-hranit-chay-doma.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/kak-izmerit-trevozhnost-i-napryazhenie.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/kak-otsenit-son-i-energiyu-bez-priborov.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/kak-ponyat-svoyo-sostoyanie-za-minutu.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/kak-vybrat-chay-pod-nastroenie.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/kak-vybrat-praktiku-pod-sostoyanie.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/kak-zavarivat-chay-pravilno.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/karta-nedeli-sem-emodzi.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/kofein-v-chae-skolko.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/kogda-k-endokrinologu.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/kognitivnye-iskazheniya-karta.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/kompas-bez-obeshchaniy-chestny-podhod.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/kompas-i-chay-kak-svyazat.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/kompas-sostoyaniya-v-telegram.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/kortizol-i-razdrazhitelnost.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/malenkie-testy-na-samoobman.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/meditatsiya-5-minut-plan-na-nedelyu.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/meditatsiya-dlya-skeptikov-nauka.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/meditatsiya-dlya-tekh-kto-ne-mozhet-sidet.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/meditatsiya-i-son-vechernie-praktiki.html</loc>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/meditatsiya-i-trevozhnye-mysli.html</loc>
-    <lastmod>2026-09-15</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://teabro-site.vercel.app/uk/</loc>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/"/>
+    <loc>https://teabro-site.vercel.app/meditatsiya-na-rabochem-meste.html</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/meditatsiya-protiv-ruminatsii.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/meditatsiya-s-detmi-v-dome.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/meditatsiya-v-telegram-bez-prilozheniya.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/mify-o-chae.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/mikropraktiki-zamechaniya-bez-20-minut.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/mikroprivychki-protiv-vygoraniya.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/minimalny-chayny-nabor.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/moy-bloknot-mysli-kotorye-ne-hochetsya-teryat.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/muzhskie-gormonalnye-tsikly.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/odno-deystvie-na-segodnya.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/ohlazhdayushchie-chai-na-leto.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/oksitotsin-i-privyazannost.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/optimizm-ili-samoobman.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/osoznannoe-dyhanie-poshagovo.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/osoznannost-v-bytu-bez-kovrika.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/otmetka-dnya-v-odin-tap.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/pisma-sebe-v-buduschee-do-3-let.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/pitanie-i-gormonalny-fon.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/plan-vosstanovleniya-30-dney.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/pms-ili-harakter.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/pochemu-meditatsiya-ne-rabotaet-srazu.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/podbor-praktiki-testom-20-voprosov.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/posuda-dlya-gunfu-chto-nuzhno.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/pozitivnoe-myshlenie-ili-otritsanie.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/praktiki-zazemleniya-pri-trevoge.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/privychka-za-21-den-mif-ili-realnost.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/prokrastinatsiya-forma-samoobmana.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/proportsii-chaya-i-vody-gunfu.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/propustil-den-chto-delat.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/rannie-priznaki-vygoraniya.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/ratsionalizatsiya-mozg-opravdyvaet.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/raznitsa-meditatsiya-i-otdyh.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/ritual-zavarivaniya-nervnaya-sistema.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/roditelskoe-vygoranie.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/s-chego-nachat-meditatsiyu.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/samoobman-na-rabote.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/samoobman-pro-zdorovie.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/samoobman-s-dengami.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/samoobman-v-otnosheniyah.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/seriya-dney-i-tituly.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/shchitovidka-i-nastroenie.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/sheng-puer-dlya-nachinayushchih.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/shestnadtsat-emotsiy-spisok.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/shu-i-sheng-puer-raznitsa.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/shu-puer-kak-zavarivat.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/skolko-raz-zavarivat-chay-prolivy.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/slepye-pyatna-pochemu-ne-zamechaem.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/sogrevayushchie-chai-zimoy.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/son-i-gormony-harakter.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/sovet-dnya-po-sezonu-i-dnyu-nedeli.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/sport-kak-gormonalny-rychag.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/statistika-samochuvstviya-po-chek-inam.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/te-guan-in-chto-eto-i-kak-zavarivat.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/teanin-v-chae.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/temperatura-vody-dlya-chaya.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/tonglen-i-metta-prostymi-slovami.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/traektoriya-sostoyaniy-kuda-idet-zhizn.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/travyanoy-chay-vs-klassicheskiy.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/trekker-nastroeniya-kak-vybrat.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/tri-urovnya-slozhnosti-chellendzha.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/tummo-i-dyhanie-4-7-8-raznitsa.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/ulun-vidy-chaya.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/ustalost-telo-ili-psihika.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/vidy-meditatsii-raznitsa.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/vnutrennee-spokoystvie-kak-zametit.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/vnutrenniy-kritik-vs-chestnost.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/voda-dlya-chaya-kakaya-luchshe.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/vosstanovlenie-posle-vygoraniya.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/vozvrashchenie-k-rabote-posle-vygoraniya.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/vsyo-normalno-opasnaya-fraza.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/vygoranie-i-trevozhnost.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/vygoranie-ili-depressiya.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/vygoranie-na-udalyonke.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/vygoranie-obyasnit-blizkim.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/vygoranie-tochka-sborki-etapy.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/vygoranie-u-predprinimateley.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/vygoranie-vs-ustalost.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/vygoranie-vyhodnye-ne-pomogayut.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-index.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/"/>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 </urlset>
