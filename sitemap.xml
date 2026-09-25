@@ -77,6 +77,9 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/chasovoe-chaepitie-kak-praktika.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/chasovoe-chaepitie-kak-praktika.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-chasovoe-chaepitie-kak-praktika.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/chasovoe-chaepitie-kak-praktika.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -89,12 +92,18 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/chay-i-kontsentratsiya.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/chay-i-kontsentratsiya.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-chay-i-kontsentratsiya.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/chay-i-kontsentratsiya.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/chay-i-meditatsiya-sochetanie.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/chay-i-meditatsiya-sochetanie.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-chay-i-meditatsiya-sochetanie.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/chay-i-meditatsiya-sochetanie.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -107,6 +116,9 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/chay-na-podarok-kak-vybrat.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/chay-na-podarok-kak-vybrat.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-chay-na-podarok-kak-vybrat.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/chay-na-podarok-kak-vybrat.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -119,48 +131,72 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/chay-pered-snom-mif-ili-pravda.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/chay-pered-snom-mif-ili-pravda.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-chay-pered-snom-mif-ili-pravda.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/chay-pered-snom-mif-ili-pravda.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/chay-po-sostoyaniyu-podbor-v-tea-bro.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/chay-po-sostoyaniyu-podbor-v-tea-bro.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-chay-po-sostoyaniyu-podbor-v-tea-bro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/chay-po-sostoyaniyu-podbor-v-tea-bro.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/chay-pri-trevoge-kakoy-vybrat.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/chay-pri-trevoge-kakoy-vybrat.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-chay-pri-trevoge-kakoy-vybrat.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/chay-pri-trevoge-kakoy-vybrat.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/chay-pri-ustalosti-kakoy-vybrat.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/chay-pri-ustalosti-kakoy-vybrat.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-chay-pri-ustalosti-kakoy-vybrat.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/chay-pri-ustalosti-kakoy-vybrat.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/chay-utrom-ili-vecherom.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/chay-utrom-ili-vecherom.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-chay-utrom-ili-vecherom.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/chay-utrom-ili-vecherom.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/chay-vmesto-kofe.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/chay-vmesto-kofe.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-chay-vmesto-kofe.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/chay-vmesto-kofe.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/chaynaya-tseremoniya-doma.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/chaynaya-tseremoniya-doma.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-chaynaya-tseremoniya-doma.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/chaynaya-tseremoniya-doma.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/chayny-dnevnik-kak-vesti.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/chayny-dnevnik-kak-vesti.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-chayny-dnevnik-kak-vesti.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/chayny-dnevnik-kak-vesti.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -290,6 +326,9 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/gunfu-cha-dlya-nachinayushchih.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/gunfu-cha-dlya-nachinayushchih.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-gunfu-cha-dlya-nachinayushchih.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/gunfu-cha-dlya-nachinayushchih.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -302,6 +341,9 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/istoriya-chaynyh-traditsiy-ritual.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/istoriya-chaynyh-traditsiy-ritual.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-istoriya-chaynyh-traditsiy-ritual.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/istoriya-chaynyh-traditsiy-ritual.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -314,12 +356,18 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/kak-chitat-telo-cherez-vybor-napitka.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/kak-chitat-telo-cherez-vybor-napitka.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-kak-chitat-telo-cherez-vybor-napitka.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/kak-chitat-telo-cherez-vybor-napitka.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/kak-hranit-chay-doma.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/kak-hranit-chay-doma.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-kak-hranit-chay-doma.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/kak-hranit-chay-doma.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -344,6 +392,9 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/kak-vybrat-chay-pod-nastroenie.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/kak-vybrat-chay-pod-nastroenie.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-kak-vybrat-chay-pod-nastroenie.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/kak-vybrat-chay-pod-nastroenie.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -356,6 +407,9 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/kak-zavarivat-chay-pravilno.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/kak-zavarivat-chay-pravilno.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-kak-zavarivat-chay-pravilno.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/kak-zavarivat-chay-pravilno.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -368,6 +422,9 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/kofein-v-chae-skolko.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/kofein-v-chae-skolko.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-kofein-v-chae-skolko.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/kofein-v-chae-skolko.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -470,6 +527,9 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/mify-o-chae.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/mify-o-chae.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-mify-o-chae.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/mify-o-chae.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -488,6 +548,9 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/minimalny-chayny-nabor.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/minimalny-chayny-nabor.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-minimalny-chayny-nabor.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/minimalny-chayny-nabor.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -512,6 +575,9 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/ohlazhdayushchie-chai-na-leto.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/ohlazhdayushchie-chai-na-leto.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-ohlazhdayushchie-chai-na-leto.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/ohlazhdayushchie-chai-na-leto.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -584,6 +650,9 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/posuda-dlya-gunfu-chto-nuzhno.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/posuda-dlya-gunfu-chto-nuzhno.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-posuda-dlya-gunfu-chto-nuzhno.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/posuda-dlya-gunfu-chto-nuzhno.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -614,6 +683,9 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/proportsii-chaya-i-vody-gunfu.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/proportsii-chaya-i-vody-gunfu.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-proportsii-chaya-i-vody-gunfu.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/proportsii-chaya-i-vody-gunfu.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -644,6 +716,9 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/ritual-zavarivaniya-nervnaya-sistema.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/ritual-zavarivaniya-nervnaya-sistema.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-ritual-zavarivaniya-nervnaya-sistema.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/ritual-zavarivaniya-nervnaya-sistema.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -731,6 +806,9 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/skolko-raz-zavarivat-chay-prolivy.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/skolko-raz-zavarivat-chay-prolivy.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-skolko-raz-zavarivat-chay-prolivy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/skolko-raz-zavarivat-chay-prolivy.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -743,6 +821,9 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/sogrevayushchie-chai-zimoy.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/sogrevayushchie-chai-zimoy.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-sogrevayushchie-chai-zimoy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/sogrevayushchie-chai-zimoy.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -791,12 +872,18 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/teanin-v-chae.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/teanin-v-chae.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-teanin-v-chae.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/teanin-v-chae.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/temperatura-vody-dlya-chaya.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/temperatura-vody-dlya-chaya.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-temperatura-vody-dlya-chaya.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/temperatura-vody-dlya-chaya.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -815,6 +902,9 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/travyanoy-chay-vs-klassicheskiy.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/travyanoy-chay-vs-klassicheskiy.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-travyanoy-chay-vs-klassicheskiy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/travyanoy-chay-vs-klassicheskiy.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -872,6 +962,9 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/voda-dlya-chaya-kakaya-luchshe.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/voda-dlya-chaya-kakaya-luchshe.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-voda-dlya-chaya-kakaya-luchshe.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/voda-dlya-chaya-kakaya-luchshe.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -961,6 +1054,114 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://teabro-site.vercel.app/uk-chasovoe-chaepitie-kak-praktika.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/chasovoe-chaepitie-kak-praktika.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-chasovoe-chaepitie-kak-praktika.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/chasovoe-chaepitie-kak-praktika.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-chay-i-kontsentratsiya.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/chay-i-kontsentratsiya.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-chay-i-kontsentratsiya.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/chay-i-kontsentratsiya.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-chay-i-meditatsiya-sochetanie.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/chay-i-meditatsiya-sochetanie.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-chay-i-meditatsiya-sochetanie.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/chay-i-meditatsiya-sochetanie.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-chay-na-podarok-kak-vybrat.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/chay-na-podarok-kak-vybrat.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-chay-na-podarok-kak-vybrat.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/chay-na-podarok-kak-vybrat.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-chay-pered-snom-mif-ili-pravda.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/chay-pered-snom-mif-ili-pravda.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-chay-pered-snom-mif-ili-pravda.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/chay-pered-snom-mif-ili-pravda.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-chay-po-sostoyaniyu-podbor-v-tea-bro.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/chay-po-sostoyaniyu-podbor-v-tea-bro.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-chay-po-sostoyaniyu-podbor-v-tea-bro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/chay-po-sostoyaniyu-podbor-v-tea-bro.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-chay-pri-trevoge-kakoy-vybrat.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/chay-pri-trevoge-kakoy-vybrat.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-chay-pri-trevoge-kakoy-vybrat.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/chay-pri-trevoge-kakoy-vybrat.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-chay-pri-ustalosti-kakoy-vybrat.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/chay-pri-ustalosti-kakoy-vybrat.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-chay-pri-ustalosti-kakoy-vybrat.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/chay-pri-ustalosti-kakoy-vybrat.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-chay-utrom-ili-vecherom.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/chay-utrom-ili-vecherom.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-chay-utrom-ili-vecherom.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/chay-utrom-ili-vecherom.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-chay-vmesto-kofe.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/chay-vmesto-kofe.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-chay-vmesto-kofe.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/chay-vmesto-kofe.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-chaynaya-tseremoniya-doma.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/chaynaya-tseremoniya-doma.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-chaynaya-tseremoniya-doma.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/chaynaya-tseremoniya-doma.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-chayny-dnevnik-kak-vesti.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/chayny-dnevnik-kak-vesti.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-chayny-dnevnik-kak-vesti.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/chayny-dnevnik-kak-vesti.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://teabro-site.vercel.app/uk-chyorny-i-krasny-chay-raznitsa.html</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/chyorny-i-krasny-chay-raznitsa.html"/>
     <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-chyorny-i-krasny-chay-raznitsa.html"/>
@@ -988,10 +1189,127 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://teabro-site.vercel.app/uk-gunfu-cha-dlya-nachinayushchih.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/gunfu-cha-dlya-nachinayushchih.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-gunfu-cha-dlya-nachinayushchih.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/gunfu-cha-dlya-nachinayushchih.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-istoriya-chaynyh-traditsiy-ritual.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/istoriya-chaynyh-traditsiy-ritual.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-istoriya-chaynyh-traditsiy-ritual.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/istoriya-chaynyh-traditsiy-ritual.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-kak-chitat-telo-cherez-vybor-napitka.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/kak-chitat-telo-cherez-vybor-napitka.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-kak-chitat-telo-cherez-vybor-napitka.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/kak-chitat-telo-cherez-vybor-napitka.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-kak-hranit-chay-doma.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/kak-hranit-chay-doma.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-kak-hranit-chay-doma.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/kak-hranit-chay-doma.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-kak-vybrat-chay-pod-nastroenie.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/kak-vybrat-chay-pod-nastroenie.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-kak-vybrat-chay-pod-nastroenie.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/kak-vybrat-chay-pod-nastroenie.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-kak-zavarivat-chay-pravilno.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/kak-zavarivat-chay-pravilno.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-kak-zavarivat-chay-pravilno.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/kak-zavarivat-chay-pravilno.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://teabro-site.vercel.app/uk-kakoy-chay-test.html</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/kakoy-chay-test.html"/>
     <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-kakoy-chay-test.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/kakoy-chay-test.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-kofein-v-chae-skolko.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/kofein-v-chae-skolko.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-kofein-v-chae-skolko.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/kofein-v-chae-skolko.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-mify-o-chae.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/mify-o-chae.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-mify-o-chae.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/mify-o-chae.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-minimalny-chayny-nabor.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/minimalny-chayny-nabor.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-minimalny-chayny-nabor.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/minimalny-chayny-nabor.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-ohlazhdayushchie-chai-na-leto.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/ohlazhdayushchie-chai-na-leto.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-ohlazhdayushchie-chai-na-leto.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/ohlazhdayushchie-chai-na-leto.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-posuda-dlya-gunfu-chto-nuzhno.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/posuda-dlya-gunfu-chto-nuzhno.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-posuda-dlya-gunfu-chto-nuzhno.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/posuda-dlya-gunfu-chto-nuzhno.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-proportsii-chaya-i-vody-gunfu.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/proportsii-chaya-i-vody-gunfu.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-proportsii-chaya-i-vody-gunfu.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/proportsii-chaya-i-vody-gunfu.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-ritual-zavarivaniya-nervnaya-sistema.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/ritual-zavarivaniya-nervnaya-sistema.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-ritual-zavarivaniya-nervnaya-sistema.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/ritual-zavarivaniya-nervnaya-sistema.html"/>
     <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1024,6 +1342,24 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://teabro-site.vercel.app/uk-skolko-raz-zavarivat-chay-prolivy.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/skolko-raz-zavarivat-chay-prolivy.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-skolko-raz-zavarivat-chay-prolivy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/skolko-raz-zavarivat-chay-prolivy.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-sogrevayushchie-chai-zimoy.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/sogrevayushchie-chai-zimoy.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-sogrevayushchie-chai-zimoy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/sogrevayushchie-chai-zimoy.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://teabro-site.vercel.app/uk-te-guan-in-chto-eto-i-kak-zavarivat.html</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/te-guan-in-chto-eto-i-kak-zavarivat.html"/>
     <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-te-guan-in-chto-eto-i-kak-zavarivat.html"/>
@@ -1042,10 +1378,46 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://teabro-site.vercel.app/uk-teanin-v-chae.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/teanin-v-chae.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-teanin-v-chae.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/teanin-v-chae.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-temperatura-vody-dlya-chaya.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/temperatura-vody-dlya-chaya.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-temperatura-vody-dlya-chaya.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/temperatura-vody-dlya-chaya.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-travyanoy-chay-vs-klassicheskiy.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/travyanoy-chay-vs-klassicheskiy.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-travyanoy-chay-vs-klassicheskiy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/travyanoy-chay-vs-klassicheskiy.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://teabro-site.vercel.app/uk-ulun-vidy-chaya.html</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/ulun-vidy-chaya.html"/>
     <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-ulun-vidy-chaya.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/ulun-vidy-chaya.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-voda-dlya-chaya-kakaya-luchshe.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/voda-dlya-chaya-kakaya-luchshe.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-voda-dlya-chaya-kakaya-luchshe.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/voda-dlya-chaya-kakaya-luchshe.html"/>
     <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
