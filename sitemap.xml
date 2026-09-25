@@ -29,6 +29,9 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/gormonalny-kod-test.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/gormonalny-kod-test.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-gormonalny-kod-test.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/gormonalny-kod-test.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -269,6 +272,9 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/dofamin-i-prokrastinatsiya.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/dofamin-i-prokrastinatsiya.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-dofamin-i-prokrastinatsiya.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/dofamin-i-prokrastinatsiya.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -296,6 +302,9 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/fazy-tsikla-planirovanie.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/fazy-tsikla-planirovanie.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-fazy-tsikla-planirovanie.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/fazy-tsikla-planirovanie.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -311,24 +320,36 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/gormonalny-tip-i-chay.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/gormonalny-tip-i-chay.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-gormonalny-tip-i-chay.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/gormonalny-tip-i-chay.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/gormony-i-energiya-vremya-sutok.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/gormony-i-energiya-vremya-sutok.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-gormony-i-energiya-vremya-sutok.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/gormony-i-energiya-vremya-sutok.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/gormony-i-harakter-granitsa.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/gormony-i-harakter-granitsa.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-gormony-i-harakter-granitsa.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/gormony-i-harakter-granitsa.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/gormony-i-trevoga.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/gormony-i-trevoga.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-gormony-i-trevoga.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/gormony-i-trevoga.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -449,6 +470,9 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/kogda-k-endokrinologu.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/kogda-k-endokrinologu.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-kogda-k-endokrinologu.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/kogda-k-endokrinologu.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -488,6 +512,9 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/kortizol-i-razdrazhitelnost.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/kortizol-i-razdrazhitelnost.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-kortizol-i-razdrazhitelnost.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/kortizol-i-razdrazhitelnost.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -593,6 +620,9 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/muzhskie-gormonalnye-tsikly.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/muzhskie-gormonalnye-tsikly.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-muzhskie-gormonalnye-tsikly.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/muzhskie-gormonalnye-tsikly.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -617,6 +647,9 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/oksitotsin-i-privyazannost.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/oksitotsin-i-privyazannost.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-oksitotsin-i-privyazannost.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/oksitotsin-i-privyazannost.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -653,6 +686,9 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/pitanie-i-gormonalny-fon.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/pitanie-i-gormonalny-fon.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-pitanie-i-gormonalny-fon.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/pitanie-i-gormonalny-fon.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -668,6 +704,9 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/pms-ili-harakter.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/pms-ili-harakter.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-pms-ili-harakter.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/pms-ili-harakter.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -809,6 +848,9 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/shchitovidka-i-nastroenie.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/shchitovidka-i-nastroenie.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-shchitovidka-i-nastroenie.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/shchitovidka-i-nastroenie.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -872,6 +914,9 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/son-i-gormony-harakter.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/son-i-gormony-harakter.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-son-i-gormony-harakter.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/son-i-gormony-harakter.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -884,6 +929,9 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/sport-kak-gormonalny-rychag.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/sport-kak-gormonalny-rychag.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-sport-kak-gormonalny-rychag.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/sport-kak-gormonalny-rychag.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1261,6 +1309,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://teabro-site.vercel.app/uk-dofamin-i-prokrastinatsiya.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/dofamin-i-prokrastinatsiya.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-dofamin-i-prokrastinatsiya.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/dofamin-i-prokrastinatsiya.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://teabro-site.vercel.app/uk-ezhednevny-chek-in-samochuvstviya.html</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/ezhednevny-chek-in-samochuvstviya.html"/>
     <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-ezhednevny-chek-in-samochuvstviya.html"/>
@@ -1270,10 +1327,64 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://teabro-site.vercel.app/uk-fazy-tsikla-planirovanie.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/fazy-tsikla-planirovanie.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-fazy-tsikla-planirovanie.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/fazy-tsikla-planirovanie.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://teabro-site.vercel.app/uk-gaba-ulun-chto-eto-za-chay.html</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/gaba-ulun-chto-eto-za-chay.html"/>
     <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-gaba-ulun-chto-eto-za-chay.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/gaba-ulun-chto-eto-za-chay.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-gormonalny-kod-test.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/gormonalny-kod-test.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-gormonalny-kod-test.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/gormonalny-kod-test.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-gormonalny-tip-i-chay.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/gormonalny-tip-i-chay.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-gormonalny-tip-i-chay.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/gormonalny-tip-i-chay.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-gormony-i-energiya-vremya-sutok.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/gormony-i-energiya-vremya-sutok.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-gormony-i-energiya-vremya-sutok.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/gormony-i-energiya-vremya-sutok.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-gormony-i-harakter-granitsa.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/gormony-i-harakter-granitsa.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-gormony-i-harakter-granitsa.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/gormony-i-harakter-granitsa.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-gormony-i-trevoga.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/gormony-i-trevoga.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-gormony-i-trevoga.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/gormony-i-trevoga.html"/>
     <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1378,6 +1489,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://teabro-site.vercel.app/uk-kogda-k-endokrinologu.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/kogda-k-endokrinologu.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-kogda-k-endokrinologu.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/kogda-k-endokrinologu.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://teabro-site.vercel.app/uk-kompas-bez-obeshchaniy-chestny-podhod.html</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/kompas-bez-obeshchaniy-chestny-podhod.html"/>
     <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-kompas-bez-obeshchaniy-chestny-podhod.html"/>
@@ -1414,6 +1534,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://teabro-site.vercel.app/uk-kortizol-i-razdrazhitelnost.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/kortizol-i-razdrazhitelnost.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-kortizol-i-razdrazhitelnost.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/kortizol-i-razdrazhitelnost.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://teabro-site.vercel.app/uk-mify-o-chae.html</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/mify-o-chae.html"/>
     <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-mify-o-chae.html"/>
@@ -1441,6 +1570,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://teabro-site.vercel.app/uk-muzhskie-gormonalnye-tsikly.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/muzhskie-gormonalnye-tsikly.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-muzhskie-gormonalnye-tsikly.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/muzhskie-gormonalnye-tsikly.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://teabro-site.vercel.app/uk-odno-deystvie-na-segodnya.html</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/odno-deystvie-na-segodnya.html"/>
     <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-odno-deystvie-na-segodnya.html"/>
@@ -1459,10 +1597,37 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://teabro-site.vercel.app/uk-oksitotsin-i-privyazannost.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/oksitotsin-i-privyazannost.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-oksitotsin-i-privyazannost.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/oksitotsin-i-privyazannost.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-pitanie-i-gormonalny-fon.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/pitanie-i-gormonalny-fon.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-pitanie-i-gormonalny-fon.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/pitanie-i-gormonalny-fon.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://teabro-site.vercel.app/uk-plan-vosstanovleniya-30-dney.html</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/plan-vosstanovleniya-30-dney.html"/>
     <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-plan-vosstanovleniya-30-dney.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/plan-vosstanovleniya-30-dney.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-pms-ili-harakter.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/pms-ili-harakter.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-pms-ili-harakter.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/pms-ili-harakter.html"/>
     <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1513,6 +1678,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://teabro-site.vercel.app/uk-shchitovidka-i-nastroenie.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/shchitovidka-i-nastroenie.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-shchitovidka-i-nastroenie.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/shchitovidka-i-nastroenie.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://teabro-site.vercel.app/uk-sheng-puer-dlya-nachinayushchih.html</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/sheng-puer-dlya-nachinayushchih.html"/>
     <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-sheng-puer-dlya-nachinayushchih.html"/>
@@ -1553,6 +1727,24 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/sogrevayushchie-chai-zimoy.html"/>
     <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-sogrevayushchie-chai-zimoy.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/sogrevayushchie-chai-zimoy.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-son-i-gormony-harakter.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/son-i-gormony-harakter.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-son-i-gormony-harakter.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/son-i-gormony-harakter.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-sport-kak-gormonalny-rychag.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/sport-kak-gormonalny-rychag.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-sport-kak-gormonalny-rychag.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/sport-kak-gormonalny-rychag.html"/>
     <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
