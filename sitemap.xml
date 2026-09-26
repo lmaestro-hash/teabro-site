@@ -109,6 +109,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://teabro-site.vercel.app/chay-dnevnik-chellendzhi-ezhednevnaya-praktika.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/chay-dnevnik-chellendzhi-ezhednevnaya-praktika.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-chay-dnevnik-chellendzhi-ezhednevnaya-praktika.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/chay-dnevnik-chellendzhi-ezhednevnaya-praktika.html"/>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://teabro-site.vercel.app/chay-i-dyhanie-chellendzh-chas-v-den.html</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/chay-i-dyhanie-chellendzh-chas-v-den.html"/>
     <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-chay-i-dyhanie-chellendzh-chas-v-den.html"/>
@@ -1382,6 +1391,15 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/chasovoe-chaepitie-kak-praktika.html"/>
     <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-chasovoe-chaepitie-kak-praktika.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/chasovoe-chaepitie-kak-praktika.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-chay-dnevnik-chellendzhi-ezhednevnaya-praktika.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/chay-dnevnik-chellendzhi-ezhednevnaya-praktika.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-chay-dnevnik-chellendzhi-ezhednevnaya-praktika.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/chay-dnevnik-chellendzhi-ezhednevnaya-praktika.html"/>
     <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
