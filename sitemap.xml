@@ -47,6 +47,9 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/meditaciya-test.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/meditaciya-test.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-meditaciya-test.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/meditaciya-test.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -290,6 +293,9 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/dyhatelnye-praktiki-za-3-minuty.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/dyhatelnye-praktiki-za-3-minuty.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-dyhatelnye-praktiki-za-3-minuty.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/dyhatelnye-praktiki-za-3-minuty.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -548,42 +554,63 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/meditatsiya-dlya-skeptikov-nauka.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/meditatsiya-dlya-skeptikov-nauka.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-meditatsiya-dlya-skeptikov-nauka.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/meditatsiya-dlya-skeptikov-nauka.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/meditatsiya-dlya-tekh-kto-ne-mozhet-sidet.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/meditatsiya-dlya-tekh-kto-ne-mozhet-sidet.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-meditatsiya-dlya-tekh-kto-ne-mozhet-sidet.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/meditatsiya-dlya-tekh-kto-ne-mozhet-sidet.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/meditatsiya-i-son-vechernie-praktiki.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/meditatsiya-i-son-vechernie-praktiki.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-meditatsiya-i-son-vechernie-praktiki.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/meditatsiya-i-son-vechernie-praktiki.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/meditatsiya-i-trevozhnye-mysli.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/meditatsiya-i-trevozhnye-mysli.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-meditatsiya-i-trevozhnye-mysli.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/meditatsiya-i-trevozhnye-mysli.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/meditatsiya-na-rabochem-meste.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/meditatsiya-na-rabochem-meste.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-meditatsiya-na-rabochem-meste.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/meditatsiya-na-rabochem-meste.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/meditatsiya-protiv-ruminatsii.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/meditatsiya-protiv-ruminatsii.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-meditatsiya-protiv-ruminatsii.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/meditatsiya-protiv-ruminatsii.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/meditatsiya-s-detmi-v-dome.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/meditatsiya-s-detmi-v-dome.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-meditatsiya-s-detmi-v-dome.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/meditatsiya-s-detmi-v-dome.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -605,6 +632,9 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/mikropraktiki-zamechaniya-bez-20-minut.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/mikropraktiki-zamechaniya-bez-20-minut.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-mikropraktiki-zamechaniya-bez-20-minut.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/mikropraktiki-zamechaniya-bez-20-minut.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -686,6 +716,9 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/osoznannost-v-bytu-bez-kovrika.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/osoznannost-v-bytu-bez-kovrika.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-osoznannost-v-bytu-bez-kovrika.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/osoznannost-v-bytu-bez-kovrika.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -731,6 +764,9 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/pochemu-meditatsiya-ne-rabotaet-srazu.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/pochemu-meditatsiya-ne-rabotaet-srazu.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-pochemu-meditatsiya-ne-rabotaet-srazu.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/pochemu-meditatsiya-ne-rabotaet-srazu.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -761,6 +797,9 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/praktiki-zazemleniya-pri-trevoge.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/praktiki-zazemleniya-pri-trevoge.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-praktiki-zazemleniya-pri-trevoge.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/praktiki-zazemleniya-pri-trevoge.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -815,6 +854,9 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/raznitsa-meditatsiya-i-otdyh.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/raznitsa-meditatsiya-i-otdyh.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-raznitsa-meditatsiya-i-otdyh.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/raznitsa-meditatsiya-i-otdyh.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -839,6 +881,9 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/s-chego-nachat-meditatsiyu.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/s-chego-nachat-meditatsiyu.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-s-chego-nachat-meditatsiyu.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/s-chego-nachat-meditatsiyu.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1082,6 +1127,9 @@
   </url>
   <url>
     <loc>https://teabro-site.vercel.app/vidy-meditatsii-raznitsa.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/vidy-meditatsii-raznitsa.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-vidy-meditatsii-raznitsa.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/vidy-meditatsii-raznitsa.html"/>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1384,6 +1432,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://teabro-site.vercel.app/uk-dyhatelnye-praktiki-za-3-minuty.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/dyhatelnye-praktiki-za-3-minuty.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-dyhatelnye-praktiki-za-3-minuty.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/dyhatelnye-praktiki-za-3-minuty.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://teabro-site.vercel.app/uk-ezhednevny-chek-in-samochuvstviya.html</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/ezhednevny-chek-in-samochuvstviya.html"/>
     <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-ezhednevny-chek-in-samochuvstviya.html"/>
@@ -1627,10 +1684,91 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://teabro-site.vercel.app/uk-meditaciya-test.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/meditaciya-test.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-meditaciya-test.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/meditaciya-test.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-meditatsiya-dlya-skeptikov-nauka.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/meditatsiya-dlya-skeptikov-nauka.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-meditatsiya-dlya-skeptikov-nauka.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/meditatsiya-dlya-skeptikov-nauka.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-meditatsiya-dlya-tekh-kto-ne-mozhet-sidet.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/meditatsiya-dlya-tekh-kto-ne-mozhet-sidet.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-meditatsiya-dlya-tekh-kto-ne-mozhet-sidet.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/meditatsiya-dlya-tekh-kto-ne-mozhet-sidet.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-meditatsiya-i-son-vechernie-praktiki.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/meditatsiya-i-son-vechernie-praktiki.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-meditatsiya-i-son-vechernie-praktiki.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/meditatsiya-i-son-vechernie-praktiki.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-meditatsiya-i-trevozhnye-mysli.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/meditatsiya-i-trevozhnye-mysli.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-meditatsiya-i-trevozhnye-mysli.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/meditatsiya-i-trevozhnye-mysli.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-meditatsiya-na-rabochem-meste.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/meditatsiya-na-rabochem-meste.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-meditatsiya-na-rabochem-meste.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/meditatsiya-na-rabochem-meste.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-meditatsiya-protiv-ruminatsii.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/meditatsiya-protiv-ruminatsii.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-meditatsiya-protiv-ruminatsii.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/meditatsiya-protiv-ruminatsii.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-meditatsiya-s-detmi-v-dome.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/meditatsiya-s-detmi-v-dome.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-meditatsiya-s-detmi-v-dome.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/meditatsiya-s-detmi-v-dome.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://teabro-site.vercel.app/uk-mify-o-chae.html</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/mify-o-chae.html"/>
     <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-mify-o-chae.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/mify-o-chae.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-mikropraktiki-zamechaniya-bez-20-minut.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/mikropraktiki-zamechaniya-bez-20-minut.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-mikropraktiki-zamechaniya-bez-20-minut.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/mikropraktiki-zamechaniya-bez-20-minut.html"/>
     <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1699,6 +1837,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://teabro-site.vercel.app/uk-osoznannost-v-bytu-bez-kovrika.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/osoznannost-v-bytu-bez-kovrika.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-osoznannost-v-bytu-bez-kovrika.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/osoznannost-v-bytu-bez-kovrika.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://teabro-site.vercel.app/uk-pitanie-i-gormonalny-fon.html</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/pitanie-i-gormonalny-fon.html"/>
     <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-pitanie-i-gormonalny-fon.html"/>
@@ -1726,6 +1873,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://teabro-site.vercel.app/uk-pochemu-meditatsiya-ne-rabotaet-srazu.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/pochemu-meditatsiya-ne-rabotaet-srazu.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-pochemu-meditatsiya-ne-rabotaet-srazu.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/pochemu-meditatsiya-ne-rabotaet-srazu.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://teabro-site.vercel.app/uk-posuda-dlya-gunfu-chto-nuzhno.html</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/posuda-dlya-gunfu-chto-nuzhno.html"/>
     <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-posuda-dlya-gunfu-chto-nuzhno.html"/>
@@ -1739,6 +1895,15 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/pozitivnoe-myshlenie-ili-otritsanie.html"/>
     <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-pozitivnoe-myshlenie-ili-otritsanie.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/pozitivnoe-myshlenie-ili-otritsanie.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-praktiki-zazemleniya-pri-trevoge.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/praktiki-zazemleniya-pri-trevoge.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-praktiki-zazemleniya-pri-trevoge.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/praktiki-zazemleniya-pri-trevoge.html"/>
     <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1780,6 +1945,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://teabro-site.vercel.app/uk-raznitsa-meditatsiya-i-otdyh.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/raznitsa-meditatsiya-i-otdyh.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-raznitsa-meditatsiya-i-otdyh.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/raznitsa-meditatsiya-i-otdyh.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://teabro-site.vercel.app/uk-ritual-zavarivaniya-nervnaya-sistema.html</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/ritual-zavarivaniya-nervnaya-sistema.html"/>
     <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-ritual-zavarivaniya-nervnaya-sistema.html"/>
@@ -1793,6 +1967,15 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/roditelskoe-vygoranie.html"/>
     <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-roditelskoe-vygoranie.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/roditelskoe-vygoranie.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-s-chego-nachat-meditatsiyu.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/s-chego-nachat-meditatsiyu.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-s-chego-nachat-meditatsiyu.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/s-chego-nachat-meditatsiyu.html"/>
     <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1991,6 +2174,15 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/ustalost-telo-ili-psihika.html"/>
     <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-ustalost-telo-ili-psihika.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/ustalost-telo-ili-psihika.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-vidy-meditatsii-raznitsa.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/vidy-meditatsii-raznitsa.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-vidy-meditatsii-raznitsa.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/vidy-meditatsii-raznitsa.html"/>
     <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
