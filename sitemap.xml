@@ -1288,6 +1288,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://teabro-site.vercel.app/vse-instrumenty-tea-bro-putevoditel.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/vse-instrumenty-tea-bro-putevoditel.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-vse-instrumenty-tea-bro-putevoditel.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/vse-instrumenty-tea-bro-putevoditel.html"/>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://teabro-site.vercel.app/vsyo-normalno-opasnaya-fraza.html</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/vsyo-normalno-opasnaya-fraza.html"/>
     <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-vsyo-normalno-opasnaya-fraza.html"/>
@@ -2642,6 +2651,15 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/vozvrashchenie-k-rabote-posle-vygoraniya.html"/>
     <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-vozvrashchenie-k-rabote-posle-vygoraniya.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/vozvrashchenie-k-rabote-posle-vygoraniya.html"/>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-vse-instrumenty-tea-bro-putevoditel.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/vse-instrumenty-tea-bro-putevoditel.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-vse-instrumenty-tea-bro-putevoditel.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/vse-instrumenty-tea-bro-putevoditel.html"/>
     <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
