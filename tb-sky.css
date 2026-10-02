@@ -1,0 +1,12 @@
+/* Tea Bro: фон-небо (ночь: звёзды, день: шишка). Менять оформление фона нужно только здесь. */
+:root { --veil: linear-gradient(rgba(22,29,34,.28), rgba(22,29,34,.62)); --paper-deep: rgba(35,45,51,.72); }
+:root[data-theme="light"] { --veil: linear-gradient(rgba(241,233,212,.55), rgba(241,233,212,.82)); --paper-deep: rgba(250,247,232,.8); }
+html { background: var(--paper); }
+body { background: transparent; }
+body::before { content:""; position:fixed; inset:0; z-index:-1; pointer-events:none;
+  background: var(--veil), url(/assets/bg-night.webp) 50% 30% / cover no-repeat; }
+:root[data-theme="light"] body::before { background: var(--veil), url(/assets/bg-day.webp) 40% 50% / cover no-repeat; }
+@media (max-width: 899px) {
+  body::before { background-position: 50% 80%; }
+}
+.cta-card, .related-item, .hub-links a, .final-cta { -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); }
