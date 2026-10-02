@@ -1,0 +1,16 @@
+/* Tea Bro: фон-небо (ночь: звёзды, день: шишка). Менять оформление фона нужно только здесь. */
+:root { --veil: linear-gradient(rgba(22,29,34,.28), rgba(22,29,34,.62)); --paper-deep: rgba(35,45,51,.72); }
+:root[data-theme="light"] { --veil: linear-gradient(rgba(241,233,212,.55), rgba(241,233,212,.82)); --paper-deep: rgba(250,247,232,.8); }
+html { background: var(--paper); }
+body { background: transparent; }
+body::before { content:""; position:fixed; inset:0; z-index:-1; pointer-events:none;
+  background: var(--veil), url(/assets/bg-night.webp) 50% 80% / cover no-repeat; }
+:root[data-theme="light"] body::before { background: var(--veil), url(/assets/bg-day.webp) 40% 50% / cover no-repeat; }
+/* Компьютер: фото вертикальное, поэтому не растягиваем его на весь экран, а ставим справа чёткой полосой */
+@media (min-width: 900px) {
+  :root { --veil: linear-gradient(rgba(14,19,23,.18), rgba(14,19,23,.42)); }
+  :root[data-theme="light"] { --veil: linear-gradient(rgba(241,233,212,.3), rgba(241,233,212,.55)); }
+  body::before { background: var(--veil), url(/assets/bg-night-side.webp) right center / auto 100% no-repeat, url(/assets/bg-night-wide.webp) center / cover no-repeat; }
+  :root[data-theme="light"] body::before { background: var(--veil), url(/assets/bg-day-side.webp) right center / auto 100% no-repeat, linear-gradient(135deg,#efe3c2,#d8c293); }
+}
+.cta-card, .related-item, .hub-links a, .final-cta { -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); }
