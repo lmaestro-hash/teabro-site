@@ -14,3 +14,20 @@ body::before { content:""; position:fixed; inset:0; z-index:-1; pointer-events:n
   :root[data-theme="light"] body::before { background: var(--veil), url(/assets/bg-day-side.webp) right center / auto 100% no-repeat, linear-gradient(135deg,#efe3c2,#d8c293); }
 }
 .cta-card, .related-item, .hub-links a, .final-cta { -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); }
+
+/* Луна: убираем жёсткий срез свечения, текст поверх луны, панель с переключателями кликабельна */
+html, body { overflow-x: clip; }
+header.hero { overflow: visible; }
+.moon { pointer-events: none; }
+.tb-bar { position: relative; z-index: 3; }
+header.hero h1, header.hero .lede, header.hero p { position: relative; z-index: 1; }
+
+/* Свечение луны: бледно-золотой шар с ореолом (как на первой версии главной) */
+.moon { opacity: 1; background: radial-gradient(circle at 36% 34%, #fffaf0 0%, #f2e3bf 55%, #d8bf8a 100%);
+  box-shadow: 0 0 34px 8px rgba(242,227,191,.5), 0 0 100px 34px rgba(224,171,104,.28); }
+:root[data-theme="light"] .moon { opacity: 1; background: radial-gradient(circle at 36% 34%, #fffaf0 0%, #f7e8c2 58%, #e6c88e 100%);
+  box-shadow: 0 0 0 1px rgba(167,122,60,.25), 0 0 36px 10px rgba(196,146,78,.75), 0 0 110px 40px rgba(224,171,104,.55); }
+
+/* Яркая луна не должна лежать под текстом: уводим её в сторону от заголовка */
+@media (min-width: 900px) { .moon { top: -30px; right: -215px; } }
+@media (max-width: 899px) { .moon { top: -64px; right: -26px; width: 112px; height: 112px; } }
