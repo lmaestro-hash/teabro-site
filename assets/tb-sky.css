@@ -1,16 +1,16 @@
-/* Tea Bro: фон-небо (ночь: звёзды, день: шишка). Менять оформление фона нужно только здесь. */
+/* Tea Bro: фон (ночь: сумеречная шишка, день: шишка на закате). Менять оформление фона нужно только здесь. */
 :root { --veil: linear-gradient(rgba(22,29,34,.28), rgba(22,29,34,.62)); --paper-deep: rgba(35,45,51,.72); }
 :root[data-theme="light"] { --veil: linear-gradient(rgba(241,233,212,.55), rgba(241,233,212,.82)); --paper-deep: rgba(250,247,232,.8); }
 html { background: var(--paper); }
 body { background: transparent; }
 body::before { content:""; position:fixed; inset:0; z-index:-1; pointer-events:none;
-  background: var(--veil), url(/assets/bg-night.webp) 50% 80% / cover no-repeat; }
+  background: var(--veil), url(/assets/bg-dusk.webp) 50% 50% / cover no-repeat; }
 :root[data-theme="light"] body::before { background: var(--veil), url(/assets/bg-day.webp) 40% 50% / cover no-repeat; }
 /* Компьютер: фото вертикальное, поэтому не растягиваем его на весь экран, а ставим справа чёткой полосой */
 @media (min-width: 900px) {
   :root { --veil: linear-gradient(rgba(14,19,23,.18), rgba(14,19,23,.42)); }
   :root[data-theme="light"] { --veil: linear-gradient(rgba(241,233,212,.3), rgba(241,233,212,.55)); }
-  body::before { background: var(--veil), url(/assets/bg-night-side.webp) right center / auto 100% no-repeat, url(/assets/bg-night-wide.webp) center / cover no-repeat; }
+  body::before { background: var(--veil), url(/assets/bg-dusk-side.webp) right center / auto 100% no-repeat, linear-gradient(135deg,#0c1216,#1a252c); }
   :root[data-theme="light"] body::before { background: var(--veil), url(/assets/bg-day-side.webp) right center / auto 100% no-repeat, linear-gradient(135deg,#efe3c2,#d8c293); }
 }
 .cta-card, .related-item, .hub-links a, .final-cta { -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); }
@@ -28,3 +28,6 @@ header.hero .moon { position: relative; top: auto; left: auto; right: auto; tran
   box-shadow: 0 0 0 1px rgba(167,122,60,.25), 0 0 36px 10px rgba(196,146,78,.75), 0 0 110px 40px rgba(224,171,104,.55); }
 @media (max-width: 899px) { header.hero .moon { width: 108px; height: 108px; margin-bottom: 22px; } }
 header.hero h1, header.hero .lede, header.hero p { position: relative; z-index: 1; }
+
+/* Телефон, ночь: фото контрастное, поэтому вуаль плотнее, чтобы текст читался */
+@media (max-width: 899px) { :root:not([data-theme="light"]) { --veil: linear-gradient(rgba(14,19,23,.52), rgba(14,19,23,.8)); } }
