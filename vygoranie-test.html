@@ -341,20 +341,11 @@
   .hub-links a:hover, .hub-links a:focus-visible { background: var(--amber); border-color: var(--amber); color: var(--paper); }
   .hub-links a:hover small, .hub-links a:focus-visible small { color: var(--paper); }
   .hub-note { color: var(--ink-soft); font-size: 15px; margin: 0 0 6px; }
-
-  /* === tb: sky background (night stars / day pine cone) === */
-  :root { --veil: linear-gradient(rgba(22,29,34,.55), rgba(22,29,34,.84)); --paper-deep: rgba(35,45,51,.8); }
-  :root[data-theme="light"] { --veil: linear-gradient(rgba(241,233,212,.72), rgba(241,233,212,.9)); --paper-deep: rgba(250,247,232,.84); }
-  html { background: var(--paper); }
-  body { background: transparent; }
-  body::before { content:""; position:fixed; inset:0; z-index:-1; pointer-events:none;
-    background: var(--veil), url(/assets/bg-night.webp) 50% 80% / cover no-repeat; }
-  :root[data-theme="light"] body::before { background: var(--veil), url(/assets/bg-day.webp) 40% 50% / cover no-repeat; }
-  .cta-card, .related-item, .hub-links a, .final-cta { -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); }
 </style>
 
 <script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
 <script defer src="/_vercel/insights/script.js"></script>
+<link rel="stylesheet" href="/assets/tb-sky.css">
 </head>
 <body>
 
