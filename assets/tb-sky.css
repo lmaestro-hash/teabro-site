@@ -31,3 +31,7 @@ header.hero h1, header.hero .lede, header.hero p { position: relative; z-index: 
 
 /* Телефон, ночь: фото контрастное, поэтому вуаль плотнее, чтобы текст читался */
 @media (max-width: 899px) { :root:not([data-theme="light"]) { --veil: linear-gradient(rgba(14,19,23,.52), rgba(14,19,23,.8)); } }
+
+/* Хаб чая: карточки статей в одном ряду одной высоты (у коротких не должно быть «обрезанного» низа) */
+.hub-links li { display: flex; }
+.hub-links a { flex: 1 1 auto; }
