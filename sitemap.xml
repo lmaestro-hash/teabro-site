@@ -2754,4 +2754,22 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/about.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/about.html"/>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://teabro-site.vercel.app/uk-about.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/about.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/about.html"/>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset>
