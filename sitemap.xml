@@ -2772,4 +2772,22 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
+<url>
+<loc>https://teabro-site.vercel.app/bot-tea-bro.html</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/bot-tea-bro.html"/>
+<xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-bot-tea-bro.html"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/bot-tea-bro.html"/>
+<lastmod>2026-10-06</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://teabro-site.vercel.app/uk-bot-tea-bro.html</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://teabro-site.vercel.app/bot-tea-bro.html"/>
+<xhtml:link rel="alternate" hreflang="uk" href="https://teabro-site.vercel.app/uk-bot-tea-bro.html"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://teabro-site.vercel.app/bot-tea-bro.html"/>
+<lastmod>2026-10-06</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
 </urlset>
